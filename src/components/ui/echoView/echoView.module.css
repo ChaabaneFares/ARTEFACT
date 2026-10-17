@@ -1,0 +1,44 @@
+.echoView { position: relative; background: rgb(var(--color-ink-950)); overflow: visible }
+.stage { --echo-rotate-x: 0deg; --echo-rotate-y: 0deg; --echo-shift-x: 0vw; --echo-shift-y: 0vw; position: relative; display: grid; width: 100%; min-height: 51.72vw; place-items: center; padding: 4.2vw 2.6vw 5.2vw; overflow: visible; perspective: 31.25vw; transform-style: preserve-3d; isolation: isolate }
+.cardScaleWrap { position: relative; width: 78.53vw; transform: scale(1); transform-origin: center center; transform-style: preserve-3d; overflow: visible }
+.card { --echo-card-radius: 4.8vw; position: relative; width: 100%; aspect-ratio: 1280 / 720; overflow: visible; border-radius: var(--echo-card-radius); background: rgb(var(--color-ink-950)); box-shadow: 0 2.08vw 4.17vw rgba(0, 0, 0, 0.28); transform: translate3d( calc(var(--echo-shift-x) * -0.18), calc(var(--echo-shift-y) * -0.18), 0 ) rotateX(var(--echo-rotate-x)) rotateY(var(--echo-rotate-y)); transform-style: preserve-3d; transition: transform 180ms ease-out }
+.cardViewport { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background-color: rgb(var(--color-ink-950)); background-position: center; background-repeat: no-repeat; background-size: cover; clip-path: inset(0 round var(--echo-card-radius)); isolation: isolate }
+.cardCanvas { display: block; width: 100%; height: 100%; backface-visibility: hidden; object-fit: cover; object-position: center center; pointer-events: none; transform: translateZ(0); user-select: none }
+.copy { position: absolute; top: 50%; left: 50%; width: max-content; transform: translate3d( calc(-50% + var(--echo-shift-x)), calc(-50% + var(--echo-shift-y)), 3.65vw ); transform-style: preserve-3d; transition: transform 180ms ease-out; pointer-events: none }
+.index { position: absolute; top: 0; left: 50%; color: rgb(var(--color-paper-100)); font-size: 1.25vw; font-weight: 500; line-height: 1.4; letter-spacing: 0.01vw; transform: translate3d(-50%, -70%, -2.08vw); text-shadow: 0 0.29vw 0.83vw rgba(0, 0, 0, 0.45) }
+.responsiveIndex { display: none; white-space: nowrap }
+.title { position: relative; margin: 0; color: rgb(var(--color-paper-100)); font-size: 5.75vw; font-weight: 500; line-height: 1.4; letter-spacing: 0.01vw; transform: translateZ(1.46vw); transform-style: preserve-3d; text-shadow: 0 0.01em 0 rgba(255, 255, 255, 0.18), 0 0.08em 0.22em rgba(0, 0, 0, 0.2), 0 0.18em 0.55em rgba(0, 0, 0, 0.32) }
+@media screen and (max-width: 1024px) {
+  .echoView { position: relative; background: rgb(var(--color-ink-950)); overflow: visible }
+  .stage { --echo-rotate-x: 0deg; --echo-rotate-y: 0deg; --echo-shift-x: 0vw; --echo-shift-y: 0vw; position: relative; display: grid; width: 100%; min-height: 92vw; place-items: center; padding: 5.2vw 3.13vw 6.25vw; overflow: visible; perspective: 78.13vw; transform-style: preserve-3d; isolation: isolate }
+  .cardScaleWrap { position: relative; width: 88vw; transform: scale(1); transform-origin: center center; transform-style: preserve-3d; overflow: visible }
+  .card { --echo-card-radius: 7vw; position: relative; width: 100%; aspect-ratio: 1280 / 720; overflow: visible; border-radius: var(--echo-card-radius); background: rgb(var(--color-ink-950)); box-shadow: 0 5.21vw 10.42vw rgba(0, 0, 0, 0.28); transform: translate3d( calc(var(--echo-shift-x) * -0.18), calc(var(--echo-shift-y) * -0.18), 0 ) rotateX(var(--echo-rotate-x)) rotateY(var(--echo-rotate-y)); transform-style: preserve-3d; transition: transform 180ms ease-out }
+  .cardViewport { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background-color: rgb(var(--color-ink-950)); background-position: center; background-repeat: no-repeat; background-size: cover; clip-path: inset(0 round var(--echo-card-radius)); isolation: isolate }
+  .cardCanvas { display: block; width: 100%; height: 100%; backface-visibility: hidden; object-fit: cover; object-position: center center; pointer-events: none; transform: translateZ(0); user-select: none }
+  .copy { position: absolute; top: 50%; left: 50%; width: max-content; transform: translate3d( calc(-50% + (var(--echo-shift-x) * 0.45)), calc(-50% + (var(--echo-shift-y) * 0.45)), 7.16vw ); transform-style: preserve-3d; transition: transform 180ms ease-out; pointer-events: none }
+  .index { position: absolute; top: 0; left: 50%; color: rgb(var(--color-paper-100)); font-size: 2vw; font-weight: 500; line-height: 1.4; letter-spacing: 0.01vw; transform: translate3d(-50%, -70%, -5.21vw); text-shadow: 0 0.73vw 2.08vw rgba(0, 0, 0, 0.45) }
+  .title { position: relative; margin: 0; color: rgb(var(--color-paper-100)); font-size: 12vw; font-weight: 500; line-height: 1.1; letter-spacing: 0.01vw; transform: translateZ(2.86vw); transform-style: preserve-3d; text-shadow: 0 0.01em 0 rgba(255, 255, 255, 0.18), 0 0.08em 0.22em rgba(0, 0, 0, 0.2), 0 0.18em 0.55em rgba(0, 0, 0, 0.32) }
+  .responsiveIndex { display: none }
+  .titleOnlyBelowDesktop .stage { min-height: 100vw; padding: 0 }
+  .titleOnlyBelowDesktop .cardScaleWrap { display: none }
+  .titleOnlyBelowDesktop .index { font-size: 2.6vw; font-weight: 400; transform: translate3d(-50%, -135%, -5.21vw) }
+  .titleOnlyBelowDesktop .defaultIndex { display: none }
+  .titleOnlyBelowDesktop .responsiveIndex { display: inline }
+}
+@media screen and (max-width: 600px) {
+  .echoView { position: relative; background: rgb(var(--color-ink-950)); overflow: visible }
+  .stage { --echo-rotate-x: 0deg; --echo-rotate-y: 0deg; --echo-shift-x: 0vw; --echo-shift-y: 0vw; position: relative; display: grid; width: 100%; min-height: 145.7vw; place-items: center; padding: 8vw 0 9.71vw; overflow: visible; perspective: 145.63vw; transform-style: preserve-3d; isolation: isolate }
+  .cardScaleWrap { position: relative; width: 92.71vw; transform: scale(1); transform-origin: center center; transform-style: preserve-3d; overflow: visible }
+  .card { --echo-card-radius: 11.43vw; position: relative; width: 100%; height: 127.99vw; aspect-ratio: auto; overflow: visible; border-radius: var(--echo-card-radius); background: rgb(var(--color-ink-950)); box-shadow: 0 9.71vw 19.42vw rgba(0, 0, 0, 0.28); transform: translate3d( calc(var(--echo-shift-x) * -0.18), calc(var(--echo-shift-y) * -0.18), 0 ) rotateX(var(--echo-rotate-x)) rotateY(var(--echo-rotate-y)); transform-style: preserve-3d; transition: transform 180ms ease-out }
+  .cardViewport { position: absolute; inset: 0; overflow: hidden; border-radius: inherit; background-color: rgb(var(--color-ink-950)); background-position: center; background-repeat: no-repeat; background-size: cover; clip-path: inset(0 round var(--echo-card-radius)); isolation: isolate }
+  .cardCanvas { display: block; width: 100%; height: 100%; backface-visibility: hidden; object-fit: cover; object-position: center center; pointer-events: none; transform: translateZ(0); user-select: none }
+  .copy { position: absolute; top: 50%; left: 50%; width: max-content; transform: translate3d( calc(-50% + (var(--echo-shift-x) * 0.45)), calc(-50% + (var(--echo-shift-y) * 0.45)), 13.35vw ); transform-style: preserve-3d; transition: transform 180ms ease-out; pointer-events: none }
+  .index { position: absolute; top: 0; left: 50%; color: rgb(var(--color-paper-100)); font-size: 2vw; font-weight: 500; line-height: 1.4; letter-spacing: 0.02vw; transform: translate3d(-50%, -70%, -10.19vw); text-shadow: 0 1.36vw 3.88vw rgba(0, 0, 0, 0.45) }
+  .title { position: relative; margin: 0; color: rgb(var(--color-paper-100)); font-size: 12vw; font-weight: 500; line-height: 1.1; letter-spacing: 0.02vw; transform: translateZ(5.34vw); transform-style: preserve-3d; text-shadow: 0 0.01em 0 rgba(255, 255, 255, 0.18), 0 0.08em 0.22em rgba(0, 0, 0, 0.2), 0 0.18em 0.55em rgba(0, 0, 0, 0.32) }
+  .responsiveIndex { display: none }
+  .titleOnlyBelowDesktop .stage { min-height: 100vw; padding: 0 }
+  .titleOnlyBelowDesktop .cardScaleWrap { display: none }
+  .titleOnlyBelowDesktop .index { font-size: 5.33vw; font-weight: 400; transform: translate3d(-50%, -135%, -10.19vw) }
+  .titleOnlyBelowDesktop .defaultIndex { display: none }
+  .titleOnlyBelowDesktop .responsiveIndex { display: inline }
+}

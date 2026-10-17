@@ -1,0 +1,21 @@
+.navigation { position: relative; width: 100%; animation: fadeIn 1500ms cubic-bezier(0.333333, 1, 0.666667, 1) 660ms both, moveIn 800ms cubic-bezier(0.333333, 1, 0.666667, 1) 660ms both }
+.links { display: flex; width: 100%; max-width: calc(var(--services-unit) * 22); margin: 0 auto; padding: calc(var(--services-unit) * 1.4) 0 calc(var(--services-unit) * 0.4); align-items: center; justify-content: space-between }
+.links button { padding: 0; border: 0; border-bottom: 3.5px solid #49494d; background: transparent; color: #6e6e73; font-size: calc(var(--services-unit) * 0.41); font-weight: 500; line-height: normal; cursor: pointer; transition: color 300ms, border-color 300ms; white-space: nowrap }
+.links button:hover, .links button:focus-visible { border-color: var(--accent-primary); color: var(--text-primary) }
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes moveIn { from { transform: translateY(70px) } to { transform: translateY(0) } }
+@media screen and (max-width: 1024px) { .links button { font-size: calc(var(--services-unit) * 0.41) } }
+@media screen and (max-width: 768px) { .navigation { animation-delay: 500ms } .links button { border-bottom-width: 1.8px; font-size: calc(var(--services-unit) * 0.58) } }
+@media screen and (max-width: 600px) { .links button { border-bottom-width: 1.8px; font-size: calc(var(--services-unit) * 0.58) } }
+@media screen and (max-width: 570px) {
+  .navigation { overflow: hidden }
+  .navigation::before, .navigation::after { position: absolute; top: 0; bottom: 0; z-index: 1; width: 4.8%; content: ''; pointer-events: none }
+  .navigation::before { left: 0; background: linear-gradient(90deg, var(--bg-canvas), transparent) }
+  .navigation::after { right: 0; background: linear-gradient(270deg, var(--bg-canvas), transparent) }
+  .links { height: 55px; max-width: 100%; padding: 0 0 calc(var(--services-unit) * 0.4); overflow-x: auto; justify-content: flex-start; scrollbar-width: none }
+  .links::-webkit-scrollbar { display: none }
+  .links > div { display: none }
+  .links button { flex-shrink: 0; margin-inline-end: 30px; font-size: calc(var(--services-unit) * 0.825) }
+  .links button:first-of-type { margin-inline-start: 5% }
+}
+@media (prefers-reduced-motion: reduce) { .navigation { animation: none } }

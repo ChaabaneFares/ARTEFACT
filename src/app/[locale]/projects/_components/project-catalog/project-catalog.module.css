@@ -1,0 +1,70 @@
+.catalog { --projects-unit: calc(8px + 1.5vw); position: relative; width: 100%; color: var(--text-primary); font-size: var(--projects-unit) }
+.hero { position: relative; display: flex; height: 101vh; align-items: center; justify-content: center; text-align: center }
+.heroContent { position: relative; width: max-content; margin-bottom: 41px; will-change: transform }
+.hero h1 { position: relative; z-index: 20; margin-bottom: calc(var(--projects-unit) * 1.66); font-size: calc(var(--projects-unit) * 1.86); font-weight: 500; letter-spacing: 0.56px; line-height: normal; animation: moveIn 600ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms both, fadeIn 200ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms both }
+.filters { position: relative }
+.filterLine { display: block; padding-bottom: round(nearest, calc(var(--projects-unit) * 0.4167), 1px); animation: moveIn 600ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 540ms both, fadeIn 200ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 550ms both }
+.filterLine:last-child { animation-delay: 680ms, 700ms }
+.extraSpace { display: none }
+.gallery { display: flex; justify-content: space-around; align-items: flex-start; margin: calc(-50vh + var(--projects-unit) * 7.5) auto 0; padding-top: 70px; overflow: hidden }
+.grid { display: flex; width: 75%; flex-flow: row wrap; padding-bottom: calc(var(--projects-unit) * 10) }
+@keyframes moveIn {
+from { transform: translateY(60%) }
+to { transform: translateY(0) }
+}
+@keyframes fadeIn {
+from { opacity: 0 }
+to { opacity: 1 }
+}
+@media screen and (max-width: 1599px) {
+.catalog { --projects-unit: calc(15.2px + 1vw) }
+}
+@media screen and (max-width: 1024px) {
+.catalog { --projects-unit: calc(15.2px + 1vw) }
+}
+@media screen and (max-width: 768px) {
+.heroContent { max-width: 100% }
+.filters { width: calc(var(--projects-unit) * 26) }
+.filterLine { display: inline; padding-bottom: 0 }
+.grid { width: 100% }
+}
+@media screen and (max-width: 650px) {
+.hero { justify-content: space-between }
+.heroContent { width: 100% }
+.hero h1, .filters { margin-right: 3.646vw; margin-left: 3.646vw; text-align: left }
+}
+@media screen and (max-width: 600px) {
+.catalog { --projects-unit: calc(15.2px + 1vw) }
+}
+@media screen and (max-width: 500px) {
+.filters { display: flex; width: 100%; flex-direction: column; margin-left: 0; margin-right: auto; padding-left: 3.646vw; overflow: auto hidden; scrollbar-width: none }
+.filters::-webkit-scrollbar { display: none }
+.filterLine { display: flex; padding-bottom: 0; flex: none; justify-content: flex-start; width: 100% }
+.extraSpace { display: inline-block; flex: none; width: 13%; height: 10px }
+.filters::after { content: ''; pointer-events: none; position: sticky; align-self: flex-end; right: 0; bottom: 0; width: 23%; height: calc(var(--projects-unit) * 8.6); margin-top: calc(var(--projects-unit) * -8.6); background: linear-gradient( 270deg, #000, rgb(0 0 0 / 76.9%) 25.1%, transparent ) }
+}
+@media screen and (max-width: 450px) {
+.catalog { --projects-unit: calc(4px + 3.6vw) }
+.hero { display: block; height: auto; padding-top: calc(var(--projects-unit) * 8.1 + 50px) }
+.heroContent { margin-bottom: 41px }
+.hero h1 { margin-bottom: calc(var(--projects-unit) * 2.5); font-size: calc(var(--projects-unit) * 2.4); line-height: 1.4 }
+.gallery { position: relative; z-index: 1; margin-top: 0; margin-bottom: 25px; padding-top: var(--projects-unit) }
+}
+@media screen and (max-width: 390px) {
+.catalog { --projects-unit: calc(2.48px + 4vw) }
+.gallery { padding-top: 17px }
+}
+@media screen and (max-width: 374px) {
+.gallery { padding-top: 3px }
+}
+@media (prefers-reduced-motion: reduce) {
+.hero h1, .filterLine { animation: none }
+}
+
+@media screen and (max-width: 650px) {
+:global([dir="rtl"]) .hero h1, :global([dir="rtl"]) .filters { text-align: start }
+}
+@media screen and (max-width: 500px) {
+:global([dir="rtl"]) .filters { margin-left: auto; margin-right: 0; padding-left: 0; padding-inline-start: 3.646vw }
+:global([dir="rtl"]) .filters::after { right: auto; inset-inline-end: 0; background: linear-gradient(90deg, #000, rgb(0 0 0 / 76.9%) 25.1%, transparent) }
+}

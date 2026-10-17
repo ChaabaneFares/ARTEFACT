@@ -1,0 +1,47 @@
+/* Gecko's WebGL compositor skips rounded clips; force an intermediate mask. */
+.vrHome { position: relative; width: 88vw; height: 35.83vw; margin: auto; margin-inline-start: 6vw; overflow: hidden; border-radius: 4.48vw; background: rgb(var(--color-ink-950)); clip-path: inset(0 round 4.48vw); mask-image: linear-gradient(#000, #000) }
+.vrItem { display: block; width: 100%; height: 100%; border: 0; border-radius: 4.48vw; background: rgb(var(--color-ink-950)); opacity: 0; pointer-events: none; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.vrHome[data-tour-ready='true'] .vrItem { opacity: 1; pointer-events: auto }
+.loadingScreen { position: absolute; inset: 0; display: grid; place-items: center; overflow: hidden; border-radius: inherit; background: radial-gradient(ellipse at center, rgb(var(--color-ink-900)), rgb(var(--color-ink-950)) 85%); opacity: 1; visibility: visible; pointer-events: none; z-index: 4; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease), visibility 0s }
+/* Pixel grain and the supplied 55px loader keep their texture/artwork scale. */
+.loadingScreen::before { content: ''; position: absolute; inset: -320px; background: url('/assets/landing-page/vr/virtual-tour/television-noise.svg') repeat; background-size: 320px 320px; opacity: 0.36; animation: televisionNoise 180ms steps(1) infinite; animation-play-state: paused }
+.loadingScreen::after { content: ''; position: absolute; inset: 0; background: repeating-linear-gradient(to bottom, transparent 0 2px, rgba(var(--color-ink-950), 0.2) 2px 3px), radial-gradient(ellipse at center, transparent 20%, rgba(var(--color-ink-950), 0.65) 100%) }
+.loadingScreen[data-ready='true'] { opacity: 0; visibility: hidden; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease), visibility 0s var(--reveal-duration, 200ms) }
+.loader { position: relative; z-index: 1; width: 55px; aspect-ratio: 1; --g1: conic-gradient(from 90deg at top 3px left 3px, #0000 90deg, rgb(var(--color-paper-0)) 0); --g2: conic-gradient(from -90deg at bottom 3px right 3px, #0000 90deg, rgb(var(--color-paper-0)) 0); background: var(--g1), var(--g1), var(--g1), var(--g1), var(--g2), var(--g2), var(--g2), var(--g2); background-position: 0 0, 100% 0, 100% 100%, 0 100%; background-size: 25px 25px; background-repeat: no-repeat; animation: l11 1.5s infinite; animation-play-state: paused }
+.loadingScreen[data-active='true'][data-ready='false']::before, .loadingScreen[data-active='true'][data-ready='false'] .loader { animation-play-state: running }
+@keyframes televisionNoise {
+  0%, 100% { transform: translate(0, 0) }
+  25% { transform: translate(-37px, 19px) }
+  50% { transform: translate(23px, -41px) }
+  75% { transform: translate(-19px, 33px) }
+}
+@keyframes l11 {
+  0%, 100% { background-size: 35px 15px, 15px 15px, 15px 35px, 35px 35px }
+  25% { background-size: 35px 35px, 15px 35px, 15px 15px, 35px 15px }
+  50% { background-size: 15px 35px, 35px 35px, 35px 15px, 15px 15px }
+  75% { background-size: 15px 15px, 35px 15px, 35px 35px, 15px 35px }
+}
+@media (prefers-reduced-motion: reduce) {
+  .loadingScreen::before, .loader { animation: none }
+}
+.frontlayer { position: absolute; top: 0; display: flex; align-items: center; justify-content: center; width: 100%; height: 100%; padding: 0; border: 0; border-radius: 4.48vw; background: #0000004f; cursor: pointer; z-index: 2; appearance: none }
+.frontlayer[data-visible='false'] { display: none }
+.frontlayer[data-ready='false'], .exitVr[data-ready='false'] { opacity: 0; visibility: hidden; pointer-events: none }
+.vrHome[data-tour-parked='true'] .vrItem { display: none }
+/* A fullscreen iframe stays visible while viewport observers catch up. */
+.vrHome .vrItem:fullscreen { display: block; width: 100vw; height: 100vh; border-radius: 0 }
+.frontlayer svg { width: 10.75vw; height: 10.26vw; pointer-events: none }
+.frontlayer svg path { fill: rgb(var(--color-paper-0)) }
+.exitVr { position: absolute; top: 4%; inset-inline-end: 2%; width: 3.76vw; height: 3.76vw; padding: 0; border: 0; background: transparent url('/assets/landing-page/vr/virtual-tour/close.svg') center / contain no-repeat; cursor: pointer; z-index: 3; appearance: none }
+@media screen and (max-width: 1024px) {
+  .vrHome { width: 92.71vw; height: 83.42vw; margin: 11.92vw auto 0; border-radius: 7.45vw; clip-path: inset(0 round 7.45vw) }
+  .vrItem, .frontlayer { border-radius: 7.45vw }
+  .frontlayer svg { width: 17.88vw; height: 17.06vw }
+  .exitVr { width: 6.26vw; height: 6.26vw }
+}
+@media screen and (max-width: 600px) {
+  .vrHome { width: 92.71vw; height: 127.99vw; margin: 18.28vw auto 0; border-radius: 11.43vw; clip-path: inset(0 round 11.43vw) }
+  .vrItem, .frontlayer { border-radius: 11.43vw }
+  .frontlayer svg { width: 27.42vw; height: 26.19vw }
+  .exitVr { width: 9.6vw; height: 9.6vw }
+}

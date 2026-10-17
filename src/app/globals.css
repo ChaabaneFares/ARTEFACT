@@ -1,0 +1,211 @@
+/* ============================================
+   AM-ARC COLOR ARCHITECTURE - Base RGB Values
+   ============================================ */
+
+:root {
+  /* Dark architectural base */
+  --color-ink-950: 0, 0, 0; /* #000000 - page canvas */
+  --color-ink-900: 25, 25, 25; /* #191919 - deep surface */
+
+  /* Stone neutrals */
+  --color-stone-700: 90, 128, 162; /* #5a80a2 - steel border accent */
+  --color-stone-600: 110, 110, 110; /* #6e6e6e - subdued text */
+  --color-stone-500: 110, 110, 115; /* #6e6e73 - interface border */
+  --color-stone-400: 161, 161, 166; /* #a1a1a6 - quiet nav text */
+  --color-stone-300: 185, 185, 191; /* #b9b9bf - secondary copy */
+  --color-stone-200: 215, 215, 217; /* #d7d7d9 - soft line/light text */
+
+  /* Light surfaces */
+  --color-paper-100: 245, 245, 247; /* #f5f5f7 - paper surface */
+  --color-paper-0: 255, 255, 255; /* #ffffff - pure white */
+
+  /* Accents */
+  --color-accent-blue-500: 41, 151, 255; /* #2997ff - primary action */
+  --color-accent-blue-200: 179, 223, 255; /* #b3dfff - atmospheric tint */
+}
+
+/* Arabic glyphs only: Latin text and digits keep Poppins. `block` keeps
+   Arabic invisible for the instant it takes the preloaded file to arrive,
+   rather than painting a fallback and swapping it under the introduction. */
+@font-face {
+  font-family: "Readex Pro";
+  src: url("/assets/fonts/readex-pro-arabic-v27.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 160 700;
+  font-display: block;
+  unicode-range:
+    U+0600-06FF, U+0750-077F, U+0870-0891, U+0897-08E1, U+08E3-08FF, U+200C-200E,
+    U+2010-2011, U+204F, U+2E41, U+FB50-FDFF, U+FE70-FE74, U+FE76-FEFC;
+}
+
+/* ============================================
+   SHARED SEMANTIC TOKENS
+   ============================================ */
+
+:root {
+  /* Canvas and surfaces */
+  --bg-canvas: rgb(var(--color-ink-950));
+  --bg-surface-strong: rgb(var(--color-ink-900));
+  --bg-surface-soft: rgb(var(--color-paper-100));
+  --bg-surface-elevated: rgb(var(--color-paper-0));
+
+  /* Typography */
+  --font-family-base: var(--font-poppins), "Poppins", sans-serif;
+  --text-primary: rgb(var(--color-paper-100));
+  --text-secondary: rgb(var(--color-stone-300));
+  --text-muted: rgb(var(--color-stone-400));
+  --text-subtle: rgb(var(--color-stone-600));
+  --text-inverse: rgb(var(--color-ink-900));
+  --font-size-nav: clamp(13px, 0.825vw, 14px);
+  --font-size-pill: clamp(12px, 0.722vw, 13px);
+  --font-size-menu-meta: clamp(13px, 0.825vw, 14px);
+  --font-size-menu-contact: clamp(22px, 1.979vw, 33px);
+  --font-size-menu-link: clamp(34px, 2.511vw, 42px);
+  --font-size-h1: clamp(40px, 3.611vw, 60px);
+  --font-size-h3: clamp(24px, 1.94vw, 32px);
+  --font-size-h4: clamp(36px, 3.087vw, 52px);
+  --line-height-menu-link: 1;
+
+  /* Borders and dividers */
+  --border-default: rgb(var(--color-stone-500));
+  --border-muted: rgb(var(--color-stone-200));
+  --border-accent: rgb(var(--color-stone-700));
+
+  /* Accent system */
+  --accent-primary: rgb(var(--color-accent-blue-500));
+  --accent-atmosphere: rgb(var(--color-accent-blue-200));
+  --accent-contrast: rgb(var(--color-paper-0));
+  --color-scrollbar-track: rgba(var(--color-paper-0), 0.08);
+  --color-scrollbar-thumb: rgba(var(--color-stone-200), 0.68);
+  --color-scrollbar-thumb-active: rgba(var(--color-paper-100), 0.86);
+  --z-scrollbar-overlay-handle: 2147483644;
+  --z-scrollbar-overlay-track: 2147483645;
+  --z-scrollbar-overlay-thumb: 2147483646;
+
+  /* Basic composition helpers */
+  --page-background: var(--bg-canvas);
+  --page-foreground: var(--text-primary);
+
+  /* Async media reveal (shared by every progressively loaded visual) */
+  --reveal-duration: 200ms;
+  --reveal-ease: ease;
+}
+
+/* ============================================
+   SOURCE VARIABLE COMPATIBILITY
+   ============================================ */
+
+:root {
+  --bg-color: var(--bg-canvas);
+  --button-bg-active-color: var(--accent-primary);
+  --button-bg-color: var(--bg-surface-soft);
+  --button-border-color: var(--border-default);
+  --button-primary-color: var(--text-inverse);
+  --contact-button-back: var(--bg-surface-soft);
+  --contact-button-border: var(--border-accent);
+  --contact-lightblue: var(--accent-atmosphere);
+  --light-font-color: var(--text-subtle);
+  --light-menu-link-color: var(--text-muted);
+  --lighter-font-color: var(--border-default);
+  --lighter-menu-link-color: var(--border-muted);
+  --lightwhite: var(--border-muted);
+  --primary-color: var(--accent-contrast);
+  --primary-font-color: var(--text-primary);
+  --secondary-font-color: var(--text-secondary);
+}
+
+/* ============================================
+   GLOBAL RESET
+   ============================================ */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  overflow-x: clip;
+}
+
+html::-webkit-scrollbar {
+  width: 0.4vw;
+  max-width: 0.4vw;
+  background-color: var(--color-scrollbar-track);
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: var(--color-scrollbar-thumb);
+  border-radius: 5px;
+  transition: 0.7s;
+}
+
+html::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-scrollbar-thumb-active);
+}
+
+/* Hide native gutters before the existing overlay scrollbar initializes so
+   first paint and route transitions preserve the same content width. */
+html:has([data-hero-root]),
+html:has([data-services-page]),
+html:has([data-projects-page]),
+html:has([data-project-detail]),
+html:has([data-about-page]),
+html:has([data-contact-page]),
+html:has([data-faq-page]),
+html:has([data-privacy-page]),
+html.custom-scrollbar {
+  scrollbar-width: none;
+}
+
+html:has([data-hero-root])::-webkit-scrollbar,
+html:has([data-services-page])::-webkit-scrollbar,
+html:has([data-projects-page])::-webkit-scrollbar,
+html:has([data-project-detail])::-webkit-scrollbar,
+html:has([data-about-page])::-webkit-scrollbar,
+html:has([data-contact-page])::-webkit-scrollbar,
+html:has([data-faq-page])::-webkit-scrollbar,
+html:has([data-privacy-page])::-webkit-scrollbar,
+html.custom-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  background: var(--page-background);
+  color: var(--page-foreground);
+  font-family: var(--font-family-base);
+  font-size: var(--font-size-menu-contact);
+  font-weight: 500;
+  line-height: normal;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
+/* Declared on body, where next/font defines --font-poppins: on html the
+   reference would be unresolved and invalidate the whole stack. */
+html[lang="ar"] body {
+  --font-family-base: "Readex Pro", var(--font-poppins), "Poppins", sans-serif;
+}
+
+/* Arabic is a connected script: tracking breaks the joins between letters.
+   Components keep their Latin tracking; this resets it for every Arabic page. */
+html[lang="ar"] body,
+html[lang="ar"] body * {
+  /* biome-ignore lint/complexity/noImportantStyles: component selectors are more specific; Arabic must never be tracked. */
+  letter-spacing: 0 !important;
+}
+
+.hero {
+  width: 100%;
+  min-height: 100vh;
+  height: 100dvh;
+}

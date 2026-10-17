@@ -1,0 +1,40 @@
+/* Keep the reference font formula local; it never changes the shared page root. */
+.hero { --services-unit: calc(8px + 1.5vw); display: flex; width: 100%; height: 100vh; align-items: center; justify-content: center; text-align: center }
+.content { width: max-content; max-width: 100% }
+.eyebrow { color: var(--text-secondary); font-size: calc(var(--services-unit) * 0.53); font-weight: 600; line-height: normal; animation: fadeIn 1500ms cubic-bezier(0.333333, 1, 0.666667, 1) 340ms both, moveIn 800ms cubic-bezier(0.333333, 1, 0.666667, 1) 340ms both }
+.title { max-width: calc(var(--services-unit) * 27); margin: calc(var(--services-unit) * 1.7) 0 calc(var(--services-unit) * 0.4); color: var(--text-primary); font-size: calc(var(--services-unit) * 1.27); font-weight: 500; letter-spacing: 0.4px; line-height: 1.4 }
+.title span { display: block; animation: fadeIn 1500ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both, moveIn 800ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both }
+.title span:nth-of-type(2) { animation-delay: 500ms }
+.title span:nth-of-type(3) { animation-delay: 580ms }
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes moveIn { from { transform: translateY(70px) } to { transform: translateY(0) } }
+@media screen and (max-width: 1599px) { .hero { --services-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 1024px) {
+  .hero { --services-unit: calc(15.2px + 1vw) }
+  .title { letter-spacing: 0.4px }
+}
+@media screen and (max-width: 768px) {
+  .hero { --services-unit: calc(15.2px + 1vw) }
+  .content { width: calc(var(--services-unit) * 27) }
+  .eyebrow { font-size: calc(var(--services-unit) * 0.797); font-weight: 400 }
+  .title span { display: inline; animation: none }
+  .title { animation: fadeIn 1500ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both, moveIn 800ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both; max-width: 100%; padding: 0 3.646vw; font-size: calc(var(--services-unit) * 1.32); letter-spacing: 0 }
+}
+@media screen and (max-width: 600px) {
+  .hero { --services-unit: calc(15.2px + 1vw) }
+  .eyebrow { font-size: calc(var(--services-unit) * 0.797); font-weight: 400 }
+  .title { max-width: 100%; padding: 0 3.646vw; font-size: calc(var(--services-unit) * 1.32); letter-spacing: 0 }
+}
+@media screen and (max-width: 570px) {
+  .hero { height: auto; text-align: start }
+  .content { width: 100%; padding: calc(var(--services-unit) * 9.3) 0 calc(var(--services-unit) * 2) }
+  .eyebrow { padding: 0 4.6%; font-size: calc(var(--services-unit) * 0.825); font-weight: 400; letter-spacing: calc(var(--services-unit) * 0.02) }
+  .title { width: 100%; max-width: 100%; margin: 32px 0 47px; padding: 0 4.6%; font-size: calc(var(--services-unit) * 1.485); letter-spacing: 0; line-height: 1.6 }
+  .title span { display: inline; animation: none }
+  .title { animation: fadeIn 1500ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both, moveIn 800ms cubic-bezier(0.333333, 1, 0.666667, 1) 420ms both }
+}
+@media screen and (max-width: 450px) { .hero { --services-unit: calc(4px + 3.6vw) } }
+@media screen and (max-width: 390px) { .hero { --services-unit: calc(2.48px + 4vw) } }
+@media screen and (max-width: 359px) { .title { font-size: calc(var(--services-unit) * 1.4) } }
+@media screen and (max-width: 319px) { .title { font-size: calc(var(--services-unit) * 1.35) } }
+@media (prefers-reduced-motion: reduce) { .eyebrow, .title, .title span { animation: none } }

@@ -1,0 +1,54 @@
+.howItWorks { position: relative; width: 100%; background: rgb(var(--color-ink-950)) }
+.sceneStage { position: relative; width: 100%; min-height: 100vh; height: 100dvh; overflow: hidden }
+.sceneScrollMount { position: relative; width: 100%; height: 100% }
+.sceneMount { position: relative; inset: 0; height: 100%; overflow: hidden; opacity: 0; contain: layout paint size }
+.sceneMount[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.sceneMount[data-has-placeholder='true'] { opacity: 1 }
+.staticScene { --still-w: calc(26.7928vw + 402.76px); --still-h: calc(5.9555vw + 87.78px); position: absolute; inset: 0; background-repeat: no-repeat; background-position: calc(36.5315vw - 204.22px + var(--still-dx, 0) * var(--still-w)) calc(-2.4933vw + 49.6007vh - 39.42px + var(--still-dy, 0) * var(--still-h)); background-size: calc(var(--still-w) * var(--still-sw, 1)) calc(var(--still-h) * var(--still-sh, 1)); opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.staticScene[data-img-loaded='true'] { opacity: 1 }
+.sceneMount[data-ready='true'] .staticScene { opacity: 0 }
+.sceneMount[data-canvas-parked='true'] .staticScene { opacity: 1 }
+.splineHost { position: relative; width: 100%; height: 100%; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.sceneMount[data-ready='true'] .splineHost { opacity: 1 }
+.sceneMount[data-canvas-parked='true'] .splineHost { display: none }
+.canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; transform-origin: center center }
+.mobileScene { position: absolute; inset: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.mobileScene[data-img-loaded='true'] { opacity: 1 }
+
+@media screen and (max-width: 1024px) {
+  .howItWorks { position: relative; width: 100%; background: rgb(var(--color-ink-950)) }
+  .sceneStage { position: relative; width: 100%; min-height: 46.88vw; height: 72vw; overflow: hidden }
+  .sceneScrollMount { position: relative; width: 100%; height: 100% }
+  .sceneMount { position: relative; inset: 0; height: 100%; overflow: hidden; opacity: 0; contain: layout paint size }
+  .sceneMount[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-has-placeholder='true'] { opacity: 1 }
+  .staticScene { position: absolute; inset: 0; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .staticScene[data-img-loaded='true'] { opacity: 1 }
+  .sceneMount[data-ready='true'] .staticScene { opacity: 0 }
+  .sceneMount[data-canvas-parked='true'] .staticScene { opacity: 1 }
+  .splineHost { position: relative; width: 100%; height: 100%; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-ready='true'] .splineHost { opacity: 1 }
+  .sceneMount[data-canvas-parked='true'] .splineHost { display: none }
+  .canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; transform-origin: center center }
+  .mobileScene { position: absolute; inset: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .mobileScene[data-img-loaded='true'] { opacity: 1 }
+}
+
+@media screen and (max-width: 600px) {
+  .howItWorks { position: relative; width: 100%; background: rgb(var(--color-ink-950)) }
+  .sceneStage { position: relative; width: 100%; min-height: 87.38vw; height: 87.38vw; overflow: hidden }
+  .sceneScrollMount { position: relative; width: 100%; height: 100% }
+  .sceneMount { position: relative; inset: 0; height: 100%; overflow: hidden; opacity: 0; contain: layout paint size }
+  .sceneMount[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-has-placeholder='true'] { opacity: 1 }
+  .staticScene { position: absolute; inset: 0; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .staticScene[data-img-loaded='true'] { opacity: 1 }
+  .sceneMount[data-ready='true'] .staticScene { opacity: 0 }
+  .sceneMount[data-canvas-parked='true'] .staticScene { opacity: 1 }
+  .splineHost { position: relative; width: 100%; height: 100%; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-ready='true'] .splineHost { opacity: 1 }
+  .sceneMount[data-canvas-parked='true'] .splineHost { display: none }
+  .canvas { display: block; width: 100%; height: 100%; cursor: grab; touch-action: none; transform-origin: center center }
+  .mobileScene { position: absolute; inset: 0; width: 100%; height: 100%; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .mobileScene[data-img-loaded='true'] { opacity: 1 }
+}

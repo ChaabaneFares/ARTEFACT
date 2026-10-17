@@ -1,0 +1,5 @@
+images=507
+videos=2
+3d_models=0
+manifest=organized/manifest.csv
+note=organized/3d/README.txt

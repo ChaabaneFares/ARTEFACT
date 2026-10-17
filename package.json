@@ -1,0 +1,48 @@
+{
+  "name": "artifact",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -H 0.0.0.0",
+    "build": "next build",
+    "start": "next start",
+    "lint": "biome check",
+    "format": "biome format --write",
+    "test:contact": "node scripts/contact-api.test.cjs",
+    "test:ssr": "node --test scripts/ssr-boundaries.test.cjs scripts/deferred-motion.test.cjs",
+    "test:vslider": "node --test scripts/vslider-timing.test.cjs",
+    "test:tour": "node --test scripts/tour-fullscreen.test.cjs scripts/tour-visibility.test.cjs",
+    "test:cursor": "node --test scripts/cursor-motion.test.cjs",
+    "audit:production": "node scripts/audit-production.mjs",
+    "test:i18n": "node --test scripts/i18n-routing.test.mjs"
+  },
+  "dependencies": {
+    "@splinetool/react-spline": "4.1.0",
+    "@splinetool/runtime": "1.12.70",
+    "@studio-freight/lenis": "1.0.29",
+    "next": "16.1.6",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "storio": "^1.0.6",
+    "three": "^0.183.2"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "2.2.0",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "@types/three": "^0.183.1",
+    "msgpackr": "1",
+    "opentype.js": "1",
+    "subset-font": "2",
+    "typescript": "^5"
+  },
+  "ignoreScripts": [
+    "sharp",
+    "unrs-resolver"
+  ],
+  "trustedDependencies": [
+    "sharp",
+    "unrs-resolver"
+  ]
+}

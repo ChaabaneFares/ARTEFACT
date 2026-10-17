@@ -1,0 +1,94 @@
+.mobileTitle { display: none }
+.media { position: relative; z-index: 100; width: 100%; max-width: 100%; height: 130vh; overflow: hidden; contain: paint; isolation: isolate; background: rgb(var(--color-ink-950)); cursor: none }
+.media:active { cursor: none }
+.featureText { position: absolute; bottom: 9.6vw; inset-inline-start: 12.64vw; color: rgb(var(--color-paper-0)); font-size: 2.99vw; font-weight: 500; user-select: none }
+.feaWrapper { position: absolute; inset: 0; perspective: 35.42vw; perspective-origin: center center; transform: rotate(5deg); transform-origin: center center }
+.fContainer { position: absolute; inset: 0; transform: rotateY(0deg); transform-origin: center center 23.44vw; transform-style: preserve-3d }
+.item { position: absolute; top: 50%; left: 50%; z-index: 2; width: 15.63vw; height: 15.63vw; margin-top: -7.45vw; margin-left: -8.75vw; border-radius: 2.88vw; background-size: contain; transform-origin: center center; transform-style: preserve-3d }
+.item:nth-of-type(1) { transform: translate3d(0, 0, 45.83vw) rotateY(180deg) }
+.item:nth-of-type(2) { transform: translate3d(16.15vw, 0, 39.58vw) rotateY(225deg) }
+.item:nth-of-type(3) { transform: translate3d(22.92vw, 0, 22.92vw) rotateY(270deg) }
+.item:nth-of-type(4) { transform: translate3d(16.15vw, 0, 6.25vw) rotateY(315deg) }
+.item:nth-of-type(5) { transform: translate3d(0, 0, 0) rotateY(0deg) }
+.item:nth-of-type(6) { transform: translate3d(-16.15vw, 0, 6.25vw) rotateY(45deg) }
+.item:nth-of-type(7) { transform: translate3d(-22.92vw, 0, 22.92vw) rotateY(90deg) }
+.item:nth-of-type(8) { transform: translate3d(-17.19vw, 0, 39.58vw) rotateY(135deg) }
+.tileButton { position: absolute; inset: 0; z-index: 100; display: block; width: 100%; height: 100%; padding: 0; background: none; border: 0; cursor: pointer }
+.tileButton, .cover, .videoMount, .item video, .playIconWrap { -webkit-backface-visibility: hidden; backface-visibility: hidden }
+.cover, .videoMount, .item video { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 2.88vw }
+.cover { z-index: 55; background-repeat: no-repeat; background-position: center; background-size: cover; pointer-events: none; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.cover[data-img-loaded='true'] { opacity: 1 }
+.videoMount { overflow: hidden; background: rgb(8 8 8) }
+.item video { display: block; border: 0; object-fit: contain; background: #000 }
+.fullscreenProxyButton { position: absolute; inset-inline-end: 0; bottom: 0; z-index: 260; display: none; width: 3.96vw; height: 3.23vw; padding: 0; background: transparent; border: 0; cursor: pointer }
+.item[data-media-loaded='true'] .fullscreenProxyButton { display: block }
+.playIconWrap { position: absolute; top: 50%; left: 50%; z-index: 100; width: 5.21vw; height: 5.21vw; transform: translate(-50%, -50%); pointer-events: none }
+.playIcon { display: block; width: 100%; height: 5.21vw; fill: rgb(255 255 255 / 81%) }
+.media[data-media-motion='smooth'] .fContainer, .media[data-media-motion='smooth'] .featureText { transition: transform 90ms linear }
+.media[data-media-motion='direct'] .fContainer, .media[data-media-motion='direct'] .featureText { transition: none }
+.item video:fullscreen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+.item video:-webkit-full-screen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+
+@media screen and (max-width: 1024px) {
+  .mobileTitle { position: relative; top: auto; inset-inline-start: 3.2vw; z-index: 101; display: block; width: 43.75vw; margin-top: 12.5vw; margin-bottom: 5.21vw; color: rgb(var(--color-paper-0)); font-size: 4.08vw; font-weight: 500; user-select: none }
+  .media { position: relative; z-index: 100; width: 100%; max-width: 100%; height: 55.1vw; min-height: 54.17vw; margin-bottom: 8.33vw; overflow: hidden; contain: paint; isolation: isolate; background: rgb(var(--color-ink-950)); cursor: grab; perspective: 286.46vw; transform-style: preserve-3d; touch-action: pan-y }
+  .media:active { cursor: grabbing }
+  .featureText { position: absolute; bottom: 24vw; inset-inline-start: 31.59vw; display: none; color: rgb(var(--color-paper-0)); font-size: 7.47vw; font-weight: 500; user-select: none }
+  .feaWrapper { position: absolute; inset: 0; width: 100%; height: 100%; perspective: inherit; perspective-origin: center center; transform: none; transform-origin: center center; transform-style: preserve-3d }
+  .fContainer { position: absolute; inset: 0; display: block; transform: none; transform-origin: center center 58.59vw; transform-style: flat }
+  .item { --media-responsive-poster-width: 39.58vw; position: absolute; top: 50%; left: 50%; z-index: 2; width: var(--media-responsive-poster-width); height: var(--media-responsive-poster-width); margin-top: calc(var(--media-responsive-poster-width) * -0.5); margin-left: calc(var(--media-responsive-poster-width) * -0.5); border-radius: 3.39vw; background-size: contain; transform: none; transform-origin: 50% 50%; transform-style: preserve-3d; will-change: transform, opacity }
+  .item:nth-of-type(1), .item:nth-of-type(2), .item:nth-of-type(3), .item:nth-of-type(4), .item:nth-of-type(5), .item:nth-of-type(6), .item:nth-of-type(7), .item:nth-of-type(8) { transform: none }
+  .tileButton { position: absolute; inset: 0; z-index: 100; display: block; width: 100%; min-width: 100%; height: 100%; max-height: 100%; padding: 0; background: none; border: 0; cursor: pointer }
+  .tileButton, .cover, .videoMount, .item video, .playIconWrap { -webkit-backface-visibility: hidden; backface-visibility: hidden }
+  .cover, .videoMount, .item video { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 3.39vw }
+  .cover { z-index: 55; background-repeat: no-repeat; background-position: center; background-size: cover; pointer-events: none; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .cover[data-img-loaded='true'] { opacity: 1 }
+  .videoMount { overflow: hidden; background: rgb(8 8 8) }
+  .item video { display: block; border: 0; object-fit: contain; background: #000 }
+  .fullscreenProxyButton { position: absolute; inset-inline-end: 0; bottom: 0; z-index: 260; display: none; width: 8.85vw; height: 7.29vw; padding: 0; background: transparent; border: 0; cursor: pointer }
+  .item[data-media-loaded='true'] .fullscreenProxyButton { display: block }
+  .playIconWrap { position: absolute; top: 50%; left: 50%; z-index: 100; width: 13.02vw; height: 13.02vw; transform: translate(-50%, -50%); pointer-events: none }
+  .playIcon { display: block; width: 100%; height: 13.02vw; fill: rgb(255 255 255 / 81%) }
+  .media[data-media-motion='smooth'] .fContainer, .media[data-media-motion='smooth'] .featureText { transition: none }
+  .media[data-media-motion='direct'] .fContainer, .media[data-media-motion='direct'] .featureText { transition: none }
+  .item video:fullscreen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+  .item video:-webkit-full-screen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+}
+
+@media screen and (max-width: 600px) {
+  .mobileTitle { position: relative; top: auto; inset-inline-start: 5.96vw; z-index: 101; display: block; width: 81.55vw; margin-top: 23.3vw; margin-bottom: 9.71vw; color: rgb(var(--color-paper-0)); font-size: 7.61vw; font-weight: 500; user-select: none }
+  .media { position: relative; z-index: 100; width: 100%; max-width: 100%; height: 102.67vw; min-height: 100.97vw; margin-bottom: 11.65vw; overflow: hidden; contain: paint; isolation: isolate; background: rgb(var(--color-ink-950)); cursor: grab; perspective: 533.98vw; transform-style: preserve-3d; touch-action: pan-y }
+  .media:active { cursor: grabbing }
+  .featureText { position: absolute; bottom: 44.74vw; inset-inline-start: 58.89vw; display: none; color: rgb(var(--color-paper-0)); font-size: 13.93vw; font-weight: 500; user-select: none }
+  .feaWrapper { position: absolute; inset: 0; width: 100%; height: 100%; perspective: inherit; perspective-origin: center center; transform: none; transform-origin: center center; transform-style: preserve-3d }
+  .fContainer { position: absolute; inset: 0; display: block; transform: none; transform-origin: center center 109.22vw; transform-style: flat }
+  .item { --media-responsive-poster-width: 73.79vw; position: absolute; top: 50%; left: 50%; z-index: 2; width: var(--media-responsive-poster-width); height: var(--media-responsive-poster-width); margin-top: calc(var(--media-responsive-poster-width) * -0.5); margin-left: calc(var(--media-responsive-poster-width) * -0.5); border-radius: 6.31vw; background-size: contain; transform: none; transform-origin: 50% 50%; transform-style: preserve-3d; will-change: transform, opacity }
+  .item:nth-of-type(1), .item:nth-of-type(2), .item:nth-of-type(3), .item:nth-of-type(4), .item:nth-of-type(5), .item:nth-of-type(6), .item:nth-of-type(7), .item:nth-of-type(8) { transform: none }
+  .tileButton { position: absolute; inset: 0; z-index: 100; display: block; width: 100%; min-width: 100%; height: 100%; max-height: 100%; padding: 0; background: none; border: 0; cursor: pointer }
+  .tileButton, .cover, .videoMount, .item video, .playIconWrap { -webkit-backface-visibility: hidden; backface-visibility: hidden }
+  .cover, .videoMount, .item video { position: absolute; inset: 0; width: 100%; height: 100%; border-radius: 6.31vw }
+  .cover { z-index: 55; background-repeat: no-repeat; background-position: center; background-size: cover; pointer-events: none; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .cover[data-img-loaded='true'] { opacity: 1 }
+  .videoMount { overflow: hidden; background: rgb(8 8 8) }
+  .item video { display: block; border: 0; object-fit: contain; background: #000 }
+  .fullscreenProxyButton { position: absolute; inset-inline-end: 0; bottom: 0; z-index: 260; display: none; width: 16.5vw; height: 13.59vw; padding: 0; background: transparent; border: 0; cursor: pointer }
+  .item[data-media-loaded='true'] .fullscreenProxyButton { display: block }
+  .playIconWrap { position: absolute; top: 50%; left: 50%; z-index: 100; width: 24.27vw; height: 24.27vw; transform: translate(-50%, -50%); pointer-events: none }
+  .playIcon { display: block; width: 100%; height: 24.27vw; fill: rgb(255 255 255 / 81%) }
+  .media[data-media-motion='smooth'] .fContainer, .media[data-media-motion='smooth'] .featureText { transition: none }
+  .media[data-media-motion='direct'] .fContainer, .media[data-media-motion='direct'] .featureText { transition: none }
+  .item video:fullscreen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+  .item video:-webkit-full-screen { position: fixed; inset: 0; width: 100vw; height: 100vh; border-radius: 0 }
+}
+
+@media screen and (min-width: 1025px) {
+  :global([dir='rtl']) .feaWrapper { transform: rotate(-5deg) }
+  :global([dir='rtl']) .item:nth-of-type(1) { transform: translate3d(0, 0, 45.83vw) rotateY(-180deg) }
+  :global([dir='rtl']) .item:nth-of-type(2) { transform: translate3d(-16.15vw, 0, 39.58vw) rotateY(-225deg) }
+  :global([dir='rtl']) .item:nth-of-type(3) { transform: translate3d(-22.92vw, 0, 22.92vw) rotateY(-270deg) }
+  :global([dir='rtl']) .item:nth-of-type(4) { transform: translate3d(-16.15vw, 0, 6.25vw) rotateY(-315deg) }
+  :global([dir='rtl']) .item:nth-of-type(5) { transform: translate3d(0, 0, 0) rotateY(0deg) }
+  :global([dir='rtl']) .item:nth-of-type(6) { transform: translate3d(16.15vw, 0, 6.25vw) rotateY(-45deg) }
+  :global([dir='rtl']) .item:nth-of-type(7) { transform: translate3d(22.92vw, 0, 22.92vw) rotateY(-90deg) }
+  :global([dir='rtl']) .item:nth-of-type(8) { transform: translate3d(17.19vw, 0, 39.58vw) rotateY(-135deg) }
+}

@@ -1,0 +1,3136 @@
+{
+  "version": 1,
+  "brandSource": "ARTIFACT MEDIA/new-logos",
+  "instagram": "artefact_studio_design",
+  "sourceWatermarkMaskPng": "iVBORw0KGgoAAAANSUhEUgAAAFEAAAArCAAAAAAlXTtNAAAAyUlEQVR4nO1V2wrFIAxrDvv/X8558NZdm7IxGBgQRGOsVVOziQtQJSKhp3ElVotPIgskf16BHlK2+QsXRAR3YGorlmjLoQLtvn+yoIk3oyiKLyyhmIOg6EJELtxPoz8aKs8nTkw3CdEt0r8wXBHdtWyLsmIe8b+G2TaZz+BBqYmJL6M4SftkXA+vZkpxxRhGm9yvKoRdI6vHuka3T59k7RdDPneKQx8UKpdzs8gLRK9YBvtof9TSwtaHsSUckOrOdZSjht2Vmngffyg/QAs1Cz4kAAAAAElFTkSuQmCC",
+  "images": [
+    {
+      "path": "public/assets/about/hero.jpg",
+      "size": [891, 1080],
+      "originalSha256": "c085f1c308c4df6c2c6f85bca2e7c97bbe43f567a399896b4b6b36c492ca3481",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [408, 926, 76, 24],
+      "instagram": false,
+      "displayCrop": "square, centered"
+    },
+    {
+      "path": "public/assets/about/member-01.jpg",
+      "size": [398, 480],
+      "originalSha256": "e92f605648dbfaa13d507ec3db0e25010383520f0f1250986376b2c1b60029ee",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [182, 371, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/member-02.jpg",
+      "size": [399, 480],
+      "originalSha256": "bbd5fa4ced393c44b20c645537ae548fb817c5109cb5a10352898534c8200228",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [182, 372, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/member-03.jpg",
+      "size": [400, 478],
+      "originalSha256": "54293c5102071a56bab434356260e25e0edbadcc43fc01f20bb8bf89aaa5df22",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [183, 373, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/member-04.jpg",
+      "size": [397, 479],
+      "originalSha256": "b14e1380f78983a45588fa0d6364ded4980dce5339a11f74547b7ec6baa2b6b9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [182, 370, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/member-05.jpg",
+      "size": [399, 479],
+      "originalSha256": "ed32597decf63364ff925f37d4bbee3b30b190a38bd8bb8557034054e60e2c7a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [182, 372, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/member-06.jpg",
+      "size": [399, 479],
+      "originalSha256": "e3d4fcfbb899df6a45db224e34365479de23d45f6a3feb9c415678c2360895fc",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [182, 372, 34, 11],
+      "instagram": false,
+      "displayCrop": "square, top-aligned"
+    },
+    {
+      "path": "public/assets/about/studio.jpg",
+      "size": [1080, 1618],
+      "originalSha256": "cfef066378125b3b332a38f5ad3de95828d511e99466b1b71d3084e7f3aa2774",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 1277, 92, 29],
+      "instagram": false,
+      "displayCrop": "square, centered"
+    },
+    {
+      "path": "public/assets/designs/echo-view-card.png",
+      "size": [931, 523],
+      "originalSha256": "0c21154bd8403156d37fba2d7be5b80b496d79678906a9b7346753fcc16fd691",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [426, 469, 79, 25],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/designs/echo-view-section.png",
+      "size": [1600, 1200],
+      "originalSha256": "7b5fb5b31afd272b33c3b2c402be265a3434691564845d590144512fba5b6c04",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [732, 1091, 136, 43],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/designs/exterior.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "f06db2f5a2f245f9b32a7e47db27466533b4508b1e756f24425033e3b505a053",
+      "remove": [
+        {
+          "box": [492, 1103, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/vertical-slider/exterior.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "f06db2f5a2f245f9b32a7e47db27466533b4508b1e756f24425033e3b505a053",
+      "remove": [
+        {
+          "box": [492, 1103, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/designs/interior.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "02a261604e40dd74a48d10a0f95b88e80dce9dceca8cee73c50ee40fc77217c4",
+      "remove": [
+        {
+          "box": [492, 1103, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/vertical-slider/interior.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "02a261604e40dd74a48d10a0f95b88e80dce9dceca8cee73c50ee40fc77217c4",
+      "remove": [
+        {
+          "box": [492, 1103, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-01.jpg",
+      "size": [1280, 720],
+      "originalSha256": "55302b4f2fe70fdbcfdc23a74ddccd4be07bdf038e381921b2110bd935ec27ff",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-01.webp",
+      "size": [1200, 675],
+      "originalSha256": "ea51974b49cff54e4b8ed818c158adf67ee4c70d67e5258c7fea4aeabddb9273",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-02.jpg",
+      "size": [1280, 720],
+      "originalSha256": "01e1ffaab1cb3d7810e4c4cd1e29552424c8e5dbe72eb4fbe6a041fa4212a351",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-02.webp",
+      "size": [1200, 675],
+      "originalSha256": "2916254a66049dbc867bd7e13a3eef782f952f16b20b4bdd298d33aa0977fa9b",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-03.jpg",
+      "size": [1280, 720],
+      "originalSha256": "baf673f327cc02c9a3ba8b9cdca3a056a4b947f87017fd955732772524dfbf26",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-03.webp",
+      "size": [1200, 675],
+      "originalSha256": "05aef525d18cb38a75bdc14808ad66d594640bcf6c8f3801c0edfb2652c7ae91",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-04.jpg",
+      "size": [1280, 720],
+      "originalSha256": "601f351ef1cb5f14d098205077b29d8879b5582aabffc0cc5ca1c7be5fe99c18",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-04.webp",
+      "size": [1200, 675],
+      "originalSha256": "bb1b5938fe9529c7a31ec7ef5ab8a4dc16fcbd4320318878cb3ff0f285548d4a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-05.jpg",
+      "size": [1280, 720],
+      "originalSha256": "bfa3c679cde46bc77b24b449c04008cef010d559e65c18101134a0e3e76cf827",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-05.webp",
+      "size": [1200, 675],
+      "originalSha256": "7bbf2721f3c3633bba62d3d99f47d7b47130fda128892b635de73334656cd457",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-06.jpg",
+      "size": [1280, 720],
+      "originalSha256": "3923e7c12c145f6954805e2b4cb8d86c822e09ee013d07b8e5331bfcf9f235d7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-06.webp",
+      "size": [1200, 675],
+      "originalSha256": "1892c4c16b30575a8140eb4bf72184473329672b06d961020e1c0eeaee24c7a2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-07.jpg",
+      "size": [1280, 720],
+      "originalSha256": "42147157477a043d3b7d4c1287dcd3bdb82aae77b6133f3c55a64a6a6a03138b",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-07.webp",
+      "size": [1200, 675],
+      "originalSha256": "fa5e7219aa3fae507ff6d2ef884f01085d9617c60cc8a75c822033518a42b0f2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-08.jpg",
+      "size": [1280, 720],
+      "originalSha256": "2a0b19054cda072c8589b26bc44ae6cdfcfb8881a58a7f9fbb3fdad6e979c7c9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-08.webp",
+      "size": [1200, 675],
+      "originalSha256": "ab322884ff2dfaa423238004cc2acab4ef8f243d85bb084a8e50e46d6bb2186c",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-09.jpg",
+      "size": [1280, 720],
+      "originalSha256": "631fc6056467d0b685832fefbfec274bb9deb1db080b275fdd0cb697d318bf48",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-09.webp",
+      "size": [1200, 675],
+      "originalSha256": "94961b1307056ac796d6354919a4ac0dadea3564606e29e32f3ba775f5325bfb",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-10.jpg",
+      "size": [1280, 720],
+      "originalSha256": "3f0a6f6443283260a5f3905ecc6db37830ca023d50ab70b122c2ff131b67bb37",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-10.webp",
+      "size": [1200, 675],
+      "originalSha256": "8312551a131c3d55acbc9512b8b1256a90f6a905927fb1ec5c3ed10ebcf8f417",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-11.jpg",
+      "size": [1280, 720],
+      "originalSha256": "9c87d3043723f92722f2c211359edde304414b4cda35926b6dcb3f6f82b5fab7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-11.webp",
+      "size": [1200, 675],
+      "originalSha256": "1c9a579d16fd7c6045ae8e5064259ef10e5c7b82ea33b8b5511570f85acb0c86",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-12.jpg",
+      "size": [1280, 720],
+      "originalSha256": "e3deedc52ff46c8a330cb807e4622963fa49331c00996a403959efd04ba54913",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-12.webp",
+      "size": [1200, 675],
+      "originalSha256": "f6fff5a0fe2b839eabe48ccc6db29523ae44ad3bced814ebb4491b104b678c98",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-13.jpg",
+      "size": [1280, 720],
+      "originalSha256": "1b2a99f07660ebab2a312cd1e39efd85f7277cedde8286e6c7e6bdfaa7446237",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-13.webp",
+      "size": [1200, 675],
+      "originalSha256": "b1d1959ee1abfe997a3ec9b51d44e00d0705cf3d2cf4fe3f541abac066c9f0da",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-14.jpg",
+      "size": [1280, 720],
+      "originalSha256": "b5bf56739a155c0c7395202a93844f1fd97684de8fa9f0674160e238567561f5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-14.webp",
+      "size": [1200, 675],
+      "originalSha256": "9347bddf4e15b7e6406f3b78d4b6a654686fc4dc44dcadd7afe99862333880da",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-15.jpg",
+      "size": [1280, 720],
+      "originalSha256": "435be67f2f016bb864ed59d6713db29d36bd87b645d7b2d44ebfe9e24a59bf4a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-15.webp",
+      "size": [1200, 675],
+      "originalSha256": "ab3ae97efcaf88912a0cce1c846d6544fef94930e4ccab8781d4afc9b773193a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-16.jpg",
+      "size": [1280, 720],
+      "originalSha256": "7daef8b7b34e09669882b4bcefc16bd1c20c45e9cf6c80da3de2be35c37ef4f0",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-16.webp",
+      "size": [1200, 675],
+      "originalSha256": "bd48a89521c5e9293a6935df9f47c7cc76487926ced80c47957352d07aa974ad",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-17.jpg",
+      "size": [1280, 720],
+      "originalSha256": "d2af1c65525484ba2d0e691e3ab5f26a0518742d47b2b5e4d71a7760e2340daf",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-17.webp",
+      "size": [1200, 675],
+      "originalSha256": "32bea32c5c420252cd54ca402eda509d53c9c377e7e2ad2ec8ecf60ece4f0533",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-18.jpg",
+      "size": [1280, 720],
+      "originalSha256": "4b7eb2fca1445ef2774ff4a77cfb6e0ed68543954daae69ef4f57e923566b5ca",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-18.webp",
+      "size": [1200, 675],
+      "originalSha256": "ee82f2a9fd97205b68ac8aea8ba5fb62755da3c778101e820ddce4a5fe9cf7d5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-19.jpg",
+      "size": [1280, 720],
+      "originalSha256": "65809e490f04acfec62bd4ccb09c67ef58c8b3998b7327c18e319f9b0c55c54a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-19.webp",
+      "size": [1200, 675],
+      "originalSha256": "2f4deaa5a1224f1e3d4dbb275eafabafc14b2bbc4b98c24348e9f32248b44f35",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-20.jpg",
+      "size": [1280, 720],
+      "originalSha256": "c094dd97e4c38373ee2fd884ffcf55a629c969d2f576ace2e9da56a7db54fce7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-20.webp",
+      "size": [1200, 675],
+      "originalSha256": "0d448e9ca897b1e3664c209180c2cf61a7fb8e186da4b9116985d11e9d057802",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-21.jpg",
+      "size": [1280, 720],
+      "originalSha256": "792a3f6aa84808073059eeb25c1de119005ef0252329b7136101e47b9082c312",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-21.webp",
+      "size": [1200, 675],
+      "originalSha256": "a86b44bd168cdcb315d9709028ca9864cbe2e21e2a580d918561d281f95a7549",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-22.jpg",
+      "size": [1280, 720],
+      "originalSha256": "84776fb53715262dc14b5347b94769b4df6332e39643cb1daf031391c77111e7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-22.webp",
+      "size": [1200, 675],
+      "originalSha256": "cbb07db4c23c34629542d1a5a0a63fdd3b2d725e59fe72300690cc0dea72dbd8",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-23.jpg",
+      "size": [1280, 720],
+      "originalSha256": "278c118afc2823b45c37019327a5615970035f5cf49a6f58b239c4493d7257e7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-23.webp",
+      "size": [1200, 675],
+      "originalSha256": "799f70f5e86fff59d4ba7df4c6a12057fbb94058b8efff3ff17ddf1007e72449",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-24.jpg",
+      "size": [1280, 720],
+      "originalSha256": "9150bb9fecfcc26e87b1aaa363da388379a9f65a9b570506132ee6dfc1d88e9e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-24.webp",
+      "size": [1200, 675],
+      "originalSha256": "cb4f2a9ab5e17b9210fcd7b689b9b929b56a9bcd8372b665fb62bb876bb8fb5f",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-25.jpg",
+      "size": [1280, 720],
+      "originalSha256": "763ae8f1ca959393d10f4261796d76be32992beeaa13a1ee4955fc916bd8778e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-25.webp",
+      "size": [1200, 675],
+      "originalSha256": "7802149f4fbac2d69173ea78b28924243e49721e5b39cd9450a7b1e2c5c3408c",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-26.jpg",
+      "size": [1280, 720],
+      "originalSha256": "adb9e91c085f085c5e6989da6fcc000bf3ee5c2db591cddbe1cfa3b3f5c70a87",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-26.webp",
+      "size": [1200, 675],
+      "originalSha256": "456384a68595655dfe48746fdca1f357f1d947a3499bdc1f68da99db29fc78f7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-27.jpg",
+      "size": [1280, 720],
+      "originalSha256": "6d951dc32d9041c9de2303bbcc06b4b5bb76176ed13a30a6c8012c12a0811f2e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-27.webp",
+      "size": [1200, 675],
+      "originalSha256": "c76e7a65711563b1e1f9aeda13747a6aed9a26966274e68d9f02ffddbc769565",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-28.jpg",
+      "size": [1280, 720],
+      "originalSha256": "627237e71a0b040c5649e887557b426476cd6354a4431bbe722c1f91fb06c3bb",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-28.webp",
+      "size": [1200, 675],
+      "originalSha256": "b210395d76ba0f7154fe35369a7a320e1cd9f3977316dc1507d5b1edec734478",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-29.jpg",
+      "size": [1280, 720],
+      "originalSha256": "efbc88f69e4a01f972dede10c310a8813d096be706955681658fafcafdcccbe2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-29.webp",
+      "size": [1200, 675],
+      "originalSha256": "baf4fadb04da902d42d8de0ce3e8093926a01b72a44ce7862d9dd7a53180cd41",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-30.jpg",
+      "size": [1280, 720],
+      "originalSha256": "7b68837b612f3275cdb0233d63e69f53037aee2f271e5704284a97e1ccd9fdc9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-30.webp",
+      "size": [1200, 675],
+      "originalSha256": "f5bfd7e8f9d0c2a04ad026949dc868b4a82592bea02e24c2f8773e33c8e0b161",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-31.jpg",
+      "size": [1280, 720],
+      "originalSha256": "40c0c22ba140269d24fe31271c404e74e093f28eb5f9d79d344e796b4f33e300",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-31.webp",
+      "size": [1200, 675],
+      "originalSha256": "d123972eb114155e47394f599c328c8490ec3504b9cff5826c5a14cf521ddce5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-32.jpg",
+      "size": [1280, 720],
+      "originalSha256": "aefbdfd044f35edf804a4f0ee7b8e0278b8266136c7dece225e37190ec0f8c55",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-32.webp",
+      "size": [1200, 675],
+      "originalSha256": "8017f750862daaf70cff48c44e37d8c351cf63f7f7df7233f6cecb8f3034960a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-33.jpg",
+      "size": [1280, 720],
+      "originalSha256": "ee8e26849add489131217acb111b9bc62c18a02bedfa1d859366bcf72e6605ff",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-33.webp",
+      "size": [1200, 675],
+      "originalSha256": "dfc677896b3940bfe639d937056732f0ff6136b7f97eb5f40b992268aa103480",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-34.jpg",
+      "size": [1280, 720],
+      "originalSha256": "e59bdf112c2c77ae776de558a30140a5e14cca9530d23c312c37e69e1b4a1d2e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-34.webp",
+      "size": [1200, 675],
+      "originalSha256": "440a3c9a34807a26b154d86b5fe4b885896829e1ca04c836ec0548c58026fffc",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-35.jpg",
+      "size": [1280, 720],
+      "originalSha256": "34c96f204c07351533273953fae99b4d11e9c2bfb50f668de209beddae6a31f4",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-35.webp",
+      "size": [1200, 675],
+      "originalSha256": "868c179cbda231956d8605091ae080633f9d6bd294adf047ff0ff7263d4c9157",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-36.jpg",
+      "size": [1280, 720],
+      "originalSha256": "519a1b16930e89c739aff6900772c9973c6f759ab1825023309130f15d2fbd52",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-36.webp",
+      "size": [1200, 675],
+      "originalSha256": "9277f616584608f04c73b7f4f89ea3bbb30ed189f161ab996c0a1253f531df29",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-37.jpg",
+      "size": [1280, 720],
+      "originalSha256": "b2af4e51ef9be802b528a7a8bcc412a209a9f11fe16d3e7b0bd21e7b60de1341",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-37.webp",
+      "size": [1200, 675],
+      "originalSha256": "68b31221947a966989153259a136546eccca36edd15f92da8466436e5ee3e4df",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-38.jpg",
+      "size": [1280, 720],
+      "originalSha256": "74cbb567cd917a2bea939363a46636c5ec6d7c9ee68a461fbab410ffc4522d70",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-38.webp",
+      "size": [1200, 675],
+      "originalSha256": "77426de4526a68b4e44624f299eb25360da02b96996d268fd41cd967bb9bbdcf",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-39.jpg",
+      "size": [1280, 720],
+      "originalSha256": "43a3de544b35654aa9d4a71e6fb22aa4965c62c99b4fc65351bf4864ea89a9cd",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-39.webp",
+      "size": [1200, 675],
+      "originalSha256": "2488fb25acc2668f058ea8db3833164e052ae682ff558906e5a8c28f260cc2d3",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-40.jpg",
+      "size": [1280, 720],
+      "originalSha256": "f1a920d105d4e9d01768215f5d7b69479507146d80c806b294b5046399367657",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-40.webp",
+      "size": [1200, 675],
+      "originalSha256": "8232c0a6fe8660bef2ec4e6473aded3a84cc7087d559ef7801d1fa7fd88f7785",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-41.jpg",
+      "size": [1280, 720],
+      "originalSha256": "51cb1319624039159219bd623662638e005282519792dd9df80960e0f94791cc",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-41.webp",
+      "size": [1200, 675],
+      "originalSha256": "4147b8b495d325bc62ee7d30c26a6979bd5499bb4f850264a20de6d051834e27",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/how-it-works/how-it-works-mobile.jpg",
+      "size": [800, 263],
+      "originalSha256": "10cf892056cd80f863dc75e1a61c610da7cce50e6753f5de611f5c0e80f42ccf",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/media/cozy-cafe.jpg",
+      "size": [900, 900],
+      "originalSha256": "f99911a1e1d29f05621d215397848cc0e6ce398762f23abac07a024f5be99ba7",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/media/light-warm.jpg",
+      "size": [900, 900],
+      "originalSha256": "21972ed4a00bd0842f2ddaa49b96a786b890cdb3594e4f49dfb4b8413468394b",
+      "remove": [
+        {
+          "box": [410, 740, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 750, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/media/pastel-pink.jpg",
+      "size": [900, 900],
+      "originalSha256": "61035931e849568869e40e117be8db8707ccd6efcccab4fe7cc9ba58e48dd0d5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [412, 741, 76, 24],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/media/villa-pano.jpg",
+      "size": [900, 900],
+      "originalSha256": "ccffa1ba1f07b290737dc55dee661cf4c4e8470a606ec8188e9b1f3499fb4092",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/be-in-touch-mobile.jpg",
+      "size": [800, 424],
+      "originalSha256": "dbf1b9c7834185a999f9458155ccc7643199fc3283e9798876f98ed463ca2e87",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/be-in-touch-static.webp",
+      "size": [800, 424],
+      "originalSha256": "2b2844b14df400a9355039fcd9bb4ede7bd32e7f81a4eb88719bbb978533eaf2",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/get-results-mobile.jpg",
+      "size": [800, 679],
+      "originalSha256": "7f8144af43b8e1f0e01e4a59f583f50d90730a924ceb83e82a998f1ffa0ea200",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/get-results-placeholder.webp",
+      "size": [800, 679],
+      "originalSha256": "acec0f7d29e6d76f4b0b0653d144f281083c6fa02e41ed5cc0cae09820f95d07",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/send-brief-mobile.jpg",
+      "size": [800, 520],
+      "originalSha256": "c6655a1ccb2a1ed1f05e0d2a41a3760bb2945b5eb1d31d7ca8818b0fe269713f",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/process/send-brief-placeholder.webp",
+      "size": [800, 520],
+      "originalSha256": "e02756a00c6769eee60fb089b72ab5c2d0bb97da9166b888e5f12de4a3dbb1f1",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-01.jpg",
+      "size": [1280, 720],
+      "originalSha256": "07f11dcd4cedc5d99baa32e5052015a4ce60c04c095aceb1db88d2dcf877aab5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-01.webp",
+      "size": [1200, 675],
+      "originalSha256": "f47fdff2a2956e1d05a5b2a1f797b7ee790885c3c0acfbd559f8aa425fc7110a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-02.jpg",
+      "size": [1280, 720],
+      "originalSha256": "743986479c492805da350ca36253364bcddd720e7b8e94c364615237cb7b1768",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-02.webp",
+      "size": [1200, 675],
+      "originalSha256": "41037fc9faf19d18a3a3331762b8440317e5f194eae9d155391169c135e56cd7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-03.jpg",
+      "size": [1280, 720],
+      "originalSha256": "aa810d861b3579d67346e0667b40b4b5e71af45e523b763aed55856844609608",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-03.webp",
+      "size": [1200, 675],
+      "originalSha256": "6d53c987c012dea44796317705a38e1bdd59cb71f222be0b936593f5b7cc27ee",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-04.jpg",
+      "size": [1280, 720],
+      "originalSha256": "96200e4aac4cfe7ff230d157db118616fd8033fddc8641fcb105ac01b689c056",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-04.webp",
+      "size": [1200, 675],
+      "originalSha256": "12ff2f2d9d9074871084e07fa1bf02845e861fc1fdd3d7ca92e2f1cdc2b660da",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-05.jpg",
+      "size": [1280, 720],
+      "originalSha256": "2f366cbc722f739ece28a1d9713a9a03f04fbf12e2229e24291effac16abfc46",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-05.webp",
+      "size": [1200, 675],
+      "originalSha256": "279986a0ca2439bfde8924d985ae144a10ad5ba926c5a9b1c304893789ed39df",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-06.jpg",
+      "size": [1280, 720],
+      "originalSha256": "f2e78a2196b453bc028dbcaddfa133addfe1cd446dbcdaf53b3ef9818f93fd17",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-06.webp",
+      "size": [1200, 675],
+      "originalSha256": "b4c6623dd9f6be19fdde5867325b990a86847512b4eea54113ef75d40a3d135a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-07.jpg",
+      "size": [1280, 720],
+      "originalSha256": "b56e4e93f6fc98826154d225cf8627af80f7747d139eca30629692d7f5560fc6",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-07.webp",
+      "size": [1200, 675],
+      "originalSha256": "810ade924ebb28fff341318eb098aab10cd76f9a21880d87b3ed10be209ec904",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-08.jpg",
+      "size": [1280, 720],
+      "originalSha256": "3af9fb004733dae09b2c1edbd319ef89bf69873c7910e36b127d612267a37654",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-08.webp",
+      "size": [1200, 675],
+      "originalSha256": "60b39d0ef05347f439113940ae19ff289c7a01f5818a22d9b06a399f48b0d997",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-09.jpg",
+      "size": [1280, 720],
+      "originalSha256": "e47766eed4f73cdf090dc5e6bb4696153ea46e5b24bb3035ecc217f1c5db4cd1",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-09.webp",
+      "size": [1200, 675],
+      "originalSha256": "196434388dd441bd95adfd912f10d30ba9049f8bf992b3d2faa183a222dbfef2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-10.jpg",
+      "size": [1280, 720],
+      "originalSha256": "0aacbbb1fc4f3da63d47e4d7bbdbbd2c8a39f1ea7198a396f4338060352a4221",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-10.webp",
+      "size": [1200, 675],
+      "originalSha256": "753ebc9455f3cb0d113baea414d2eeb5534f3484fa3abe1e0ed93aab5924067f",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-11.jpg",
+      "size": [1280, 720],
+      "originalSha256": "6bbb1f9ca8deb889f4bdfd9bf8c00ff70f29ad9702241287517de9bfe68bf8b1",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-11.webp",
+      "size": [1200, 675],
+      "originalSha256": "ddcdf564cd796d05adb219fd97f99cb37225083c7457694e33406b175bf3dff6",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-12.jpg",
+      "size": [1280, 720],
+      "originalSha256": "c733f3207eec7bdc59557e7c9fcc647a0cd0cf3b0fea4db15da6fcfafe0d370f",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-12.webp",
+      "size": [1200, 675],
+      "originalSha256": "e819dda195910af22a2e4d4ff5f1423f7bedce7c0293e925a74b1453c8cad406",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-13.jpg",
+      "size": [1280, 720],
+      "originalSha256": "ace2c269ef12d2edfc822c6cafcd1ba0e91498ddaad809d814dd3efd7b6343b8",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-13.webp",
+      "size": [1200, 675],
+      "originalSha256": "257dfa6217afec243ed7e30f28c21a0d1f765aba87f7e638daafdeb0c0927d8e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-14.jpg",
+      "size": [1280, 720],
+      "originalSha256": "e1ea0c9934f7da22abaf1a26e6c177ed25a2c9a4960639aee748305437451d94",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-14.webp",
+      "size": [1200, 675],
+      "originalSha256": "24d735f41760f85d4e6fd0900d2d96a18da3762b3298e51a9e5105a46af711af",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-15.jpg",
+      "size": [1280, 720],
+      "originalSha256": "0ddbb8a2319fe86e7fa8dd3d2f5457485d5aac681d0d8743f372f03238a44892",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-15.webp",
+      "size": [1200, 675],
+      "originalSha256": "95b0dfd609a261cd0e6e7f6458341d80174dd01fe812d608472f5ebf964ab611",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-16.jpg",
+      "size": [1280, 720],
+      "originalSha256": "6c82418b4a8ee5588038b40919a66df79fce03d302ac841b5587c794cc42c4d2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-16.webp",
+      "size": [1200, 675],
+      "originalSha256": "6d4490268c94cfaf529fdf2eaa417e8ff766eee8683adbbcf466568abc7de98a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-17.jpg",
+      "size": [1280, 720],
+      "originalSha256": "b6c002d665b3da61226ba006c33c9ea6b33da7b0fe280f1da5004a3c34871212",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-17.webp",
+      "size": [1200, 675],
+      "originalSha256": "4d18f08acf5183edee261437e79f220e3f4f414056d0f7d9f846dd2e239f03df",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-18.jpg",
+      "size": [1280, 720],
+      "originalSha256": "853d134b59bef1d118b99ccac187bbdcc387a38f481d0652da30f95132e3820c",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-18.webp",
+      "size": [1200, 675],
+      "originalSha256": "4b28cb7072d84c03408d1893ef49c48f70feb5f683c2ff06db196d9ea78acc50",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-19.jpg",
+      "size": [1280, 720],
+      "originalSha256": "9eeeaa1037b6aa53965c18d20dcf577038ba8a78b2d0b80c9dfc67247dc357fc",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-19.webp",
+      "size": [1200, 675],
+      "originalSha256": "0a83850cea9a007f53d805ef1a84c17548042ff730a7b01649ea5c7cb40c52cb",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-20.jpg",
+      "size": [1280, 720],
+      "originalSha256": "fad37c4c25081312e7ad39f5239555dec41aee3b44ec0b2a901d955d3ee499a9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-20.webp",
+      "size": [1200, 675],
+      "originalSha256": "74509b41ad2934f61f3701df30cab80870f5c4466dd3146cab57b921d7f126d6",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-21.jpg",
+      "size": [1280, 720],
+      "originalSha256": "dd271647b7ff63193c1d0809f7fb34b84dc94b25de807b131e3bfbd6f19a61aa",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-21.webp",
+      "size": [1200, 675],
+      "originalSha256": "b66fd2e77fcdaff6b2b9b98a9ac7aec72cbd7a5a1aa8794c623d9bf2f1c69a64",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-22.jpg",
+      "size": [1280, 720],
+      "originalSha256": "1c8162e1d59681219683418e3040f058c34233a83aa906741393787ba7286578",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-22.webp",
+      "size": [1200, 675],
+      "originalSha256": "49871b75c0f806016b8ecaf2cefc5ba52798be82c2578be5c96adf36990da6ea",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-23.jpg",
+      "size": [1280, 720],
+      "originalSha256": "5b21f171934dda181ddf4717e37f0ff89d1d403830f1413d415f4226aae16a99",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-23.webp",
+      "size": [1200, 675],
+      "originalSha256": "b9faa17d95b270b8d9a6c158129cb30586aecafff5d5c5cbbb9bfba5d63fdf1a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-24.jpg",
+      "size": [1280, 720],
+      "originalSha256": "895011d9382f5b9913d75e774fccbdeb3b5c29279920da153d9ef5ce2acd8b15",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-24.webp",
+      "size": [1200, 675],
+      "originalSha256": "75dc2333baf902601343d9d5f4ff7d52c1e4a1608108fc119e77805a5abf14c5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-25.jpg",
+      "size": [1280, 720],
+      "originalSha256": "3850db829d3cf915d6b182eabd956b58e076044c4e95769fab2c0645230a1960",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-25.webp",
+      "size": [1200, 675],
+      "originalSha256": "f4f6d131c7f7378d1f0b9b2094e649472d21417b3b1e778c26158f1fa4eb01ff",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-26.jpg",
+      "size": [1280, 720],
+      "originalSha256": "c79913ee66b8cf35b867b074db380997c5ac4fdea6a30f5d3c9da0e8781dac6d",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-26.webp",
+      "size": [1200, 675],
+      "originalSha256": "fa025c6497ec7301aa21a5bcf4db9afdd8d980bececc100e13937e0b2e3b89a2",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-27.jpg",
+      "size": [1280, 720],
+      "originalSha256": "c35910189cd32cec1aba41a1c192e20fb53202f86255d3c875ffd1a4079e21b4",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-27.webp",
+      "size": [1200, 675],
+      "originalSha256": "f5bee7185ab61ff3d8d468da56d1741dce88886088f9c00dd053973c20a801c5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-28.jpg",
+      "size": [1280, 720],
+      "originalSha256": "f9954e8e7e9c2555faf93501478283aed38f298dc21d1774dd92ec1c19afe889",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-28.webp",
+      "size": [1200, 675],
+      "originalSha256": "d5870e34f6f9cbc5173efbed4ed8bbf5540f93575d7b7652c8ed44cf9e5e2b09",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-29.jpg",
+      "size": [1280, 720],
+      "originalSha256": "4d6de6712da60ce1cd8e3d1b43dede66775727426285a4b64bca78db044787ad",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-29.webp",
+      "size": [1200, 675],
+      "originalSha256": "0a617f3b3a39188eacfe8a2d4d61e01d1482d9a51645d2ab5e6b80391393228f",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-30.jpg",
+      "size": [1280, 720],
+      "originalSha256": "213e6c839bff7b2b9ac06c00da7537256ec19bc8e98cbe16954b2d70965d3da5",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-30.webp",
+      "size": [1200, 675],
+      "originalSha256": "68010a28f818b09a5955e8ed571625897ff95e27901e25f62a0381d5babe2e61",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-31.jpg",
+      "size": [1280, 720],
+      "originalSha256": "e8ba5ac840e68ff1b3be41441c7bf64f8cd78b083ae3acb94b6fd7a713d39d13",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-31.webp",
+      "size": [1200, 675],
+      "originalSha256": "1f88729c6cec54483822ce5882cd23bcb890529c3d96ab64d91e317c29970833",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-32.jpg",
+      "size": [1280, 720],
+      "originalSha256": "73416b67a9455b003ba763595edb454c8a8483a88184b51a7b29369f5f4be1c8",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-32.webp",
+      "size": [1200, 675],
+      "originalSha256": "b5163b1bef54c8eead8088ee861777d5162892e93c312837fda80540fa5e1480",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-33.jpg",
+      "size": [1280, 720],
+      "originalSha256": "a989893783ea6641116d318522dcb471eb1b8a69602a29798726ad5fd0cf683a",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-33.webp",
+      "size": [1200, 675],
+      "originalSha256": "f810e6817d71b0c139865358d1ba091d9118fc0a896c58e099a050a2e2f1b200",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-34.jpg",
+      "size": [1280, 720],
+      "originalSha256": "b6a1e98217196b955b81dc4bb9193578c7ae517af83b516a415b043fba4dae24",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-34.webp",
+      "size": [1200, 675],
+      "originalSha256": "85c7a61080720c00e125d476a8972521121349df01c323d92c19c0b7e38d0bf1",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-35.jpg",
+      "size": [1280, 720],
+      "originalSha256": "dc26baf8783fa85e8f283d55628263640943bad3d2cb4c84bdd38be67528d5dd",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-35.webp",
+      "size": [1200, 675],
+      "originalSha256": "952ead9c5d1648c3311b9488de7aeed20c5a23a81967fd13e4623f4c93be7b6c",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-36.jpg",
+      "size": [1280, 720],
+      "originalSha256": "179af0f5d6b15ce7d413a176384d88ba76c397f365734deb102c2501e8c1681d",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-36.webp",
+      "size": [1200, 675],
+      "originalSha256": "4fe2527d545c9ddeb39fbc73cc5656a59d5504365e0c4fc6afd6a9567bf8848e",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-37.jpg",
+      "size": [1280, 720],
+      "originalSha256": "f4ed6af851c775fcc912bac28766434c2462af15fc32a3ca8783143fb264d986",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-37.webp",
+      "size": [1200, 675],
+      "originalSha256": "082c48c68a13830b4c4868c137bffd0ca040da3ff50c72fcc0713761a7d640c6",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-38.jpg",
+      "size": [1280, 720],
+      "originalSha256": "161f633991d633a7bc3216f59e920c91848cfc0811dcd4a468353f897594606d",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-38.webp",
+      "size": [1200, 675],
+      "originalSha256": "73367705094ead04cb57f8a2c2ac7606716751ad32eb4be87fb9885cc0de85c9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-39.jpg",
+      "size": [1280, 720],
+      "originalSha256": "ea1cd22d90b456838a68932b2683b56eef516c1a70a51a26f9427d69c6ae0ecf",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-39.webp",
+      "size": [1200, 675],
+      "originalSha256": "2672f54769c440c408e020b6e740f91eeeb80fe8082609bfcd42d187ca07b89b",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-40.jpg",
+      "size": [1280, 720],
+      "originalSha256": "fbd431b795f514ea25e583aa5db10c99fab5d2ecee3906ef925b90fe64d14ba9",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-40.webp",
+      "size": [1200, 675],
+      "originalSha256": "cc9d7c46164e658781360de269a298b155b86c30e36eedc20c8f4ca960b1bcd0",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-41.jpg",
+      "size": [1280, 720],
+      "originalSha256": "193200f1501082cdef6fb0b7e3b748c7ecf85f8b7047564d0eb13274500c1693",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [586, 646, 109, 34],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-41.webp",
+      "size": [1200, 675],
+      "originalSha256": "b5285f71390b274833f3facecf706c709a780caa2b34d0c67d5e37daafc1c590",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [549, 606, 102, 32],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/animation.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "f1baecd3602f7f5596a9e8c1bf35a7bfa92671fcfb6922b477573a95b5dc1786",
+      "remove": [
+        {
+          "box": [492, 488, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 500, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/render.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "e7c23d79667053d731991a443806fdca7920f3803f27d40ace61f67b2fe4b1de",
+      "remove": [
+        {
+          "box": [492, 1104, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/virtual-tour.jpg",
+      "size": [1080, 1512],
+      "originalSha256": "552a21c7da86d579ba83cd554c4f8ddd387aa22843171234e80d0688aed6d07c",
+      "remove": [
+        {
+          "box": [492, 1103, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 1116, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/landing-page/vr/vr-mobile.jpg",
+      "size": [800, 583],
+      "originalSha256": "7fdfa56240456f4af8d81867da77b07bbc9940175b8ebec9930492b1c6fbbfef",
+      "remove": [],
+      "kind": "scene-placeholder",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/0.webp",
+      "size": [1080, 1350],
+      "originalSha256": "59fa1c95eece6c7c2daa277c69bb94814ccc4b467f4b7baa9d3ab9abbdef830c",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 1247, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/1.webp",
+      "size": [1080, 1350],
+      "originalSha256": "17f328bd282993ac990afd28d106e685ffda715fe94653a2c214a982894e7fe8",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 1247, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/2.webp",
+      "size": [1080, 1350],
+      "originalSha256": "598aae7affe900e8dd2664a283bb2e81ee3eecfbaba78c14eac41d7b686bb187",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 1247, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/3.webp",
+      "size": [1080, 1350],
+      "originalSha256": "d7790da7653c68afec258bd4f29779436dc99c7d1c82c5358478b5494b40edfb",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 1247, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/017.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "ce1902af0988c51769a828b906ecf17dfd640f65c3ddad1d9595200d45852aa0",
+      "remove": [
+        {
+          "box": [496, 275, 89, 47],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [500, 286, 80, 25],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/018.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "004ad93e386d02138d1631e37ee6334189cbdc87daa9772e6d20f013941167f1",
+      "remove": [
+        {
+          "box": [496, 275, 89, 47],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [500, 286, 80, 25],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/019.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "9416f2e6d692d08ecac4a9053644692cc437da2bb940959f3900414d1782a2ea",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 759, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/020.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e9f37a01e0ba7ba10a226eedd1427b561260df181307524cc7ceaf3f6a23c291",
+      "remove": [
+        {
+          "box": [496, 767, 89, 47],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [500, 778, 80, 25],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p1-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "63d0f066594a109fbc6117c3345bfca209fddc1c87ee47d41da8ff70bbf1e7f2",
+      "remove": [
+        {
+          "box": [410, 176, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 186, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p1-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "9292a5b8c7fa20b747726b400084493e3516b93be15c65e948bf0410030ca9f3",
+      "remove": [
+        {
+          "box": [492, 210, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 222, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "f04f2dd241dfd86ff6d76988cee045834fccbaa07b96aaabd311cb1f5d0a129e",
+      "remove": [
+        {
+          "box": [410, 115, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 125, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "636bfe28cdb7173718f88a6717e358ed53f17228cb59d92656547ce371571a5a",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e68e87aeb11e099b4b235f5967483969c2f3823461b4a2e1a4ef41f1d6a4dce8",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "4b80c55ea4a2375131200a8bd9a38af60ddbb7ca7881d2d9d6c7342f501a67f1",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "a4d0de5ed112e7a060db9722877a56dde5191ab3035c069bbe29abd203c8bb27",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "6e1a65866f33bc33ccca951fdc7643816cd388684e2456d70669068c8f25938c",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "1ec17aeb97d17f65cf31f8e40eb0783988fe25251763b536a468e16860700ab5",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-8.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "559e42ab8b445a0f951c194048db249c8483687c477ec22737025fbf481684c6",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-9.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "de238132b9acf5d78f8dc3d9c7a5bf662c6f5b009a0d82901002641c0d7af430",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 889, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "6e17ed6a4775d351ba674c5ae12106a6362571e329496559ea9901aa67f7cb8d",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "97b0e04061c6cf835220e2cbe2fa50b9e5b31e9acf6484d0b48b13975447e8ae",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "680af4023a127cbbc619eb9e65601119b31b2b407e144384efd3e0de143ca797",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e4bfc407c22c6040d47721ee64ffbaaccbdc3de1e4b0b118e3aeca4441bcf1e8",
+      "remove": [
+        {
+          "box": [492, 272, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 284, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "33cee9e0a787ab9661d22cef0688cd965775086227bf9d6cc364324147e25d85",
+      "remove": [
+        {
+          "box": [492, 752, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e25bff1c42a84242059f27e703415b910a324e532e2d533cd35c2230c82b808f",
+      "remove": [
+        {
+          "box": [492, 752, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "a36b1d99466f828401f3091b39214c855da89c209d6c2349c74ebd89d6b53b9d",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-8.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "b73bed0801ce536d3f8c7067e0fcb703901f2f3dcf7b66a1d260993da351c31f",
+      "remove": [
+        {
+          "box": [492, 272, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 284, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-9.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "42bc2100512a98be2d66f8111b13425c212d652b04c0aec0ce90c257de381427",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 759, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "79cf2988de6e90f4a1e9ec1c550d190607d67bad6c462d103e357fd37d9d6e73",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "5f0ceefaa315bffb933b3bd651580f84566d208cc7ba17a1ea4aa9ff622161e9",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "b22ed9c3d1cb164f73e1b665ef5826cbf54f77ba1801bdd4afd579cadaa5c2d8",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "48cc01a66bb78816d5218e08f8ffab526179701d85fc9f592bb28ad3de74848b",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "2e2929ac62f919be257e9ed2b41cddb06c393a5b9b7fcdbfe77bd99220e9b290",
+      "remove": [
+        {
+          "box": [492, 752, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e554a31712c37904f0a55e3b84f33d5ff11434f2906c6d827d9d5683ec22b668",
+      "remove": [
+        {
+          "box": [492, 752, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "b7cb5f9a54607486764c188cd7554401a45ce97456051d0c6e9716dca1ae7fd1",
+      "remove": [
+        {
+          "box": [492, 272, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 284, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-8.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "c1aa9858f3d228fe3b58405c5a7a8d3013482b376285adbf91c2e6c5d2e35353",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-9.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "7e0215ecd8f82ef5b685967a33897044881cfa83842232d8561cfbd70f7d9993",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p13-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "e88d16b8857b84ea3970a06f4d0633a013263b8bd724f4722f235ea20526235b",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p13-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "5e917bf8a46e63e238872c617497cd819646731032eb2c463df4fc272624c5a9",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p14-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "7fb621ac33eb0f022174f06fe84221765d36dd44e4e6362dde7464b545cb926b",
+      "remove": [
+        {
+          "box": [410, 176, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 186, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "8e0a7ec77f1b963bf1f604ea5274cce8c1cfcabf10f9feaca2780eb72225c4c4",
+      "remove": [
+        {
+          "box": [410, 740, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 750, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "9d649d8d86cce2b2f6ae6023f70338f3d182d5e94aa8eef914881363f6715bb7",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e97bce040c4f2a978719cebf0d683a105845fabbb53571d70e4d2ea586c408be",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "22ad7f5567bb8bf06f0286e419c5081631e54873d8be54a99ce377af134c95e9",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "aa657966ae9c1af8a51fe5b8b15ecb98f78567eb8756a81299f0a17fed9a5daf",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "f8bbc34be3e29ebe8cc299e8ef81c34ed5237d6dbf74163637e3eb2ae0c514f8",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "bd06d05c3358c77329af2fcbace677f38737bf8bf32140cd3cff92b1daeeedba",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-8.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "86ee31eeec33ea8868e1b8bba8a876ff1eb29512f65ab5c911ecd90c00296cd1",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p16-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "09387e5ef57c0d897c137b1a3995698a8815a869d6d89c34be8d68eae143f4c0",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [412, 741, 76, 24],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p16-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "ae56b0dc7b74d4a7e0711621a77be2eef7dd8665beeeaba00c5ff4efcd8f6088",
+      "remove": [
+        {
+          "box": [488, 751, 104, 53],
+          "mask": "white"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [493, 767, 95, 30],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p2-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "e33cceb22bfca9f538785b65ed18e786fcbe8a113f051c41dcd279321ae5b073",
+      "remove": [
+        {
+          "box": [410, 114, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 124, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p2-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "636c06c255708c650582d1baea851f538ea36f9b540bae95001800f951644a8a",
+      "remove": [
+        {
+          "box": [492, 136, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 148, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "8f4764ad733628b8ff40696a4266d4744dbd28ba10646f89ceefdc83a975b1b7",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [412, 633, 76, 24],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "3ad143ba1a6e90132ffa7b1d124a2ea19f80e0188da1cf46f93800064da3b254",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "c9d29a3248c747863fa2bbada7a7e6c140273dfe41e8dc039c83b1146a61a9a5",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "6aa64d1c7f6d74ea4259496155d4b98a39e7afca4a3f7d74896d802b79574e3e",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "854d322ae48de5cecd40cd03f0cf59c2062b4837d33da8433e962274c99c5b3d",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "a549d23649abab03a5655cc7287f7054f25745fcc6e5a056153c8c028592932f",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "f1fdebd2d8ab36efc0695f3820848a78480cba85b61fa5d5d601cf86d0df6b4d",
+      "remove": [
+        {
+          "box": [492, 190, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 202, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "730a74a31b4a4b00344e697ae43b1ee7a5b7190622245188356ca94ad33e19dc",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "33b6ee74f2aa333f2f35e0d95f561ee0066a1d17e2cecba72b026c6ba7a3b6d1",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "3818ebf6f6ed26595bb5448259a4e4912f8ec6df9e752f500fb6a027998c7abd",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "537b9e89d8e149c32c1e9bd28947db6b24d4c8b510efa1dbb2c1d5df03298c98",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 759, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "0ede7d1aba2957997ee25f7e358e85b0282203dd62d7347bf63598ceed172943",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "b43557330206875e313bcbaf5b6f4ac70a8794c15e67dc4d8e417cc30b27e979",
+      "remove": [
+        {
+          "box": [492, 190, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 202, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "74cb8b6cbf375e00a5c868522652bd1493011ae095271608691b3a1b5f4f5fbd",
+      "remove": [
+        {
+          "box": [492, 190, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 202, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "11f446193a6e160a4e25bb591059b2f89f532f36e6c8fac421df9ce2356a2ee9",
+      "remove": [
+        {
+          "box": [410, 228, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 238, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "1adb8508c5f072b0326587da24a4798c82c1440e912a02a247e713f9850960fe",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "1be765ad10260bd087fdb9b2975404ef96d277838c9edbb597ddfc907fa6dc87",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "fd5191ddf7919a606180006829927e949a0aca1f287b9818d16cfb4b292bdd56",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "73a19c97edc6652e7eb40c5b4c889999f1e62def39c0fdbf6a3585b5405889a4",
+      "remove": [
+        {
+          "box": [492, 274, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "bc2cf02c09be3560a9a37332b5f5225144156b1450a6df562d8fe592f5c70257",
+      "remove": [
+        {
+          "box": [492, 274, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "7892eed1c8bb33baeb665ef0734feae66a23712edee301a6144bb6e7508944f7",
+      "remove": [
+        {
+          "box": [492, 190, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 202, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "5aec1a4b116827ab56a3ec8357a084e129fbdf92995fa00a8212489a9bd93cc6",
+      "remove": [
+        {
+          "box": [410, 740, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 750, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "b738c812c4af52e52c895c65f141dc219b2b1661ce84370940496ecaa3fcad39",
+      "remove": [
+        {
+          "box": [492, 887, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 900, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "4abd8afa6b04c030161f18815ae25236dee51d843bde0bdb98bd558f7ff95ebf",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "c7bd312f397ffde13356b036430e52195315b77a77d36e06148217b612e3f611",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "6b537db1b941c13e82673374b6a37c1e0f72f7f8c8d973d0420f4253ecd49dda",
+      "remove": [
+        {
+          "box": [410, 209, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 219, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "380f33ceb92b494d7da6d98f3917dbb8034db88bb652dcd5801b6b5689e1632f",
+      "remove": [
+        {
+          "box": [492, 250, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 262, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "e692239db9cf2f5c16fd9b12e2c4f713aa547da8f316e9ad21fa0d91038fa5ca",
+      "remove": [
+        {
+          "box": [492, 137, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "5778a76ca61e24f802b38aab0f5e665fa6331ea373f506401a72e21728cb0ede",
+      "remove": [
+        {
+          "box": [492, 138, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 150, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "21ebebd01a78f47be5e075c0a045fc7ef823982f76888214a1370d832ffeba76",
+      "remove": [],
+      "kind": "horizontal",
+      "placement": [494, 759, 92, 29],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "6df88e99ff85473c59c5b7bf7c87bd144331b20ac422728d3ba79045cb80bc55",
+      "remove": [
+        {
+          "box": [410, 634, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 644, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-10.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "981ed8621e514ff2844d3832cb93104242b3c8c94b2db67c4028c0f98639129e",
+      "remove": [
+        {
+          "box": [970, 612, 38, 172],
+          "mask": "white"
+        },
+        {
+          "box": [125, 308, 112, 15],
+          "mask": "white"
+        }
+      ],
+      "kind": "side-rail",
+      "placement": [972, 614, 30, 168],
+      "instagram": true
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "a1606f5bf5fb539ad636ebdbc27903a34f316143522c71a5dd41f69c86606dae",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "f8ea2973dcf9d70dc67cf365555ca5359fe0bbb4f2b00e0f91257bb59011c761",
+      "remove": [
+        {
+          "box": [492, 272, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 284, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "1051751817e094744c2e5c9317799341545afec6991512d405db53479af0d32e",
+      "remove": [
+        {
+          "box": [492, 758, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 770, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "aa0319fe4c876474071308fe2f7dcfe329c263ec8f5e91b583e64778bf2761d3",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-6.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "3745836bb4736d5252a7c8f2f430b6158d26e60c8595066fd7b754fa2cbfe2fc",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-7.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "a36e75d90a0f921571b083fa9767cd09c63c5c2be985ebac4f34d2a2bfd3f45b",
+      "remove": [
+        {
+          "box": [970, 612, 38, 172],
+          "mask": "white"
+        },
+        {
+          "box": [125, 308, 112, 15],
+          "mask": "white"
+        }
+      ],
+      "kind": "side-rail",
+      "placement": [972, 614, 30, 168],
+      "instagram": true
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-8.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "dc97d3c9bcf44bb8f62cf235f72aa1c296bfde219410ca4ed2e49d2db7819896",
+      "remove": [
+        {
+          "box": [970, 612, 38, 172],
+          "mask": "white"
+        },
+        {
+          "box": [125, 308, 112, 15],
+          "mask": "white"
+        }
+      ],
+      "kind": "side-rail",
+      "placement": [972, 614, 30, 168],
+      "instagram": true
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-9.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "4b58cfdc464177b7488180eb957d69f3363781af51289f3523481d1fbea7c852",
+      "remove": [
+        {
+          "box": [492, 273, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 286, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-1.jpg",
+      "size": [900, 900],
+      "originalSha256": "2ca25144d77ad9f152e526f0d9e5935fcabf8acda7fa93c6522173e9987bca1d",
+      "remove": [
+        {
+          "box": [410, 627, 81, 43],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [414, 637, 73, 23],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-2.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "c819efefddb3899471bfd34f9b7c373a2bb16a08213d4ae8cfc6734a98e67235",
+      "remove": [
+        {
+          "box": [492, 751, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-3.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "2355c72989069cf17da31cc1b29616f5f4807d55dc090e89a80de11152eb46cd",
+      "remove": [
+        {
+          "box": [492, 751, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-4.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "8282847f08aade9f8fe3492c27c2cc929dd1bc0f51870c08d925589a7985fdbd",
+      "remove": [
+        {
+          "box": [492, 751, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-5.jpg",
+      "size": [1080, 1080],
+      "originalSha256": "0dcc048ead9a373f1c68709ed1fb9c778f78893941bd78661e37b6698bc02db6",
+      "remove": [
+        {
+          "box": [492, 751, 97, 52],
+          "mask": "template"
+        }
+      ],
+      "kind": "horizontal",
+      "placement": [497, 764, 87, 27],
+      "instagram": false
+    },
+    {
+      "path": "public/assets/video/hero-poster-desktop.webp",
+      "size": [1920, 1080],
+      "originalSha256": "e6d151bd7c33bb4b416c19479ebd2636365c005014250cdbf104d3502fe68693",
+      "remove": [],
+      "kind": "viewer-overlay",
+      "placement": null,
+      "instagram": false
+    },
+    {
+      "path": "public/assets/video/hero-poster-mobile.webp",
+      "size": [1214, 1080],
+      "originalSha256": "a8ce81351e3adbdbd5633375f2ea257b37c89e09fb6135b117cff3b2b1973e40",
+      "remove": [],
+      "kind": "viewer-overlay",
+      "placement": null,
+      "instagram": false
+    }
+  ]
+}

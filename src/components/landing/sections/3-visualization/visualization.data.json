@@ -1,0 +1,14 @@
+{
+  "rendering": {
+    "href": "/projects#3dr",
+    "image": "/assets/landing-page/visualization/vertical-slider/render.jpg"
+  },
+  "animation": {
+    "href": "/projects#Ani",
+    "image": "/assets/landing-page/visualization/vertical-slider/animation.jpg"
+  },
+  "tour": {
+    "href": "/projects#VR",
+    "image": "/assets/landing-page/visualization/vertical-slider/virtual-tour.jpg"
+  }
+}

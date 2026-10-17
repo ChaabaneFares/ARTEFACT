@@ -1,0 +1,62 @@
+/* Preserve the reference's local font scale and small fixed interaction geometry, as in the shared header/menu. */
+.showcase { --services-unit: calc(8px + 1.5vw); --media-size: calc(var(--services-unit) * 15.1); position: relative; display: flex; font-size: var(--services-unit); width: auto; height: auto; margin: 0 3.646vw 3.646vw }
+.details { width: 50%; height: auto }
+.copy { display: flex; width: calc(var(--services-unit) * 11.8); height: 98vh; flex-direction: column; justify-content: center; align-items: flex-start; margin-block: 13px 0; margin-inline: auto 25.2px }
+.number { font-size: calc(var(--services-unit) * 0.55); font-weight: 400 }
+.copy h2 { font-size: calc(var(--services-unit) * 1.56); font-weight: 500; letter-spacing: 0.4px; line-height: normal }
+.copy p { padding-block: calc(var(--services-unit) * 0.7) calc(var(--services-unit) * 0.33); padding-inline: 0 calc(var(--services-unit) * 0.76); color: #d2d2d9; font-size: calc(var(--services-unit) * 0.444); font-weight: 400; letter-spacing: 0.38px; line-height: normal }
+.mediaTrack { position: absolute; top: 0; bottom: calc((100vh - var(--media-size)) * 0.5); inset-inline-start: 50%; width: 50vw }
+.media { position: sticky; top: calc((100vh - var(--media-size)) * 0.5); width: var(--media-size); height: var(--media-size); margin-top: calc((100vh - var(--media-size)) * 0.5); overflow: hidden; border-radius: 11% }
+.layer { position: absolute; inset: 0; display: block; overflow: hidden }
+.image { width: 100%; height: 100%; object-fit: cover; object-position: center 50% }
+.mobile { display: none }
+.srOnly { position: absolute; width: 0.05208vw; height: 0.05208vw; overflow: hidden; clip-path: inset(50%); white-space: nowrap }
+.showcase .cta { min-width: 0; width: fit-content; height: auto; padding: 15px 27px 13px; margin-top: 29px }
+.showcase .cta > span:first-child { position: relative; inset: auto; top: -1px; display: block }
+.ctaContainer { margin-block: -11px -40px; margin-inline: -40px 0 }
+.copy .cta { margin: 0; display: inline-flex }
+.showcase .cta span span { padding: 0; font-size: calc(var(--services-unit) * 0.46); font-weight: 400; letter-spacing: calc(var(--services-unit) * 0.01) }
+@media screen and (max-width: 1599px) { .showcase { --services-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 1024px) {
+  .showcase { --services-unit: calc(15.2px + 1vw) }
+  .copy { margin-inline-end: 25.2px }
+  .copy h2 { letter-spacing: 0.4px }
+  .copy p { letter-spacing: 0.38px }
+}
+@media screen and (max-width: 768px) {
+  .showcase { --services-unit: calc(15.2px + 1vw); height: auto; margin-top: calc(-50vh + var(--services-unit) * 7.5); padding-top: 70px }
+  .details, .mediaTrack { display: none }
+  .mobile { display: block; width: 100% }
+  .card { width: 100%; margin-bottom: calc(var(--services-unit) * 4); text-align: center }
+  .card:last-child { margin-bottom: 140px }
+  .picture { position: relative; display: block; width: 100%; height: calc(100vw - 7.292vw); aspect-ratio: 1; overflow: hidden; border-radius: calc(var(--services-unit) * 2) }
+  .card h2 { margin: calc(var(--services-unit) * 1.2) 0 calc(var(--services-unit) * 0.93); font-size: calc(var(--services-unit) * 1.32); font-weight: 500 }
+  .card p { max-width: calc(var(--services-unit) * 20); margin: 0 auto; color: var(--lighter-menu-link-color); font-size: calc(var(--services-unit) * 0.73); font-weight: 400; line-height: normal }
+  .showcase .cta { display: flex; width: fit-content; height: auto; margin-right: auto; margin-left: auto; padding: 15px 27px 13px; margin-top: calc(var(--services-unit) * 1) }
+  .showcase .cta span span { font-size: calc(var(--services-unit) * 0.46); letter-spacing: calc(var(--services-unit) * 0.018) }
+}
+@media screen and (max-width: 600px) {
+  .showcase { --services-unit: calc(15.2px + 1vw) }
+  .card h2 { font-size: calc(var(--services-unit) * 1.32) }
+  .card p { font-size: calc(var(--services-unit) * 0.73) }
+}
+@media screen and (max-width: 570px) {
+  .showcase { margin-top: 0; padding-top: 0 }
+  .card { margin-bottom: 125px }
+  .card:last-child { margin-bottom: 53px }
+  .card p { max-width: calc(var(--services-unit) * 24) }
+}
+@media screen and (max-width: 450px) {
+  .showcase { --services-unit: calc(4px + 3.6vw) }
+  .card h2 { margin: calc(var(--services-unit) * 1.8) 0 calc(var(--services-unit) * 1.5); font-size: calc(var(--services-unit) * 1.86); letter-spacing: calc(var(--services-unit) * 0.018) }
+  .card p { max-width: calc(var(--services-unit) * 19); font-size: calc(var(--services-unit) * 0.9); line-height: 1.8 }
+  .showcase .cta { margin-top: 24px }
+  .showcase .cta span span { font-size: calc(var(--services-unit) * 0.72) }
+}
+
+@media screen and (max-width: 390px) { .showcase { --services-unit: calc(2.48px + 4vw) } }
+
+@supports (width: round(nearest, 1px, 1px)) {
+  .showcase { --media-size: round(nearest, calc(var(--services-unit) * 15.1), 1px) }
+  @media screen and (max-width: 768px) { .picture { height: round(nearest, calc(100vw - 7.292vw), 1px) } }
+}

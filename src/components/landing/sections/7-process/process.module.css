@@ -1,0 +1,132 @@
+.process { --process-unit: 1.92vw; position: relative; z-index: 10; width: 92.71vw; max-width: 92.71vw; margin: 0 auto; padding-top: 0; margin-top: 0; font-size: var(--process-unit); overflow: visible; background: rgb(var(--color-ink-950)) }
+.processHead { position: relative; z-index: 1; min-height: 0.05vw }
+.processGrid { position: relative; z-index: 1; width: 100%; margin: 0; text-align: start }
+.processCol { width: 83.44vw; height: calc(var(--process-unit) * 19.53); margin: 0 auto var(--process-unit); overflow: hidden; border: 6px solid rgb(255 255 255); border-radius: 50vw; background: rgb(255 255 255 / 0.05) }
+.processContent { position: relative; display: flex; flex-direction: row; align-items: center; justify-content: center; width: 88%; height: 100%; margin: 0 auto }
+.processVid, .processText { position: absolute }
+.processVid { width: 114% }
+.processVidRight { inset-inline-end: 0 }
+.processText { inset-inline-end: 0; z-index: 2; width: 50% }
+.processText a { color: rgb(var(--color-white)); text-decoration: none }
+.processText h5 { width: fit-content; padding-top: 0.10vw; font-size: calc(var(--process-unit) * 2.15); font-weight: 500; letter-spacing: 0.02vw; white-space: nowrap }
+.processText a > span { color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+.processText p { width: calc(var(--process-unit) * 12); margin-top: calc(var(--process-unit) * 0.1); padding-bottom: calc(var(--process-unit) * 0.6); color: rgb(185 185 191); font-size: calc(var(--process-unit) * 0.657); font-weight: 400; letter-spacing: 0.01vw; line-height: 1.5 }
+.processTextRight { inset-inline-start: 0; inset-inline-end: auto; padding-top: calc(var(--process-unit) * 1.5) }
+.processTextRight h5, .processTextRight p { position: relative; width: calc(var(--process-unit) * 12); margin-inline: auto 0 }
+.processTextRight h5 > span { position: absolute; top: calc(var(--process-unit) * -1); color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+.processTextMobile { display: none }
+.sceneMount, .sceneMountRight { position: relative; width: 100%; height: 100vh; overflow: visible; contain: layout style; opacity: 0 }
+.sceneMount[data-ready='true'], .sceneMountRight[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.sceneMount[data-has-placeholder='true'], .sceneMountRight[data-has-placeholder='true'] { opacity: 1 }
+.staticSceneMount { opacity: 1 }
+.staticScene, .staticSceneRight { position: absolute; inset: 0; background-repeat: no-repeat; background-position: 30% 50%; background-size: 33.33vw auto }
+.staticSceneRight { background-position: 82% 50%; background-size: 26.67vw auto }
+.staticScene[data-img-loaded], .staticSceneRight[data-img-loaded] { opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.staticScene[data-img-loaded='true'], .staticSceneRight[data-img-loaded='true'] { opacity: 1 }
+.sceneMount[data-ready='true'] .staticScene, .sceneMountRight[data-ready='true'] .staticSceneRight { opacity: 0 }
+.sceneMount[data-canvas-parked='true'] .staticScene, .sceneMountRight[data-canvas-parked='true'] .staticSceneRight { opacity: 1 }
+.processVid .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: -19% }
+.processVidRight .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: 26% }
+.splineHost { width: 100%; height: 100%; overflow: visible; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.sceneMount[data-ready='true'] .splineHost, .sceneMountRight[data-ready='true'] .splineHost { opacity: 1 }
+.splineCanvas { display: block }
+.sceneMount[data-canvas-parked='true'] .splineHost, .sceneMountRight[data-canvas-parked='true'] .splineHost { display: none }
+.mobileScene { width: 49vw; height: 49vw; margin: 0 auto; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.mobileScene[data-img-loaded='true'] { opacity: 1 }
+.mobileSceneRight { margin-inline-start: auto }
+
+@media screen and (min-width: 1025px) {
+  .sceneMount[data-scene-id='send-brief'] .staticScene { background-position: calc(20.774vw - 82.45px) calc(-2.4747vw + 50.0545vh - 38.75px); background-size: calc(8.8868vw + 133.72px) calc(5.1541vw + 78.71px) }
+  .sceneMountRight[data-scene-id='be-in-touch'] .staticSceneRight { background-position: calc(57.9008vw - 97.13px) calc(-2.4917vw + 49.8967vh - 37.86px); background-size: calc(10.9436vw + 163.35px) calc(5.8084vw + 86.3px) }
+  .sceneMount[data-scene-id='get-results'] .staticScene { background-position: calc(20.8684vw - 79.13px) calc(-3.6327vw + 50.1548vh - 52.98px); background-size: calc(9.8576vw + 147.58px) calc(8.5065vw + 127.89px) }
+}
+
+@media screen and (max-width: 1024px) {
+  .process { --process-unit: 4.80vw; position: relative; z-index: 10; width: 92.71vw; max-width: 92.71vw; margin: 0 auto; padding-top: 0; margin-top: 0; font-size: var(--process-unit); overflow: visible; background: rgb(var(--color-ink-950)) }
+  .processHead { position: relative; z-index: 1; min-height: 0.13vw }
+  .processGrid { position: relative; z-index: 1; width: 100%; margin: 0; text-align: start }
+  .processCol { width: 83.44vw; height: calc(var(--process-unit) * 19.53); margin: 0 auto var(--process-unit); overflow: hidden; border: 6px solid rgb(255 255 255); border-radius: 50vw; background: rgb(255 255 255 / 0.05) }
+  .processContent { position: relative; display: flex; flex-direction: row; align-items: center; justify-content: center; width: 88%; height: 100%; margin: 0 auto }
+  .processVid, .processText { position: absolute }
+  .processVid { width: 114% }
+  .processVidRight { inset-inline-end: 0 }
+  .processText { inset-inline-end: 0; z-index: 2; width: 50% }
+  .processText a { color: rgb(var(--color-white)); text-decoration: none }
+  .processText h5 { width: fit-content; padding-top: 0.26vw; font-size: calc(var(--process-unit) * 2.15); font-weight: 500; letter-spacing: 0.04vw; white-space: nowrap }
+  .processText a > span { color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+  .processText p { width: calc(var(--process-unit) * 12); margin-top: calc(var(--process-unit) * 0.1); padding-bottom: calc(var(--process-unit) * 0.6); color: rgb(185 185 191); font-size: calc(var(--process-unit) * 0.657); font-weight: 400; letter-spacing: 0.02vw; line-height: 1.5 }
+  .processTextRight { inset-inline-start: 0; inset-inline-end: auto; padding-top: calc(var(--process-unit) * 1.5) }
+  .processTextRight h5, .processTextRight p { position: relative; width: calc(var(--process-unit) * 12); margin-inline: auto 0 }
+  .processTextRight h5 > span { position: absolute; top: calc(var(--process-unit) * -1); color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+  .processTextMobile { display: none }
+  .sceneMount, .sceneMountRight { position: relative; width: 100%; height: 100vh; overflow: visible; contain: layout style; opacity: 0 }
+  .sceneMount[data-ready='true'], .sceneMountRight[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-has-placeholder='true'], .sceneMountRight[data-has-placeholder='true'] { opacity: 1 }
+  .staticSceneMount { opacity: 1 }
+  .staticScene, .staticSceneRight { position: absolute; inset: 0; background-repeat: no-repeat; background-position: 30% 50%; background-size: 83.33vw auto }
+  .staticSceneRight { background-position: 82% 50%; background-size: 66.67vw auto }
+  .staticScene[data-img-loaded], .staticSceneRight[data-img-loaded] { opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .staticScene[data-img-loaded='true'], .staticSceneRight[data-img-loaded='true'] { opacity: 1 }
+  .sceneMount[data-ready='true'] .staticScene, .sceneMountRight[data-ready='true'] .staticSceneRight { opacity: 0 }
+  .sceneMount[data-canvas-parked='true'] .staticScene, .sceneMountRight[data-canvas-parked='true'] .staticSceneRight { opacity: 1 }
+  .processVid .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: -19% }
+  .processVidRight .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: 26% }
+  .splineHost { width: 100%; height: 100%; overflow: visible; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-ready='true'] .splineHost, .sceneMountRight[data-ready='true'] .splineHost { opacity: 1 }
+  .splineCanvas { display: block }
+  .sceneMount[data-canvas-parked='true'] .splineHost, .sceneMountRight[data-canvas-parked='true'] .splineHost { display: none }
+  .mobileScene { width: 49vw; height: 49vw; margin: 0 auto; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .mobileScene[data-img-loaded='true'] { opacity: 1 }
+  .mobileSceneRight { margin-inline-start: auto }
+}
+@media screen and (max-width: 768px) {
+  .process { --process-unit: 3.88vw; position: relative; z-index: 10; width: 100%; max-width: 100%; margin: 0; padding-top: 0; margin-top: 19.42vw; margin-bottom: 3.88vw; font-size: 3.88vw; overflow: clip; background: rgb(var(--color-ink-950)) }
+  .processHead { position: relative; z-index: 1; min-height: 0.24vw }
+  .processGrid { position: relative; z-index: 1; width: 100%; margin: 0; gap: 0; text-align: start }
+  .processCol { width: 100%; height: auto; padding: 0 10%; margin: 9.71vw 0 0; overflow: hidden; border: 0; border-radius: 50vw; background: rgb(var(--color-ink-950)) }
+  .processCol:first-child { margin-top: 0 }
+  .processContent { position: relative; display: flex; flex-direction: column; align-items: center; justify-content: center; width: 95%; height: 100%; margin: 0 auto; padding: 7.77vw 3.88vw }
+  .processVid, .processText { position: relative; width: 120%; text-align: center }
+  .processVid { width: 120% }
+  .processVidRight { inset-inline-end: 0 }
+  .processText { inset-inline-end: 0; z-index: 2; width: 120%; text-align: center }
+  .processText a { color: rgb(var(--color-white)); text-decoration: none }
+  .processText h5 { width: fit-content; margin: 0 auto; padding-top: 0.49vw; font-size: 5.83vw; font-weight: 500; letter-spacing: 0.07vw; white-space: nowrap }
+  .processText a > span { color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+  .processText p { width: 59.42vw; margin-top: 0; margin-inline: auto; padding-bottom: calc(var(--process-unit) * 0.6); color: rgb(185 185 191); font-size: 2.72vw; font-weight: 400; letter-spacing: 0.04vw; line-height: 1.5 }
+  .processTextRight { display: none; inset-inline-start: 0; inset-inline-end: auto; padding-top: calc(var(--process-unit) * 1.5) }
+  .processTextRight h5, .processTextRight p { position: relative; width: 59.42vw; margin-inline: auto 0 }
+  .processTextRight h5 > span { position: absolute; top: calc(var(--process-unit) * -1); color: rgb(110 110 115); font-size: calc(var(--process-unit) * 0.676) }
+  .processTextMobile { display: block }
+  .sceneMount, .sceneMountRight { position: relative; width: 100%; height: 100vh; overflow: visible; contain: layout style; opacity: 0 }
+  .sceneMount[data-ready='true'], .sceneMountRight[data-ready='true'] { opacity: 1; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-has-placeholder='true'], .sceneMountRight[data-has-placeholder='true'] { opacity: 1 }
+  .staticSceneMount { width: 49vw; height: 49vw; margin: 0 auto; opacity: 1 }
+  .staticScene, .staticSceneRight { position: absolute; inset: 0; background-repeat: no-repeat; background-position: center; background-size: contain }
+  .staticSceneRight { background-position: center; background-size: contain }
+  .staticScene[data-img-loaded], .staticSceneRight[data-img-loaded] { opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .staticScene[data-img-loaded='true'], .staticSceneRight[data-img-loaded='true'] { opacity: 1 }
+  .sceneMount[data-ready='true'] .staticScene, .sceneMountRight[data-ready='true'] .staticSceneRight { opacity: 0 }
+  .sceneMount[data-canvas-parked='true'] .staticScene, .sceneMountRight[data-canvas-parked='true'] .staticSceneRight { opacity: 1 }
+  .processVid .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: -19% }
+  .processVidRight .splineHost canvas { position: absolute; inset-block-start: 0; inset-inline-start: 26% }
+  .splineHost { width: 100%; height: 100%; overflow: visible; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .sceneMount[data-ready='true'] .splineHost, .sceneMountRight[data-ready='true'] .splineHost { opacity: 1 }
+  .splineCanvas { display: block }
+  .sceneMount[data-canvas-parked='true'] .splineHost, .sceneMountRight[data-canvas-parked='true'] .splineHost { display: none }
+  .mobileScene { width: 49vw; height: 49vw; margin: 0 auto; background-repeat: no-repeat; background-position: center; background-size: contain; opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+  .mobileScene[data-img-loaded='true'] { opacity: 1 }
+  .mobileSceneRight { margin-inline-start: auto }
+}
+
+:global([dir='rtl']) .processText span { direction: ltr; unicode-bidi: isolate }
+:global([dir='rtl']) .staticScene { background-position: 70% 50% }
+:global([dir='rtl']) .staticSceneRight { background-position: 18% 50% }
+@media screen and (min-width: 1025px) {
+  :global([dir='rtl']) .sceneMount[data-scene-id='send-brief'] .staticScene { background-position: right calc(20.774vw - 82.45px) top calc(-2.4747vw + 50.0545vh - 38.75px) }
+  :global([dir='rtl']) .sceneMountRight[data-scene-id='be-in-touch'] .staticSceneRight { background-position: right calc(57.9008vw - 97.13px) top calc(-2.4917vw + 49.8967vh - 37.86px) }
+  :global([dir='rtl']) .sceneMount[data-scene-id='get-results'] .staticScene { background-position: right calc(20.8684vw - 79.13px) top calc(-3.6327vw + 50.1548vh - 52.98px) }
+}
+@media screen and (max-width: 768px) {
+  :global([dir='rtl']) .staticScene, :global([dir='rtl']) .staticSceneRight { background-position: center }
+}

@@ -1,0 +1,25 @@
+.filter { position: relative; flex: none; display: inline-block; vertical-align: baseline; margin: calc(var(--projects-unit) * 0.27) calc(var(--projects-unit) * 0.26); padding: calc(var(--projects-unit) * 0.558) calc(var(--projects-unit) * 0.767) calc(var(--projects-unit) * 0.554); overflow: hidden; border: calc(var(--projects-unit) * 0.057) solid #6e6e73; border-radius: 360px; background: none; color: #fff; font-family: inherit; font-size: calc(var(--projects-unit) * 0.507); font-weight: 400; letter-spacing: 0.27px; line-height: normal; cursor: pointer; transition: color 400ms }
+.label { position: relative; z-index: 2; display: block; overflow: hidden }
+.label > span { position: relative; display: block; white-space: nowrap; transition: transform 600ms cubic-bezier(0.215, 0.61, 0.355, 1) }
+.ripple { position: absolute; inset: 0; border-radius: inherit; background: #f5f5f7; opacity: 0; transform: translateY(101%) }
+.filter[aria-pressed='true'] { color: #000; font-weight: 400; letter-spacing: 0.27px }
+@media (hover: hover) {
+.filter:hover { color: #000 } }
+.filter:focus-visible { outline: 2px solid var(--accent-primary); outline-offset: 3px }
+@media screen and (max-width: 1024px) {
+.filter { border-radius: 360px }
+}
+@media screen and (max-width: 600px) {
+.filter { border-radius: 360px }
+}
+@media screen and (max-width: 450px) {
+.filter { margin: 0 calc(var(--projects-unit) * 0.6) calc(var(--projects-unit) * 0.95) 0; padding: calc(var(--projects-unit) * 1.1) calc(var(--projects-unit) * 1.2) calc(var(--projects-unit) * 0.92); border-width: calc(var(--projects-unit) * 0.09) }
+.label > span { font-size: calc(var(--projects-unit) * 0.8) }
+}
+@media (prefers-reduced-motion: reduce) {
+.filter, .label > span, .ripple { transition: none }
+}
+
+@media screen and (max-width: 450px) {
+:global([dir="rtl"]) .filter { margin-right: 0; margin-inline-end: calc(var(--projects-unit) * 0.6) }
+}

@@ -1,0 +1,9 @@
+.virtualTour { width: 100%; padding: 0 0 10.75vw; background: rgb(var(--color-ink-950)) }
+
+@media screen and (max-width: 1024px) {
+.virtualTour { padding: 0 0 14.58vw }
+}
+
+@media screen and (max-width: 600px) {
+.virtualTour { padding: 0 0 27.18vw }
+}

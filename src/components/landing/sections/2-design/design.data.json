@@ -1,0 +1,10 @@
+{
+  "interior": {
+    "href": "/projects#In",
+    "image": "/assets/designs/interior.jpg"
+  },
+  "exterior": {
+    "href": "/projects#Ex",
+    "image": "/assets/designs/exterior.jpg"
+  }
+}

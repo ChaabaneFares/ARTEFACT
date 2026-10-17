@@ -1,0 +1,1 @@
+.glow { --glow-angle: 45deg; position: absolute; inset: 0; background: linear-gradient(var(--glow-angle), rgba(51, 48, 41, 0) 37%, rgba(60, 60, 60, 0.9) 96%), var(--bg-canvas); pointer-events: none }

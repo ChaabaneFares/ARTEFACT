@@ -1,0 +1,86 @@
+{
+  "$schema": "https://biomejs.dev/schemas/2.2.0/schema.json",
+  "vcs": {
+    "enabled": true,
+    "clientKind": "git",
+    "useIgnoreFile": true
+  },
+  "files": {
+    "ignoreUnknown": true,
+    "includes": [
+      "**",
+      "!node_modules",
+      "!.next",
+      "!dist",
+      "!build",
+      "!ARTIFACT MEDIA",
+      "!public/vr"
+    ]
+  },
+  "css": {
+    "parser": {
+      "cssModules": true
+    }
+  },
+  "formatter": {
+    "enabled": true,
+    "indentStyle": "space",
+    "indentWidth": 2
+  },
+  "overrides": [
+    {
+      "includes": [
+        "src/components/layout/header/header.module.css",
+        "src/components/layout/header/menu/menu.module.css",
+        "src/components/ui/brand-intro/brand-intro.module.css",
+        "src/components/ui/pointer-glow/pointer-glow.module.css",
+        "src/components/landing/sections/1-hero/hero.module.css",
+        "src/components/ui/VSlider/VSlider.module.css",
+        "src/components/ui/VSlider/VSliderCta.module.css",
+        "src/components/ui/echoView/echoView.module.css",
+        "src/components/landing/sections/4-vr/vr.module.css",
+        "src/components/landing/sections/5-media/media.module.css",
+        "src/components/landing/sections/6-how-it-works/how-it-works.module.css",
+        "src/components/landing/sections/7-process/process.module.css",
+        "src/components/landing/sections/4-vr/components/virtual-tour/virtual-tour.module.css",
+        "src/components/ui/virtual-tour/virtual-tour.module.css",
+        "src/components/ui/VSlider/components/service-slides/service-slides.module.css",
+        "src/components/ui/VSlider/components/service-slides/**/*.module.css",
+        "src/app/*/services/_components/services-hero/services-hero.module.css",
+        "src/app/*/services/_components/services-hero/components/service-navigation/service-navigation.module.css",
+        "src/components/layout/page-transition/page-transition.module.css",
+        "src/app/*/about/**/*.module.css",
+        "src/app/*/projects/**/*.module.css",
+        "src/app/*/contact/**/*.module.css",
+        "src/app/*/faq/**/*.module.css",
+        "src/app/*/privacyandpolicy/**/*.module.css",
+        "src/components/ui/selection-pill/*.module.css",
+        "src/app/*/_components/**/*.module.css",
+        "src/components/ui/fadeInImage.module.css",
+        "src/components/ui/cursor/cursor.module.css",
+        "src/app/*/services/**/*.module.css",
+        "src/components/layout/footer/footer.module.css"
+      ],
+      "formatter": {
+        "enabled": false
+      }
+    }
+  ],
+  "linter": {
+    "enabled": true,
+    "rules": {
+      "recommended": true
+    },
+    "domains": {
+      "next": "recommended",
+      "react": "recommended"
+    }
+  },
+  "assist": {
+    "actions": {
+      "source": {
+        "organizeImports": "on"
+      }
+    }
+  }
+}

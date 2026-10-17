@@ -1,0 +1,51 @@
+.footer { position: relative; width: 100%; max-width: calc(var(--contact-unit) * 17.8); margin: 0 auto; color: var(--text-primary) }
+.container { display: flex; width: 100%; margin: 0 auto; justify-content: space-between }
+.left, .right { display: inline-grid; margin: 0 5px }
+.left { position: relative; text-align: start }
+.right { text-align: end }
+.email { position: relative; width: max-content; max-width: 100%; border: 0; background: transparent; color: var(--text-primary); font-family: var(--font-family-base); font-size: calc(var(--contact-unit) * 0.46); font-weight: 400; line-height: normal; overflow-wrap: anywhere; text-align: inherit; cursor: pointer }
+.email::after { position: absolute; bottom: -3px; inset-inline-start: 0; width: 93%; height: calc(var(--contact-unit) * 0.01); background: #fff; content: '' }
+.address { display: inline-block; padding-top: calc(var(--contact-unit) * 0.469); color: #5a7d9e; font-size: calc(var(--contact-unit) * 0.31); font-weight: 500 }
+.socials { display: flex; width: 162px; align-items: center; justify-content: space-between }
+.socials a, .socials > span { display: inline-block; font-size: calc(var(--contact-unit) * 0.415); line-height: normal }
+.icon { display: inline; width: auto; object-fit: contain; vertical-align: baseline }
+.icon[data-icon='be'] { height: 10.6px }
+.icon[data-icon='up'], .icon[data-icon='telegram'] { height: 11px }
+.icon[data-icon='insta'] { height: 12px }
+.icon[data-icon='whs'] { height: 14px }
+.desktopPrivacy { padding-top: calc(var(--contact-unit) * 0.469); color: #5a7d9e; font-size: calc(var(--contact-unit) * 0.31); font-weight: 400; letter-spacing: 0.15px; text-decoration: none }
+.mobilePrivacy { display: none }
+.status { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%) }
+.email:focus-visible, .footer a:focus-visible { outline: 2px solid var(--accent-atmosphere); outline-offset: 3px }
+@media screen and (max-width: 1220px) { .footer { max-width: calc(var(--contact-unit) * 22) } }
+@media screen and (max-width: 1024px) { .footer { max-width: calc(var(--contact-unit) * 22) } }
+@media screen and (max-width: 768px) {
+  .footer { display: flex; width: 100%; max-width: 100%; height: 50vh; min-height: 400px; align-items: center; justify-content: center }
+  .container { position: absolute; top: 30.4vh; padding: 0 4.6% calc(var(--contact-unit) * 3); flex-direction: column; transform: translateY(-50%) }
+  .left, .right { text-align: center }
+  .left { padding-bottom: calc(var(--contact-unit) * 4.919) }
+  .email { width: 100%; font-size: calc(var(--contact-unit) * 0.88); font-weight: 500; letter-spacing: 0.5px }
+  .email::after { bottom: -1px; inset-inline-start: 50%; width: calc(var(--contact-unit) * 8.5); height: 1px; transform: translateX(-50%) }
+  .address { font-size: calc(var(--contact-unit) * 0.69); letter-spacing: 0.5px }
+  .desktopPrivacy { display: none }
+  .mobilePrivacy { display: block; margin-top: calc(var(--contact-unit) * 0.043); padding-top: calc(var(--contact-unit) * 0.469); color: #5a7d9e; font-size: calc(var(--contact-unit) * 0.498); font-weight: 400; text-decoration: none }
+  .socials { height: 26px }
+  .socials { width: 100%; justify-content: space-around }
+  .icon { opacity: 0.4 }
+  .icon[data-icon='be'] { height: 19px }
+  .icon[data-icon='up'], .icon[data-icon='insta'] { height: 20px }
+  .icon[data-icon='telegram'] { height: 21px }
+  .icon[data-icon='whs'] { height: 22px }
+}
+@media screen and (max-width: 600px) { .footer { max-width: 100% } }
+@media screen and (max-width: 500px) {
+  .left { padding-bottom: calc(var(--contact-unit) * 6.619) }
+  .email { font-size: calc(var(--contact-unit) * 1); line-height: 1.9 }
+  .email::after { width: calc(var(--contact-unit) * 9.9) }
+  .address { font-size: calc(var(--contact-unit) * 0.77) }
+  .mobilePrivacy { margin-top: calc(var(--contact-unit) * 0.043); font-size: calc(var(--contact-unit) * 0.68) }
+}
+
+:global([dir="rtl"]) .email { direction: ltr; unicode-bidi: isolate }
+:global([dir="rtl"]) .email::after { inset-inline-start: auto; inset-inline-end: 0 }
+@media screen and (max-width: 768px) { :global([dir="rtl"]) .email::after { inset-inline-end: 50%; transform: translateX(50%) } }

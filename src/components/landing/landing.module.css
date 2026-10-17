@@ -1,0 +1,23 @@
+.landing {
+  width: 100%;
+  min-height: 100dvh;
+  /* Entrance motion parks cards beyond the inline edges. Clipping here keeps
+     that overflow out of the document, which in right-to-left would otherwise
+     offset the page while the introduction holds overflow: hidden. */
+  overflow-x: clip;
+}
+
+.sectionNoiseOverlay {
+  position: fixed;
+  top: 0;
+  inset-inline-end: calc(100vw - 100%);
+  bottom: 0;
+  inset-inline-start: 0;
+  z-index: 250;
+  background-image: url("/assets/Noise.png");
+  background-repeat: repeat;
+  background-size: auto;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+}

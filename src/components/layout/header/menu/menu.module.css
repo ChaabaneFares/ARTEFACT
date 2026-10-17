@@ -1,0 +1,77 @@
+.menu { position: fixed; z-index: 0; top: 0; right: 0; display: flex; align-items: flex-start; justify-content: center; width: 0; height: 0; overflow: hidden; border-bottom-left-radius: 100%; background: var(--bg-canvas); color: var(--text-primary); transition: width 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94), height 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94); visibility: hidden }
+.menu[data-phase='open'] { width: 130vw; height: 240vh; visibility: visible }
+.menu[data-phase='closing'] { visibility: visible }
+.glow { position: absolute; top: 0; right: 0; width: 100vw; height: 100vh; padding: 0; border: 0; background: transparent; cursor: default }
+.viewport { position: fixed; top: 50%; left: 50%; display: flex; align-items: center; justify-content: center; width: 100vw; height: 100vh; overflow: hidden; perspective: 2000px; pointer-events: none; transform: translate(-50%, -50%) }
+.content { position: absolute; display: flex; align-items: center; justify-content: space-evenly; width: calc(var(--menu-unit) * 21.8); max-width: 60vw; max-height: 80vh }
+.content > div { display: flex; flex-direction: column; justify-content: space-between; min-height: calc(var(--menu-unit) * 11); opacity: 0; transition: opacity 200ms }
+.contact { flex-shrink: 0; width: calc(var(--menu-unit) * 4.89763); pointer-events: auto }
+.contact > div { display: flex; flex-direction: column }
+.label { display: inline-block; padding: 9px 12px 0; color: var(--text-secondary); font-size: calc(var(--menu-unit) * 0.34); font-weight: 500; line-height: 2 }
+.socials { padding-top: calc(var(--menu-unit) * 2) }
+.contact .socialLink, .email { position: relative; display: flex; width: max-content; height: max-content; border: 0; background: transparent; text-decoration: none; cursor: pointer }
+.email span, .contact .socialLink span { display: block; padding: 0.3vw calc(var(--menu-unit) * 0.4); color: var(--text-subtle); font-size: calc(var(--menu-unit) * 0.44); font-weight: 600; line-height: 2; white-space: nowrap; transition: color 400ms linear }
+.contact .socialLink:hover span, .contact .socialLink:focus-visible span, .email:hover span, .email:focus-visible span { color: var(--text-primary) }
+.mainLinks { pointer-events: auto }
+.mainLinks a { position: relative; display: flex; width: min-content; white-space: nowrap; overflow: hidden; margin-bottom: 2px; padding: calc(var(--menu-unit) * 0.51); color: var(--text-muted); font-size: calc(var(--menu-unit) * 1.269); font-weight: 500; line-height: 1; text-decoration: none }
+.mainLinks a:first-child { padding-top: calc(var(--menu-unit) * 0.17) }
+.mainLinks a:last-child { padding-bottom: calc(var(--menu-unit) * 0.17) }
+.mainLinks a:hover, .mainLinks a:focus-visible, .mainLinks a[aria-current='page'] { color: var(--text-primary) }
+.content .bottom { display: none }
+.copyStatus { position: absolute; width: 1px; height: 1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap }
+.copyInput { position: fixed; top: 0; left: 0; opacity: 0; pointer-events: none }
+.menu a:focus-visible, .email:focus-visible { outline: 1px solid var(--text-primary); outline-offset: 2px }
+:where(.menu[data-phase='open']) .content > .contact { opacity: 1; transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 250ms }
+:where(.menu[data-phase='open']) .content > .mainLinks { opacity: 1; transition: opacity 500ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 150ms }
+:where(.menu[data-phase='closing']) .content > .mainLinks { transition-delay: 100ms }
+@media (max-width: 1440px) {
+  .contact { margin-right: 17% }
+  .label { font-size: 10px; line-height: 21px }
+  .contact .socialLink span { font-size: 13px; line-height: 26px; padding-bottom: 2.392px }
+  .mainLinks a { font-size: 37.5024px }
+}
+@media (max-width: 768px) {
+  .menu { transition: width 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19), height 500ms cubic-bezier(0.55, 0.055, 0.675, 0.19) }
+  .menu[data-phase='open'] { width: 250vw; height: max(250vw, 100vh); transition-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1) }
+  .glow, .content .contact { display: none }
+  .content { flex-direction: column; justify-content: center; width: 100vw; height: 100vh; max-width: 100vw; max-height: 100vh; padding-top: 10vh; overflow-y: auto; pointer-events: auto }
+  .content > div { flex-shrink: 0 }
+  .content .mainLinks { align-items: center; margin-bottom: 12.5%; opacity: 1; transition: none }
+  .mainLinks a { font-size: calc(var(--menu-unit) * 1.7); line-height: 1.25; opacity: 0; transition: opacity 300ms }
+  .menu[data-phase='open'] .mainLinks a { opacity: 1; transition: opacity 450ms cubic-bezier(0.25, 0.46, 0.45, 0.94) 100ms }
+  .menu[data-phase='open'] .mainLinks a:nth-child(2) { transition-delay: 150ms }
+  .menu[data-phase='open'] .mainLinks a:nth-child(3) { transition-delay: 200ms }
+  .menu[data-phase='open'] .mainLinks a:nth-child(4) { transition-delay: 250ms }
+  .menu[data-phase='open'] .mainLinks a:nth-child(5) { transition-delay: 300ms }
+  .menu[data-phase='closing'] .mainLinks a:nth-child(1) { transition-delay: 200ms }
+  .menu[data-phase='closing'] .mainLinks a:nth-child(2) { transition-delay: 150ms }
+  .menu[data-phase='closing'] .mainLinks a:nth-child(3) { transition-delay: 100ms }
+  .menu[data-phase='closing'] .mainLinks a:nth-child(4) { transition-delay: 50ms }
+  .content .bottom { display: block; width: 100%; min-height: 20vh; height: auto; text-align: center; pointer-events: auto }
+  :where(.menu[data-phase='open']) .content > .bottom { opacity: 1; transition: opacity 100ms 300ms }
+  .estimate { display: block; width: 100%; max-width: 400px; margin: 0 auto 5%; padding: 14px 0; border-radius: 360px; background: var(--bg-surface-soft); color: var(--text-inverse); font-size: calc(var(--menu-unit) * 0.86); font-weight: 600; letter-spacing: 0; text-decoration: none; transition: background-color 300ms, color 300ms }
+  .estimate:hover, .estimate:focus-visible { background: var(--accent-primary); color: var(--text-primary) }
+  .mobileSocials { display: flex; align-items: center; justify-content: space-between; width: 100%; max-width: 360px; margin: 0 auto }
+  .mobileSocials > :is(a, span) { display: flex; align-items: center; justify-content: center; height: 18px }
+  .mobileSocials img { display: block; width: auto; height: 18px }
+}
+@media (max-width: 500px) {
+  .content .mainLinks { margin-top: 10%; margin-bottom: 11.5%; min-height: 39vh }
+  .mainLinks a { font-size: calc(var(--menu-unit) * 2.3) }
+  .estimate { max-width: 91vw; margin-bottom: 7.3%; padding: 18px 0; font-size: calc(var(--menu-unit) * 0.96) }
+  .mobileSocials { max-width: 80% }
+  .mobileSocials > :is(a, span), .mobileSocials img { height: 21px }
+}
+@media (max-width: 400px) {
+  .content .mainLinks { margin-top: 10%; margin-bottom: 10%; min-height: 42vh }
+  .mainLinks a { font-size: calc(var(--menu-unit) * 2.35) }
+  .estimate { max-width: 90vw; margin-bottom: 7.5%; padding: 15px 0 }
+  .mobileSocials { max-width: 78% }
+}
+@media (prefers-reduced-motion: reduce) {
+  .menu, .menu[data-phase='open'], .content > div, .menu[data-phase='open'] .contact, .menu[data-phase='open'] .mainLinks, .mainLinks a, .menu[data-phase='open'] .mainLinks a, :where(.menu[data-phase='open']) .content > .bottom { transition-duration: 1ms; transition-delay: 0ms }
+}
+/* Arabic keeps the menu's English geometry (contact and socials on the left, links on the right): the email is wider than its column by design and spills into the gap, which mirrored would cover the links. Only the Arabic text runs right to left. */
+:global([dir='rtl']) .content { direction: ltr }
+:global([dir='rtl']) .mainLinks a, :global([dir='rtl']) .label, :global([dir='rtl']) .estimate { direction: rtl; unicode-bidi: isolate }
+:global([dir='rtl']) .label { text-align: left }

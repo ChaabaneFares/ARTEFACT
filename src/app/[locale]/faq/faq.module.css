@@ -1,0 +1,17 @@
+/* Local source units preserve the established menu/services typography. */
+.page { --faq-unit: calc(15.2px + 1vw); display: flow-root }
+.separator { display: none }
+@media screen and (min-width: 1600px) { .page { --faq-unit: calc(8px + 1.5vw) } }
+@media screen and (max-width: 1024px) { .page { --faq-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 768px) {
+  .page { margin-bottom: 23vh }
+  .separator { display: flex; width: calc(var(--faq-unit) * 20); height: 53vw; margin: 3.646vw; align-items: center; justify-content: center }
+  .separator h2 { height: fit-content; font-size: calc(var(--faq-unit) * 1.68); font-weight: 500; line-height: calc(var(--faq-unit) * 3.5); text-align: start }
+}
+@media screen and (max-width: 600px) { .page { --faq-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 450px) {
+  .page { --faq-unit: calc(4px + 3.6vw) }
+  .separator { width: calc(var(--faq-unit) * 20); height: 100vw; margin: 0; padding-inline-start: 3.646vw; justify-content: flex-start }
+  .separator h2 { max-width: calc(var(--faq-unit) * 17); font-size: calc(var(--faq-unit) * 2.17); letter-spacing: calc(var(--faq-unit) * 0.08); line-height: 1.6 }
+}
+@media screen and (max-width: 390px) { .page { --faq-unit: calc(2.48px + 4vw) } }

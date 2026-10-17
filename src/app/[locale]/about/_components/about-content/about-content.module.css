@@ -1,0 +1,91 @@
+/* Preserve the reference's local font formula and authored spacings. */ .page { --about-unit: calc(15.2px + 1vw); position: relative; width: 100%; overflow-x: clip }
+ .headline { position: sticky; top: 0; display: flex; width: calc(var(--about-unit) * 23); height: 80vh; margin: 0 auto; padding-top: calc(10vh + var(--about-unit)); flex-direction: column; align-items: center; justify-content: center }
+ .darkLayer { position: absolute; top: 0; inset-inline-start: 0; z-index: 1; width: 100%; height: 100%; background: var(--bg-canvas); opacity: 0 }
+ .eyebrow { display: none }
+ .title, .introduction { position: absolute; color: var(--text-primary); font-weight: 500; text-align: center }
+ .title { font-size: calc(var(--about-unit) * 1.824); line-height: normal }
+ .title span { display: block; animation: titleFade 1200ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 150ms both, titleMove 600ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 150ms both }
+ .title span + span { animation-delay: 200ms }
+ .introduction { z-index: 1; max-width: calc(var(--about-unit) * 22); font-size: calc(var(--about-unit) * 1.27); line-height: normal; opacity: 0 }
+ .photo { position: relative; z-index: 10; display: flex; height: 100%; margin-top: 16px; justify-content: center; transform: scale(1.5); transform-origin: center top }
+ .firstPhoto { animation: photoIn 800ms linear(0.000000, 0.096079, 0.184627, 0.266096, 0.340918, 0.409510, 0.472268, 0.529573, 0.581788, 0.629260, 0.672320, 0.711283, 0.746447, 0.778099, 0.806508, 0.831930, 0.854607, 0.874767, 0.892626, 0.908387, 0.922240, 0.934364, 0.944927, 0.954083, 0.961980, 0.968750, 0.974520, 0.979404, 0.983508, 0.986931, 0.989760, 0.992076, 0.993953, 0.995456, 0.996645, 0.997570, 0.998279, 0.998812, 0.999204, 0.999485, 0.999680, 0.999811, 0.999895, 0.999946, 0.999975, 0.999990, 0.999997, 0.999999, 1.000000, 1.000000, 1.000000) 250ms backwards }
+ .image { display: block; width: calc(var(--about-unit) * 22.9); height: calc(var(--about-unit) * 22.9); border-radius: 8%; object-fit: cover }
+ .members { width: 100%; height: 100%; margin-top: 70vh }
+ .memberRow { display: flex; flex-direction: row; justify-content: center; transform: translateX(-5%) }
+ .memberRow + .memberRow { transform: translateX(5%) }
+ .portrait { position: relative; width: calc(var(--about-unit) * 9); height: calc(var(--about-unit) * 9); margin: 16px; overflow: hidden; border-radius: var(--about-unit); background: gray }
+ .portraitImage { object-fit: cover; object-position: left top }
+ .clients { display: flex; width: calc(var(--about-unit) * 22); height: 75vh; margin: auto; flex-direction: column; align-items: center; justify-content: center }
+ .clients p { position: relative; z-index: 2; color: var(--text-primary); font-size: calc(var(--about-unit) * 1.27); font-weight: 500; letter-spacing: 0.4px; line-height: normal; text-align: center }
+ .philosophy { position: relative; height: 160vh }
+ .statement { display: flex; height: 50%; align-items: center; justify-content: center; color: #f7f7f7; opacity: 0 }
+ .statement p { font-size: calc(var(--about-unit) * 1.73); letter-spacing: 0.4px; line-height: 1.3; text-align: center }
+ .statement span { display: block; padding-bottom: calc(var(--about-unit) * 0.3); font-size: 16px; font-weight: 400 }
+ .mobileBreak { display: none }
+ @keyframes titleFade { from { opacity: 0 }
+ to { opacity: 1 }
+ }
+ @keyframes titleMove { from { transform: translateY(30px) }
+ to { transform: translateY(0) }
+ }
+ @keyframes photoIn { from { opacity: 0; transform: translateY(35%) scale(1.4) }
+ to { opacity: 1; transform: scale(1.5) }
+ }
+ @media screen and (min-width: 1600px) {
+ .page { --about-unit: calc(8px + 1.5vw) }
+ }
+ @media screen and (max-width: 1100px) {
+ .members { margin-top: calc(var(--about-unit) * 14) }
+ }
+ @media screen and (max-width: 1024px) {
+ .page { --about-unit: calc(15.2px + 1vw) }
+ }
+ @media screen and (max-width: 768px) {
+ .page { width: 100vw }
+ .headline { position: fixed; top: 0; display: block; width: 100vw; margin: 0; padding: 0 5.9% }
+ .eyebrow { position: relative; top: calc(var(--about-unit) * 9); display: block; width: fit-content; margin-bottom: calc(var(--about-unit) * 1.5); color: var(--text-secondary); font-size: calc(var(--about-unit) * 1.06); font-weight: 400; text-align: start; animation: titleFade 1200ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms backwards, titleMove 600ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms backwards }
+ .title { max-width: calc(100vw - 11.8%); padding-top: calc(var(--about-unit) * 8.1); font-size: calc(var(--about-unit) * 2.491); line-height: 1.5; text-align: start; animation: titleFade 1200ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms backwards, titleMove 600ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 400ms backwards }
+ .title span { display: inline; animation: none }
+ .title span + span::before { content: ' ' }
+ .introduction { top: 34%; max-width: 100vw; padding-inline-end: 82px; font-size: calc(var(--about-unit) * 1.6); line-height: 1.6; text-align: start }
+ .photo { width: 100vw; margin: auto; transform: translateY(10%) }
+ .firstPhoto { margin-top: calc(var(--about-unit) * 25); animation: mobilePhotoIn 700ms cubic-bezier(0.333333, 0.666667, 0.666667, 1) 800ms backwards }
+ .image { width: 100%; height: 100vw }
+ .members { margin-top: 52vh }
+ .portrait { width: calc(var(--about-unit) * 11); height: calc(var(--about-unit) * 11); margin: calc(var(--about-unit) * 0.8) }
+ .portrait:nth-child(3) { display: none }
+ .clients { width: 100vw; height: 71vh; padding: 4.9% }
+ .clients p { padding-inline-end: calc(var(--about-unit) * 1.6); font-size: calc(var(--about-unit) * 1.6); text-align: start }
+ .mobileBreak { display: block }
+ }
+ @media screen and (max-width: 600px) {
+ .page { --about-unit: calc(15.2px + 1vw) }
+ }
+ @media screen and (max-width: 450px) {
+ .page { --about-unit: calc(4px + 3.6vw) }
+ .eyebrow { font-size: calc(var(--about-unit) * 1.06) }
+ .title { font-size: calc(var(--about-unit) * 2.1) }
+ .introduction { padding-inline-end: 5.9%; font-size: calc(var(--about-unit) * 1.445) }
+ .clients p { padding-inline-end: calc(var(--about-unit) * 1.3); font-size: calc(var(--about-unit) * 1.45) }
+ .portrait { width: calc(var(--about-unit) * 9); height: calc(var(--about-unit) * 9) }
+ .firstPhoto { margin-top: calc(var(--about-unit) * 25.5) }
+ .image { max-width: 99vw; height: 99vw }
+ }
+ @media screen and (max-width: 390px) {
+ .page { --about-unit: calc(2.48px + 4vw) }
+ .introduction, .clients p { font-size: calc(var(--about-unit) * 1.4) }
+ }
+ @keyframes mobilePhotoIn { from { opacity: 0; transform: translateY(10%) translateY(20px) }
+ to { opacity: 1; transform: translateY(10%) }
+ }
+ @media (prefers-reduced-motion: reduce) {
+ .title, .title span, .eyebrow, .firstPhoto { animation: none }
+ .photo { transform: none }
+ .memberRow, .memberRow + .memberRow { transform: none }
+ }
+
+ :global([dir="rtl"]) .memberRow { transform: translateX(5%) }
+ :global([dir="rtl"]) .memberRow + .memberRow { transform: translateX(-5%) }
+ @media (prefers-reduced-motion: reduce) {
+ :global([dir="rtl"]) .memberRow, :global([dir="rtl"]) .memberRow + .memberRow { transform: none }
+ }

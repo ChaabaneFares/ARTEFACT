@@ -1,0 +1,26 @@
+.field { min-width: 0; text-align: start }
+.control { position: relative; overflow: hidden }
+.field input, .field textarea { box-sizing: border-box; display: block; width: 100%; min-height: calc(1.5em + 20px); padding: 8px 0 12px; border: 0; outline: none; background: none; color: var(--text-primary); font-family: var(--font-family-base); font-size: clamp(16px, calc(var(--contact-unit) * 0.47), 26px); font-weight: 400; letter-spacing: 0.1px; line-height: 1.5; resize: none }
+.field input::placeholder, .field textarea::placeholder { color: var(--text-primary); opacity: 1 }
+.field textarea { height: auto; overflow: hidden }
+.field[data-field='message'] { grid-column: 1 / -1 }
+.line { position: absolute; right: 0; bottom: 0; left: 0; width: 300%; height: 59px; opacity: 1; transform: translateX(-66.66%); transition: transform 0ms cubic-bezier(0, 0.25, 0.5, 1), filter 400ms; pointer-events: none }
+.line svg { display: block; width: 100%; height: 100% }
+.line path { transition: stroke 180ms ease }
+.field:hover .line { filter: brightness(1.3) }
+.field:focus-within .line { transform: translateX(0); transition-duration: 800ms, 400ms }
+.field[data-invalid='true'] .line { opacity: 0.8 }
+.error { display: block; min-height: 1.5em; margin-top: 8px; color: #ffd2d2; font-size: clamp(13px, calc(var(--contact-unit) * 0.34), 18px); font-weight: 400; line-height: 1.5; overflow-wrap: anywhere; opacity: 0; transform: translateY(-4px); transition: opacity 180ms ease, transform 180ms ease }
+.field[data-invalid='true'] .error { opacity: 1; transform: translateY(0) }
+@media screen and (max-width: 1220px) { .field input, .field textarea { font-size: clamp(16px, calc(var(--contact-unit) * 0.66), 26px) } }
+@media screen and (max-width: 768px) { .field { grid-column: 1 / -1 } }
+@media screen and (max-width: 450px) {
+  .field input, .field textarea { font-size: max(16px, var(--contact-unit)) }
+  .field input::placeholder, .field textarea::placeholder { color: #9abbd7 }
+  .error { font-size: max(13px, calc(var(--contact-unit) * 0.75)) }
+}
+@media (prefers-reduced-motion: reduce) { .line, .line path, .error { transition: none } }
+
+:global([dir="rtl"]) .line { left: auto; transform: translateX(66.66%) scaleX(-1) }
+:global([dir="rtl"]) .field:focus-within .line { transform: translateX(0) scaleX(-1) }
+:global([dir="rtl"]) .field input[type='email'] { direction: ltr; text-align: end }

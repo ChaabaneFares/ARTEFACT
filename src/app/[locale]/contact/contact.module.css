@@ -1,0 +1,9 @@
+.page { --contact-unit: calc(15.2px + 1vw); position: relative; display: flow-root; width: 100%; min-height: 100vh; overflow: clip; padding-bottom: calc(var(--contact-unit) * 2); isolation: isolate; font-size: var(--contact-unit) }
+.background { position: fixed; z-index: -1; inset: 0; height: 100vh; width: 100%; background-image: linear-gradient(225deg, #5a81a2, #1f3d61); pointer-events: none }
+@media screen and (min-width: 1600px) { .page { --contact-unit: calc(8px + 1.5vw) } }
+@media screen and (max-width: 1024px) { .page { --contact-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 768px) { .page { padding-top: 31vh; padding-bottom: 0 } }
+@media screen and (max-width: 600px) { .page { --contact-unit: calc(15.2px + 1vw) } }
+@media screen and (max-width: 450px) { .page { --contact-unit: calc(4px + 3.6vw); padding-top: 23.5vh } }
+@media screen and (max-width: 390px) { .page { --contact-unit: calc(2.48px + 4vw); padding-top: 26vh } }
+@media screen and (max-width: 374px) { .page { padding-top: 25vh } }

@@ -1,0 +1,86 @@
+.slider { width: 100% }
+.desktopProjects { --desktop-design-media-size: 31.8vw; --desktop-design-copy-width: 40.8%; display: flex; width: 100%; height: calc( (var(--desktop-design-media-size) * var(--v-slider-project-count, 1)) + (100vh * 0.5) ); justify-content: center }
+.desktopShell { display: flex; width: 63%; justify-content: flex-end }
+.desktopDetails { width: var(--desktop-design-copy-width); height: 100%; margin-top: calc(100vh * 0.5); transform: translateY(calc(var(--desktop-design-media-size) * -0.5)) }
+.desktopProject { display: flex; width: 80%; height: var(--desktop-design-media-size); flex-direction: column; justify-content: center }
+.projectEyebrow { margin: 0; color: inherit; font-size: 0.8vw; font-weight: 400; line-height: normal }
+.projectEyebrow a { color: inherit; text-decoration: none }
+.projectTitle { max-width: 100%; margin-top: 0.5vw; font-size: 2.53vw; font-weight: 500; line-height: normal; letter-spacing: 0 }
+.projectTags { min-height: 1.5em; margin-top: 0.5vw; font-size: 0.85vw; font-weight: 400; line-height: normal }
+.projectCta { position: relative; display: inline-flex; width: fit-content; min-width: 7.5vw; height: 2.9vw; margin-top: 2.2vw; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #b9b9bf; border-radius: 360px; color: inherit; cursor: pointer; text-decoration: none; transition: border-color 0.3s ease, transform 0.6s ease-out }
+.projectCtaLayer { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; border-radius: inherit; transition: transform 0.3s ease }
+.projectCtaLayerFilled { background: rgb(var(--color-paper-0)); color: rgb(var(--color-ink-950)); transform: translateY(-101%) }
+.projectCtaLabel { display: flex; align-items: center; justify-content: center; padding: 0.83vw 1.46vw 0.73vw; color: inherit; font-size: 0.8vw; font-weight: 500; line-height: normal; letter-spacing: 0.02vw; text-align: center; white-space: nowrap }
+.projectCta:hover { border-color: rgb(var(--color-paper-0)) }
+.projectCtaLayerFilled .projectCtaLabel { color: rgb(var(--color-ink-950)) }
+.desktopMedia { position: sticky; top: 50%; width: 49.5%; height: var(--desktop-design-media-size); margin-top: calc(100vh * 0.5); overflow: hidden; border-radius: 4vw; transform: translateY(-50%) }
+.desktopMediaLayer { position: absolute; top: 0; left: 0; width: 100%; height: 100% }
+.desktopMediaImage { width: 100%; height: 100%; object-fit: cover; object-position: center 50% }
+.desktopMediaLayer:last-child .desktopMediaImage { object-position: center 50% }
+.mobileProjects { display: none }
+@media screen and (max-width: 1024px) {
+  .slider { width: 100% }
+  .desktopProjects { --desktop-design-media-size: 80.4vw; --desktop-design-copy-width: 62.82vw; --desktop-design-gap: 17.95vw; display: none; width: 100%; height: calc( (var(--desktop-design-media-size) * var(--v-slider-project-count, 1)) + (100vh * 0.5) ); justify-content: center }
+  .desktopShell { display: flex; width: 173vw; gap: var(--desktop-design-gap); justify-content: center }
+  .desktopDetails { width: var(--desktop-design-copy-width); height: 100%; margin-top: calc(100vh * 0.5); transform: translateY(calc(var(--desktop-design-media-size) * -0.5)) }
+  .desktopProject { display: flex; width: 100%; height: var(--desktop-design-media-size); flex-direction: column; justify-content: center }
+  .projectEyebrow { margin: 0; color: inherit; font-size: 2.92vw; font-weight: 400; line-height: normal }
+  .projectEyebrow a { color: inherit; text-decoration: none }
+  .projectTitle { max-width: 100%; margin-top: 2.5vw; font-size: 8.3vw; font-weight: 500; line-height: normal; letter-spacing: 0.05vw }
+  .projectTags { min-height: 1.5em; margin-top: 2.5vw; font-size: 2.11vw; font-weight: 400; line-height: normal }
+  .projectCta { position: relative; display: inline-flex; width: fit-content; min-width: 17.98vw; height: 6.65vw; margin-top: 5.75vw; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #b9b9bf; border-radius: 360px; color: inherit; cursor: pointer; text-decoration: none; transition: border-color 0.3s ease, transform 0.6s ease-out }
+  .projectCtaLayer { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; border-radius: inherit; transition: transform 0.3s ease }
+  .projectCtaLayerFilled { background: rgb(var(--color-paper-0)); color: rgb(var(--color-ink-950)); transform: translateY(-101%) }
+  .projectCtaLabel { display: flex; align-items: center; justify-content: center; padding: 2.08vw 3.65vw 1.83vw; color: inherit; font-size: 2.47vw; font-weight: 400; line-height: normal; letter-spacing: 0.05vw; text-align: center; white-space: nowrap }
+  .projectCta:hover { border-color: rgb(var(--color-paper-0)) }
+  .projectCtaLayerFilled .projectCtaLabel { color: rgb(var(--color-ink-950)) }
+  .desktopMedia { position: sticky; top: 50%; width: var(--desktop-design-media-size); height: var(--desktop-design-media-size); margin-top: calc(100vh * 0.5); overflow: hidden; border-radius: 8.85vw; background: rgba(9, 19, 31, 0.96); box-shadow: 0 5.2vw 10.42vw rgba(0, 0, 0, 0.28); transform: translateY(-50%) }
+  .desktopMediaLayer { position: absolute; top: 0; left: 0; width: 100%; height: 100% }
+  .desktopMediaImage { width: 100%; height: 100%; object-fit: cover; object-position: center 50% }
+  .mobileProjects { display: block; width: 100%; height: var(--v-slider-mobile-height, 300vh); position: relative; margin-top: 35vw; color: inherit }
+  .mobileSticky { position: sticky; top: 0; z-index: 1; display: flex; width: 100%; height: 100vh; flex-direction: column; align-items: center; justify-content: center }
+  .mobileImageStack { position: relative; z-index: 99; width: 65vw; height: 80vw }
+  .mobileImage { position: absolute; width: 65vw; height: 65vw; border-radius: 7vw; object-fit: cover; object-position: center 50% }
+  .mobileImageFrame { position: absolute; width: 65vw; height: 65vw }
+  .mobileTitles { position: relative; bottom: 0; display: flex; width: 100%; justify-content: center }
+  .mobileProjectDetails { position: absolute; display: flex; flex-direction: column; align-items: center; opacity: 0 }
+  .mobilePlaceholderTrack { position: absolute; top: calc(100vh - (65vw * 0.75)); z-index: -1; display: flex; width: 100%; height: auto; flex-direction: column; pointer-events: none }
+  .mobilePlaceholder { width: 100%; height: 40vh }
+  .mobileEyebrow { color: inherit; font-size: 2.5vw; font-weight: 400; line-height: normal; text-align: center; text-decoration: none }
+  .mobileTitle { margin: 0; font-size: 5.25vw; font-weight: 500; line-height: normal; text-align: center }
+  .mobileTags { margin: 0; font-size: 2vw; font-weight: 500; line-height: normal; text-align: center }
+  .compactResponsiveIntro .mobileProjects { margin-top: calc(8vw - 50vh) }
+}
+@media screen and (max-width: 600px) {
+  .slider { width: 100% }
+  .desktopProjects { --desktop-design-media-size: 149.87vw; --desktop-design-copy-width: 117.11vw; --desktop-design-gap: 33.46vw; display: none; width: 100%; height: calc( (var(--desktop-design-media-size) * var(--v-slider-project-count, 1)) + (100vh * 0.5) ); justify-content: center }
+  .desktopShell { display: flex; width: 322.49vw; gap: var(--desktop-design-gap); justify-content: center }
+  .desktopDetails { width: var(--desktop-design-copy-width); height: 100%; margin-top: calc(100vh * 0.5); transform: translateY(calc(var(--desktop-design-media-size) * -0.5)) }
+  .desktopProject { display: flex; width: 100%; height: var(--desktop-design-media-size); flex-direction: column; justify-content: center }
+  .projectEyebrow { margin: 0; color: inherit; font-size: 5.45vw; font-weight: 400; line-height: normal }
+  .projectEyebrow a { color: inherit; text-decoration: none }
+  .projectTitle { max-width: 100%; margin-top: 4.66vw; font-size: 15.47vw; font-weight: 500; line-height: normal; letter-spacing: 0.09vw }
+  .projectTags { min-height: 1.5em; margin-top: 4.66vw; font-size: 3.94vw; font-weight: 400; line-height: normal }
+  .projectCta { position: relative; display: inline-flex; width: fit-content; min-width: 33.51vw; height: 12.4vw; margin-top: 10.72vw; align-items: center; justify-content: center; overflow: hidden; border: 1px solid #b9b9bf; border-radius: 360px; color: inherit; cursor: pointer; text-decoration: none; transition: border-color 0.3s ease, transform 0.6s ease-out }
+  .projectCtaLayer { position: absolute; inset: 0; display: flex; align-items: center; justify-content: center; border-radius: inherit; transition: transform 0.3s ease }
+  .projectCtaLayerFilled { background: rgb(var(--color-paper-0)); color: rgb(var(--color-ink-950)); transform: translateY(-101%) }
+  .projectCtaLabel { display: flex; align-items: center; justify-content: center; padding: 3.88vw 6.8vw 3.4vw; color: inherit; font-size: 4.59vw; font-weight: 400; line-height: normal; letter-spacing: 0.09vw; text-align: center; white-space: nowrap }
+  .projectCta:hover { border-color: rgb(var(--color-paper-0)) }
+  .projectCtaLayerFilled .projectCtaLabel { color: rgb(var(--color-ink-950)) }
+  .desktopMedia { position: sticky; top: 50%; width: var(--desktop-design-media-size); height: var(--desktop-design-media-size); margin-top: calc(100vh * 0.5); overflow: hidden; border-radius: 16.5vw; background: rgba(9, 19, 31, 0.96); box-shadow: 0 9.69vw 19.43vw rgba(0, 0, 0, 0.28); transform: translateY(-50%) }
+  .desktopMediaLayer { position: absolute; top: 0; left: 0; width: 100%; height: 100% }
+  .desktopMediaImage { width: 100%; height: 100%; object-fit: cover; object-position: center 50% }
+  .mobileProjects { display: block; width: 100%; height: var(--v-slider-mobile-height, 300vh); position: relative; margin-top: 0; color: inherit }
+  .mobileSticky { position: sticky; top: 0; z-index: 1; display: flex; width: 100%; height: 100vh; flex-direction: column; align-items: center; justify-content: center }
+  .mobileImageStack { position: relative; z-index: 99; width: 78vw; height: 84vw }
+  .mobileImage { position: absolute; width: 78vw; height: 78vw; border-radius: 8.4vw; object-fit: cover; object-position: center 50% }
+  .mobileImageFrame { position: absolute; width: 78vw; height: 78vw }
+  .mobileTitles { position: relative; bottom: 0; display: flex; width: 100%; justify-content: center }
+  .mobileProjectDetails { position: absolute; display: flex; flex-direction: column; align-items: center; opacity: 0 }
+  .mobilePlaceholderTrack { position: absolute; top: 50vh; z-index: -1; display: flex; width: 100%; height: auto; flex-direction: column; pointer-events: none }
+  .mobilePlaceholder { width: 100%; height: 45vh }
+  .mobileEyebrow { font-size: 3.6vw }
+  .mobileTitle { margin: 0; font-size: 7.2vw; font-weight: 500 }
+  .mobileTags { font-size: 3vw }
+  .compactResponsiveIntro .mobileProjects { margin-top: calc(9.6vw - 50vh) }
+}

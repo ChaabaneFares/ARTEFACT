@@ -1,0 +1,2 @@
+.image { opacity: 0; transition: opacity var(--reveal-duration, 200ms) var(--reveal-ease, ease) }
+.image[data-loaded='true'] { opacity: 1 }

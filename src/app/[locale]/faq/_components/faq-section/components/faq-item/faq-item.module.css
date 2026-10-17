@@ -1,0 +1,34 @@
+.item { position: relative; overflow: hidden; color: var(--text-primary); animation: fadeIn 900ms ease-out 450ms both, enter 500ms ease-out 450ms both; transition: color 250ms ease-out }
+.item[data-dimmed='true'] { color: var(--text-secondary) }
+.item h2 { font-size: inherit; font-weight: inherit }
+.question { position: relative; display: flex; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; align-items: center; font: inherit; text-align: start; cursor: pointer }
+.question:focus-visible { outline: 2px solid #ffa029; outline-offset: 3px }
+.label { font-size: calc(var(--faq-unit) * 0.57); font-weight: 500; letter-spacing: 0.1px; line-height: normal }
+.plus { position: relative; display: flex; width: 12px; margin-inline-end: 9px; flex: 0 0 12px; align-items: center }
+.plus span { position: absolute; display: inline-block; width: 10.3px; height: 2.5px; background: #ff911a; transform-origin: center; transition: transform 300ms ease-out }
+.plus span:last-child { transform: rotate(90deg) }
+.item[data-open='true'] .plus span:last-child { transform: rotate(180deg) }
+.arrow { display: none; width: 15px; color: #ffa029 }
+.answer { height: 0; overflow: hidden; opacity: 0; transition: height 300ms ease-out, opacity 300ms ease-out }
+.mask { min-height: 0; overflow: hidden }
+.mask p { margin: 15px 0 0; margin-inline-start: 21px; padding-inline-end: 5px; color: var(--text-secondary); font-size: calc(var(--faq-unit) * 0.467); font-weight: 500; letter-spacing: 0.2px; line-height: 1.58 }
+.item[data-open='true'] .answer { height: var(--faq-answer-height, auto); opacity: 1 }
+@keyframes fadeIn { from { opacity: 0 } to { opacity: 1 } }
+@keyframes enter { from { transform: translateY(100%) } to { transform: translateY(0) } }
+@media screen and (max-width: 1024px) { .label { font-size: calc(var(--faq-unit) * 0.57) } }
+@media screen and (max-width: 768px) {
+  .plus { display: none }
+  .arrow { display: block; flex-shrink: 0; margin-inline-end: 9px }
+  .answer { transition: none }
+  .item { animation-delay: 550ms }
+}
+@media screen and (max-width: 600px) { .label { font-size: calc(var(--faq-unit) * 0.57) } }
+@media screen and (max-width: 450px) {
+  .item { border-radius: 25px; background: #19191a }
+  .question { min-height: calc(var(--faq-unit) * 4); padding: calc(var(--faq-unit) * 1) 3.646vw; flex-direction: row-reverse; justify-content: space-between }
+  .label { width: 88%; font-size: calc(var(--faq-unit) * 0.984); letter-spacing: calc(var(--faq-unit) * 0.015) }
+  .arrow { width: 18px; margin: 8px 0 0; align-self: flex-start; transition: transform 300ms ease-out }
+  .item[data-open='true'] .arrow { transform: rotate(180deg) }
+  .mask p { margin: 0 3.646vw; margin-inline-start: 3.646vw; padding: 0 0 calc(var(--faq-unit) * 1); font-size: calc(var(--faq-unit) * 0.923); letter-spacing: 0 }
+}
+@media (prefers-reduced-motion: reduce) { .item { animation: none; transition: none } .answer, .plus span, .arrow { transition: none } }

@@ -1,0 +1,1961 @@
+{
+  "date": "2026-10-12",
+  "pipeline": "deterministic local processing, explicitly authorized by user",
+  "images": [
+    {
+      "path": "public/assets/about/hero.jpg",
+      "size": [891, 1080],
+      "sha256": "db5643dcd532dd4130c459d806302da84dc75187b1cc21b09d63037e6873155b",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-01.jpg",
+      "size": [398, 480],
+      "sha256": "06365d2a6ccdc001e32588353ecc4011d066d7329ac84299ed0c54e57771f097",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-02.jpg",
+      "size": [399, 480],
+      "sha256": "fe5568f10598f8774328e09f2c4a84ae459568ea50a40f7d40cb2e092496a080",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-03.jpg",
+      "size": [400, 478],
+      "sha256": "4f8c30bba4f24e99b83269ffeff87a134666a8e2f907f8d2e7b57b4aed1ce18e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-04.jpg",
+      "size": [397, 479],
+      "sha256": "4c30178e18fd2c7528d833e5f6e8488ac3ed1e7e001ea4f27864e3501c04734c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-05.jpg",
+      "size": [399, 479],
+      "sha256": "709c184d5516fc0fa4cf3d0ddaa7f11cf31c799319db8c1f94a372a754762547",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/member-06.jpg",
+      "size": [399, 479],
+      "sha256": "078c94c657b92198c4927e26811fbc0522097b3d115cf272e5ec6add202a848a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/about/studio.jpg",
+      "size": [1080, 1618],
+      "sha256": "8dd1024c03a3506815614f39cae8f7f8601d11eeb9045cae52cd137a3ac89f6c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/designs/echo-view-card.png",
+      "size": [931, 523],
+      "sha256": "ddd59762ec163523c18ef36cfbae39e402fa92a6176ccf93246e5b9bca7c0d5d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/designs/echo-view-section.png",
+      "size": [1600, 1200],
+      "sha256": "198c5da39035b8dcabf4a2aa2516d8c3f64ae6db51d4917c17c4d5e0afbfa10c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/designs/exterior.jpg",
+      "size": [1080, 1512],
+      "sha256": "0ec7aa3b93bb48d0d816ea0149327c37db60117a83db099dea038e38e8724851",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/vertical-slider/exterior.jpg",
+      "size": [1080, 1512],
+      "sha256": "0ec7aa3b93bb48d0d816ea0149327c37db60117a83db099dea038e38e8724851",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/designs/interior.jpg",
+      "size": [1080, 1512],
+      "sha256": "e01134311114eb96a7421e9ff04c4129a315113da6db6d5fc88167e00fc0dbfa",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/vertical-slider/interior.jpg",
+      "size": [1080, 1512],
+      "sha256": "e01134311114eb96a7421e9ff04c4129a315113da6db6d5fc88167e00fc0dbfa",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-01.jpg",
+      "size": [1280, 720],
+      "sha256": "fe8d61df7a6f7460381a05fa992725e1de65123e018f8e219a3dc3250de08d97",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-01.webp",
+      "size": [1200, 675],
+      "sha256": "1e06cd86250d083c299f9b824f2b6e1434de87f24db19df67e3b80f22d40d620",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-02.jpg",
+      "size": [1280, 720],
+      "sha256": "aaf606839d0b4207a480af763cd0d68eb68eacc54f9b3650d414a53820951ea6",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-02.webp",
+      "size": [1200, 675],
+      "sha256": "62b4b84c257e08bea5a0a9838202fb6a4fa8dfa0e2727c3dbf60a2e579553d9d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-03.jpg",
+      "size": [1280, 720],
+      "sha256": "986e904f1d341318348d02350de7a0bc9d003812c8a8b42f518dfac1e03af91c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-03.webp",
+      "size": [1200, 675],
+      "sha256": "5fb71277233829d0a53cb92101bf4ab57867b64066c67984f0f1fb1103bfc8c2",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-04.jpg",
+      "size": [1280, 720],
+      "sha256": "a534dbdbbc9460fe0cc948f193ddb66863942c898b983b99442c45cae6e7e18c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-04.webp",
+      "size": [1200, 675],
+      "sha256": "64a6d0ba7cd4218688f8d665928a16189d90cd1555069a53352a3c5c3107aead",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-05.jpg",
+      "size": [1280, 720],
+      "sha256": "86f0f20660d4cf107f79fb93ac4571d4a3858fd48a0ecf8e29852a5eb1dc4fd4",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-05.webp",
+      "size": [1200, 675],
+      "sha256": "720bcb1e6df38da84b3b4fc812039028ebee7155a48401c7bfb23692b2bd8eac",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-06.jpg",
+      "size": [1280, 720],
+      "sha256": "d61b939943732cb116ff9a5ede095c64238b0b95f87d50e63325b52ec4fddd80",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-06.webp",
+      "size": [1200, 675],
+      "sha256": "d20339c4a7cc8d1c4699c249c3c9269c97013fd4ff9d02fc8345e5cc1827c0fd",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-07.jpg",
+      "size": [1280, 720],
+      "sha256": "ea9274979606422d31d11d52ba63079bb66f4833627b18f05b7df117ecfad8a1",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-07.webp",
+      "size": [1200, 675],
+      "sha256": "0542bc1dae4f1ac09aa742b8b7dd8b75f721cbfa6913ce45787da5b418707028",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-08.jpg",
+      "size": [1280, 720],
+      "sha256": "41a3701cd5e96d11e8ecbccd6126beed25ea128b8219874c45e497a1baef3cd1",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-08.webp",
+      "size": [1200, 675],
+      "sha256": "b7d21566830eff056f6fc624d83716d4f782d2b5cfd45c978ae3bf245fc9b478",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-09.jpg",
+      "size": [1280, 720],
+      "sha256": "f7c69b8a959e6c8433199ee8604e4756b5f84cc40d08c94f30c581e326a090e5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-09.webp",
+      "size": [1200, 675],
+      "sha256": "66ed0bd77059c35367bb703aae8fc4f764cf19b4345038cda773e29977ea240d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-10.jpg",
+      "size": [1280, 720],
+      "sha256": "f29f59ed1df15c30ea4aa55034e9e6e2a791dc7bae758fd12ecbd3fbbe68d3b5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-10.webp",
+      "size": [1200, 675],
+      "sha256": "b906ccc97ce861c343b28457130efcf9fb7b08f649ec8bcd569fad4fb412c61c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-11.jpg",
+      "size": [1280, 720],
+      "sha256": "4a3a29fa4786710bc5e4516de9508878f59487d100486f48e7085e48cba1cdbb",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-11.webp",
+      "size": [1200, 675],
+      "sha256": "9601173593fe125b3f4f9176bb7b9c8cc4126dceed651373950b7ec59f1a5628",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-12.jpg",
+      "size": [1280, 720],
+      "sha256": "fff02e0c691f248d97566f96a17cc2bd72280d0f4cc2b6652630ba340dee0fde",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-12.webp",
+      "size": [1200, 675],
+      "sha256": "df9544e7c0af2d9c7938d6826fe19ae2c50875b937442130a636b483f540414c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-13.jpg",
+      "size": [1280, 720],
+      "sha256": "b690eac0cbe0bb510b8009dea5f4fd6ef737d9fc67207f408dfbca89f8da7df4",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-13.webp",
+      "size": [1200, 675],
+      "sha256": "7ee8bc66d3f4b9c3af138188ad3c363728f3bd033b342563a308250c1183603a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-14.jpg",
+      "size": [1280, 720],
+      "sha256": "20b2da56d9817158cc5475d530ea96d8be05d5bf6f8174ed35b1f648921562c3",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-14.webp",
+      "size": [1200, 675],
+      "sha256": "1f725a3e65068e1bac75534f338189958c4a5e0c65f5c016ac5699fa4971116d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-15.jpg",
+      "size": [1280, 720],
+      "sha256": "9a858b88bc4cd275ae0da70ce68aefa381de180001420199978c19555974aea3",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-15.webp",
+      "size": [1200, 675],
+      "sha256": "72cc771dfec26728ae616f2391e8fa009efe1b6b7c1c99c1b4c658ea75f47f84",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-16.jpg",
+      "size": [1280, 720],
+      "sha256": "8c7ab4e4ce85a9f75d3621d24555980b373d8e3e893e9da8c2c0957ee8748bac",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-16.webp",
+      "size": [1200, 675],
+      "sha256": "fe5f64c1ace1eaa8c0acdd403dca1e28c28e60062cd14d35a7a84d2e2aa964ac",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-17.jpg",
+      "size": [1280, 720],
+      "sha256": "d012c5c802c2c5d85c58e9b4e7df12bb984916971ff0a742ca68dfdfdf17a24d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-17.webp",
+      "size": [1200, 675],
+      "sha256": "91d8da3aaf0d24795e73313d28798e72a9d5efddbe57983719bc34d90b02dd0c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-18.jpg",
+      "size": [1280, 720],
+      "sha256": "c86235503c192f1f6122318c3b0de01bc07801d660d1a58e6cab98585b8099db",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-18.webp",
+      "size": [1200, 675],
+      "sha256": "7265017728741576143b2e1a1752d35eff8edcbfecf854d1bdb49667f3a9aa3e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-19.jpg",
+      "size": [1280, 720],
+      "sha256": "3a3ac99dcb59922e0aedbfc5231677b57cc92ac5da8dd218cb2f322674991335",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-19.webp",
+      "size": [1200, 675],
+      "sha256": "47b9980b988931bde049746471f8f5134f7d31168778dc5bd06f4fc7ff4726f7",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-20.jpg",
+      "size": [1280, 720],
+      "sha256": "a0ab4a89f1b2f52af644394bc367a95edbc2b19a4510a102460eb30e8b9dad46",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-20.webp",
+      "size": [1200, 675],
+      "sha256": "f437f0897b63408c13b6bf522f8ba644be86eaf9a56f5f57c4af0725312769e1",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-21.jpg",
+      "size": [1280, 720],
+      "sha256": "c2f7d50834a910453b72a0ef497370a0f16f6f3cba4bb105ed33872ec33e14f8",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-21.webp",
+      "size": [1200, 675],
+      "sha256": "abe426c6eb8854ff6080912ade7efbafca964b94ecd322091c3b428b3039afde",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-22.jpg",
+      "size": [1280, 720],
+      "sha256": "7d8d81dd4a7c96142d1595c69ce03914e76adf6db38ff718ae5b561933d65a10",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-22.webp",
+      "size": [1200, 675],
+      "sha256": "c1637aa16dafadd0433cf95ce2c764e7dc0589a74440713205e9c6041303e357",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-23.jpg",
+      "size": [1280, 720],
+      "sha256": "631fb0e0d54047cf41741af5411bc0307a64af6e70fbd7a1364c765ecaf3671a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-23.webp",
+      "size": [1200, 675],
+      "sha256": "436156177f6acb3501a015bc9a21a5e9c1d86a7168eaf8d405562f98fa820a17",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-24.jpg",
+      "size": [1280, 720],
+      "sha256": "0c1e090119507ecd079e49140b8932d79568da820b0f259153899e7ff369a65a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-24.webp",
+      "size": [1200, 675],
+      "sha256": "ad3f2ae24e089d8811a8518fe2112fcd1a90d7dc291648111e493648e2ea4ae2",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-25.jpg",
+      "size": [1280, 720],
+      "sha256": "cc69c66f88a7b6ec3a693c1f5763ebaaa76fbd7471bc44f470e3d8fc14ed8a7c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-25.webp",
+      "size": [1200, 675],
+      "sha256": "8ba0a4d3802a195b640866d979a119b264786ff577c1da5af237d88dfa6c5c13",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-26.jpg",
+      "size": [1280, 720],
+      "sha256": "d7501b202550617f24fa3e4478216d860029b4a2f7d7e7c0cf58c87a70059493",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-26.webp",
+      "size": [1200, 675],
+      "sha256": "1718b098ab3857ffcc89d8b9881e37fb46e5510c81371bd3100bf5b833d2cda5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-27.jpg",
+      "size": [1280, 720],
+      "sha256": "19b49df7288e3057da80a839a962289be836539bdc38ba8bfc436db81d2a244c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-27.webp",
+      "size": [1200, 675],
+      "sha256": "d24941177d49c9dc76a31467aa10221e1e2741e822f894fbd93c330b9903a859",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-28.jpg",
+      "size": [1280, 720],
+      "sha256": "52b0e40e77e6b1eb3a9e6eafc800b1bac42c5d3013dab9aa34ff30da0a68d5ba",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-28.webp",
+      "size": [1200, 675],
+      "sha256": "f2b1edf5f72a4d489040ca3ccefbeae551a9ad7c01550afe0e6d34aa4de8286e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-29.jpg",
+      "size": [1280, 720],
+      "sha256": "c7914cd7ef58380b79f6c9a7950637d37455c6a7987e16be32940a0d8d14882c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-29.webp",
+      "size": [1200, 675],
+      "sha256": "82803aa1a8e448b290292fe6c79fafcb5d8ccf751677199cfe48317b6be78ec5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-30.jpg",
+      "size": [1280, 720],
+      "sha256": "e6147567588f613575df0018aaa5cf4a4445a9df5cb26ead7080d116f56b3f21",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-30.webp",
+      "size": [1200, 675],
+      "sha256": "357d0ea2a50844f32110e70b9ff5244dd7212481619c24c8099d6d3109ca53ab",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-31.jpg",
+      "size": [1280, 720],
+      "sha256": "60b5425086a7892cf73f411038fd15ff304420433869113a6e2d10ca4d0ccf94",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-31.webp",
+      "size": [1200, 675],
+      "sha256": "46156e63d92963621dbd42307cfa5551cbfb27d736332ea687b74ce890def685",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-32.jpg",
+      "size": [1280, 720],
+      "sha256": "4342a464a8f11c0abeb15586c781d70f51b646c3d73e579f3d0fce421df27504",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-32.webp",
+      "size": [1200, 675],
+      "sha256": "6432c22b6e146b3b7cb16ac888c3b61a40b364f57231ddc7b1f70c836a649b16",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-33.jpg",
+      "size": [1280, 720],
+      "sha256": "d508a49a0db40a702a9465d22fbe017ca1d153d5c3454a72049a25985a2d38ed",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-33.webp",
+      "size": [1200, 675],
+      "sha256": "543164a127e58aa25696bf61e7672018d07dcd2d28b13955f0cebd71b6292e64",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-34.jpg",
+      "size": [1280, 720],
+      "sha256": "58ff3b5a5a1784d8da61929cb4a63105d701c727005d405cb9b3507bfe6dc9f5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-34.webp",
+      "size": [1200, 675],
+      "sha256": "7028c244a1e85d271b7db206ef3f8a133df370b7656bef8d32fb256b99adf87a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-35.jpg",
+      "size": [1280, 720],
+      "sha256": "aaa9227f5bc2c4499a0f493f7b68a03823ad6e3ad4fd54adf64b61ffdfd9430e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-35.webp",
+      "size": [1200, 675],
+      "sha256": "3fac2210c52eb3d18ba21ff7bff0c98dde09faf320cb9b07d5a013212ae1c566",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-36.jpg",
+      "size": [1280, 720],
+      "sha256": "7b497d3badd894536515a8625250c8d65768dc2c742b4eb64c074351321644fb",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-36.webp",
+      "size": [1200, 675],
+      "sha256": "e18cf122bbd8536c6d75ab7a8b60a6dc1424f19e50df4c05c16c7f018fad8e97",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-37.jpg",
+      "size": [1280, 720],
+      "sha256": "46c6bb9fcb4650a14f8c1b81b356fe10e8974747c7298b35450b89f61a8def14",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-37.webp",
+      "size": [1200, 675],
+      "sha256": "23429bc693976f0629e020eafc7226a7500c4ae7da57c8948b8688961f5478bd",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-38.jpg",
+      "size": [1280, 720],
+      "sha256": "5c4e0d2ba0e92aa9ad469af03edc4fda1b7736d875b9e5eaf9096fa680775a79",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-38.webp",
+      "size": [1200, 675],
+      "sha256": "e4a76dc17170d14900f82e47ffdb8847a6af0e7251a7becebb54338715f70066",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-39.jpg",
+      "size": [1280, 720],
+      "sha256": "4354171726dcaf145127978566f0a8002ded0097dcf771e63eba3d48361a8904",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-39.webp",
+      "size": [1200, 675],
+      "sha256": "17178ed396465c56cd96dc598061686e0b8e7c6c270f0967c8ab2aeeaa529704",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-40.jpg",
+      "size": [1280, 720],
+      "sha256": "95f23c45bc789e628f616b1b3aa659e2caac210820b93399258de90d10f78d32",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-40.webp",
+      "size": [1200, 675],
+      "sha256": "b07110af537d1aabec17d294ef7fa9320b31e5aad826cf7cdfee9693c2eee366",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-41.jpg",
+      "size": [1280, 720],
+      "sha256": "10ec7326fcf4fcf41bbf2c3363853d649c385573cad9d1132bbed5b03ded3188",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/designs/echo-view/frame-41.webp",
+      "size": [1200, 675],
+      "sha256": "c1d4919b62ad33ff19ab9e4c6950a355ea43dfa0f2fa66c03ac795b0718df2bd",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/how-it-works/how-it-works-mobile.jpg",
+      "size": [800, 263],
+      "sha256": "10cf892056cd80f863dc75e1a61c610da7cce50e6753f5de611f5c0e80f42ccf",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/media/cozy-cafe.jpg",
+      "size": [900, 900],
+      "sha256": "c6eddd1ca50985e416c3e70a87e05f555d2ed9c0367556d769120cf4afa78c7c",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/media/light-warm.jpg",
+      "size": [900, 900],
+      "sha256": "92474c59d2bc34b2c72d2a3c14d7fc19e6c34763abb844a1d0200561a36582d4",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/media/pastel-pink.jpg",
+      "size": [900, 900],
+      "sha256": "3fd3b7ec8a77f1e589ea168a95c23e0429a2e180db2b1dc563d67326cfbf808c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/media/villa-pano.jpg",
+      "size": [900, 900],
+      "sha256": "4da00b34a8e999eff3b6714c32bc13cd4cfb36a1849f05b95d56542952f83359",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/process/be-in-touch-mobile.jpg",
+      "size": [800, 424],
+      "sha256": "dbf1b9c7834185a999f9458155ccc7643199fc3283e9798876f98ed463ca2e87",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/process/be-in-touch-static.webp",
+      "size": [800, 424],
+      "sha256": "2b2844b14df400a9355039fcd9bb4ede7bd32e7f81a4eb88719bbb978533eaf2",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/process/get-results-mobile.jpg",
+      "size": [800, 679],
+      "sha256": "7f8144af43b8e1f0e01e4a59f583f50d90730a924ceb83e82a998f1ffa0ea200",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/process/get-results-placeholder.webp",
+      "size": [800, 679],
+      "sha256": "acec0f7d29e6d76f4b0b0653d144f281083c6fa02e41ed5cc0cae09820f95d07",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/process/send-brief-mobile.jpg",
+      "size": [800, 520],
+      "sha256": "c6655a1ccb2a1ed1f05e0d2a41a3760bb2945b5eb1d31d7ca8818b0fe269713f",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/process/send-brief-placeholder.webp",
+      "size": [800, 520],
+      "sha256": "e02756a00c6769eee60fb089b72ab5c2d0bb97da9166b888e5f12de4a3dbb1f1",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-01.jpg",
+      "size": [1280, 720],
+      "sha256": "749b0f104f184e963d5a7756043a3dc80445ad3fd2759efa3cf731787f602855",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-01.webp",
+      "size": [1200, 675],
+      "sha256": "f810ac7db4734bb819736b0765b529f7d3f940eb5a3504c87253c192a31cd4e7",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-02.jpg",
+      "size": [1280, 720],
+      "sha256": "735e3e7ee23171cdc9bff245fcad44ec99821e4870e884230c3580a969f46238",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-02.webp",
+      "size": [1200, 675],
+      "sha256": "269b41b21ed9e984b60915fc586b0d7ca2c01bf2769d63a1f6cda647f84aad9e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-03.jpg",
+      "size": [1280, 720],
+      "sha256": "8cee556bc200003b1d65a37dbe75d0e23566fb42880ae19803e80a380f86b501",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-03.webp",
+      "size": [1200, 675],
+      "sha256": "ef2801d22b6822a4331388d0369bf0da93658a5662ce44b8dac60d57efc8b292",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-04.jpg",
+      "size": [1280, 720],
+      "sha256": "8c019986d1467fc515e52d5c4f23a1093052b3330f62375a6831b51110813d77",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-04.webp",
+      "size": [1200, 675],
+      "sha256": "fa0d4d8456ae0371899f2e26e313141a723f54eccd899aa09c0062c514f1a236",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-05.jpg",
+      "size": [1280, 720],
+      "sha256": "9502d39119b4ba09c37bee36b6db2d4884b4d33ebcb2a38390e672a330bd9a78",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-05.webp",
+      "size": [1200, 675],
+      "sha256": "05a992e3fc013ac7de69a623f80098487c8532cd2cb9d66177bfc3908bbf77ef",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-06.jpg",
+      "size": [1280, 720],
+      "sha256": "0e89488838e9421a294e6dfba03b3c66e2bcae55035c5e05bd3e767733fb8b98",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-06.webp",
+      "size": [1200, 675],
+      "sha256": "e36ee73d4775c65e06fb8fce4052016ec0d1751c62a7e24ec44661bb7d305f61",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-07.jpg",
+      "size": [1280, 720],
+      "sha256": "977e91d1d918239e119fc904d3505f195f46cd3079dd9792562f0869a3693c4f",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-07.webp",
+      "size": [1200, 675],
+      "sha256": "68e0cc8970deefc7079eed5d13360b9dddf9f271610f33d8d9c50a5e19dd777e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-08.jpg",
+      "size": [1280, 720],
+      "sha256": "9ed60b1cdd13270886d01f3ae1ffccde5ab06f17b972c8b8655415366dc26f01",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-08.webp",
+      "size": [1200, 675],
+      "sha256": "d8e40370526841939684b4e1026d2ae576ba064276a082315bf8a5a59fc86fc1",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-09.jpg",
+      "size": [1280, 720],
+      "sha256": "000e004db4a42f24679ff45d531e3a3beb1a805995f0088ed91a3bc4fc256497",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-09.webp",
+      "size": [1200, 675],
+      "sha256": "78b486b72f9c011f8a148eee8ebfa8cacd50448cf83ae0fbe98c892b19865eb4",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-10.jpg",
+      "size": [1280, 720],
+      "sha256": "aaad3fdab8742091aae8d41382bd5b812ed0a6309c30cac4483a60669099bbc4",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-10.webp",
+      "size": [1200, 675],
+      "sha256": "303f0d61b06cfe0c66fd635b5138f9c7f19e6251f0a4fabdd15d31e9309e6c56",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-11.jpg",
+      "size": [1280, 720],
+      "sha256": "9119f2751f06a345689cf8177c8ebea6a0deeb903c80294e1e24e6af4e7fc94b",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-11.webp",
+      "size": [1200, 675],
+      "sha256": "855106030dcaa10842e73f4a490b468dbb995ec117c2561732653c15815ef787",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-12.jpg",
+      "size": [1280, 720],
+      "sha256": "055b007da53d42150deed4ba1e6331e74f35099f13d876da665c93876931f1a9",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-12.webp",
+      "size": [1200, 675],
+      "sha256": "a66c5f5cc36b12cb7944008b58ad5965a904a8a10b34d5bdc10f29c9ca6c599e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-13.jpg",
+      "size": [1280, 720],
+      "sha256": "6f7ee97dfc73c7bd1c6f714ca10722e01bc59515fb396ee2249c7a4850e07c3e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-13.webp",
+      "size": [1200, 675],
+      "sha256": "c5853c2c945becd18aec3256bad47544d77977d4b299a4083b085c17b45600d0",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-14.jpg",
+      "size": [1280, 720],
+      "sha256": "471f899e62de89f1f31c55599c40abb595bfa786253147f65a03363553e09089",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-14.webp",
+      "size": [1200, 675],
+      "sha256": "3a060c2f1657b2d789d3310084dfa817e0267a680e34a5fe73912e97b2833c61",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-15.jpg",
+      "size": [1280, 720],
+      "sha256": "097c0e6fe86e5f738d6f68cc29b0cbe728ef49a29b88af6985c0d855fc4f71c5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-15.webp",
+      "size": [1200, 675],
+      "sha256": "1f0622295d88360ead790ed727d59f5bc3677c89dadfbf6b82d4232bc1565e30",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-16.jpg",
+      "size": [1280, 720],
+      "sha256": "340bed6e0599f9c300890da6b0a9a93151b6f8209de06290fa881f138fce8e56",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-16.webp",
+      "size": [1200, 675],
+      "sha256": "214287c050458f8238b8e7fd14927242bdb2728ae9ebd8d94952d09e1b189c5a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-17.jpg",
+      "size": [1280, 720],
+      "sha256": "91ad7484e055434a2859127523569ef4bf4b663633c4dffe291faa8af52b554b",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-17.webp",
+      "size": [1200, 675],
+      "sha256": "ef025944a657de7adf3edb33d0d987ed035535ed3c9941198e9f7f24fbb7c3db",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-18.jpg",
+      "size": [1280, 720],
+      "sha256": "b7b429c26397a93739a089ef39974f2cd1c0c97a7881a52eb2d6d86c80c17107",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-18.webp",
+      "size": [1200, 675],
+      "sha256": "3ff1d7e441931820c5ebe9802dc618d074b22be52c42461bd69602036fa8b027",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-19.jpg",
+      "size": [1280, 720],
+      "sha256": "8eb4f246135f9bca56057c1802cb3cbe0147196f6a181134ccdc0906fcb93213",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-19.webp",
+      "size": [1200, 675],
+      "sha256": "b2ecba7edcb9d62380c2e56a5818c8f6fb0a102195d946ff1752aa610c327a59",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-20.jpg",
+      "size": [1280, 720],
+      "sha256": "bb6e3398f45111110f8b596084298652349e5a14b1bf69d9148099e37eed3616",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-20.webp",
+      "size": [1200, 675],
+      "sha256": "461b791ad67ec73356456877286f33b29f2ee41e8777686122967ba21ba3fff9",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-21.jpg",
+      "size": [1280, 720],
+      "sha256": "4637751ce11acbf643794c584cbb16863d5c041c5a58de013f4861259ecdd47d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-21.webp",
+      "size": [1200, 675],
+      "sha256": "9f8a3bbb7b776c5a7a53810bc70d5961fc30f275280e169a59140bb5d135df00",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-22.jpg",
+      "size": [1280, 720],
+      "sha256": "2f39213b5392a5ade8ca5abc6faceccdf9a5669084814f82f0b9e942732eaaa5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-22.webp",
+      "size": [1200, 675],
+      "sha256": "971b146c24a56f38012f3ab6371d564514240e6725991f6a13031edeb09236c7",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-23.jpg",
+      "size": [1280, 720],
+      "sha256": "cec22abc7a21371ea29c70e3fb897b1397e2c792cfab24fdca06e6ff9d25fad9",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-23.webp",
+      "size": [1200, 675],
+      "sha256": "c3e3cbc40516465d532f3d9ce7490398464a2feffd220f750134cb5c5d1ca02f",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-24.jpg",
+      "size": [1280, 720],
+      "sha256": "c0536718c3c9d260e68f48ca58d27fd418ac92cc9232ddacdd3040df5722f9fe",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-24.webp",
+      "size": [1200, 675],
+      "sha256": "223ed23f182ed48d3daf1bcd9b2f1172b22891ad48256ed908161ca12ea51194",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-25.jpg",
+      "size": [1280, 720],
+      "sha256": "bac298ea7f46bec033a64c0da784bc0005e6a0b132a141cf771c9f3df529b20a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-25.webp",
+      "size": [1200, 675],
+      "sha256": "3f98857f5a92c9348efdda5482310d62f323ea7f35633b5f3a5cf344fc0956ab",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-26.jpg",
+      "size": [1280, 720],
+      "sha256": "d40f89189325b748e7715ec3ba58ca388b6266813b781159471f25c0186fc8a5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-26.webp",
+      "size": [1200, 675],
+      "sha256": "8c3e0694f32b2a9d9aa95bad6b1c8ff981c68d3ac0c619fbe2eab83ce6bf634a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-27.jpg",
+      "size": [1280, 720],
+      "sha256": "d9d6f2bff5d8c845f4c8e97de34b1c912551eaf8cee365bc84475e212e259753",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-27.webp",
+      "size": [1200, 675],
+      "sha256": "a545b3dbd6380896e8b1a66a3d4aefed42e6e2aaa17931ddabce94613e7adcea",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-28.jpg",
+      "size": [1280, 720],
+      "sha256": "ee4567efca827eaa5647fcd2ae3d27426cdf9c81d948c5c656714452cc3dcdd5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-28.webp",
+      "size": [1200, 675],
+      "sha256": "b81340b7e11d63e776f4e7632b6e0e0b772f9c7ebb249d0f14c8670c1b03f267",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-29.jpg",
+      "size": [1280, 720],
+      "sha256": "573d601f9642ef95cff77265a96b64bf1a313ac5889545f4d042b0ca9143f55e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-29.webp",
+      "size": [1200, 675],
+      "sha256": "913fe84891345079855b1c217f651fec5a8463a0fe09adf01f6df537a7c855d9",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-30.jpg",
+      "size": [1280, 720],
+      "sha256": "15da26905e92b796e3594d45336157c8835e5062b3626733347db615af7755d0",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-30.webp",
+      "size": [1200, 675],
+      "sha256": "1adfcda02bad9ae3f4f1f73f430cce111b008d7461436b8154433974ee0fbbf8",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-31.jpg",
+      "size": [1280, 720],
+      "sha256": "d5a02acd73dca1fee02915c90a1419c28ca5dca87f9f93bd88ff9ee24309fbbd",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-31.webp",
+      "size": [1200, 675],
+      "sha256": "7c88e4bf2fced50cd521e7aebe981c33dbeb5669a0509caffad2afde69ec7e35",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-32.jpg",
+      "size": [1280, 720],
+      "sha256": "d02eb19e0d91c78efbc9caf067057f89aed61400fc2cf89a7549c741506fb8fd",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-32.webp",
+      "size": [1200, 675],
+      "sha256": "30c6f3f8d5768fbb5471f66810a2c82a5e3c8e76c0bc4276f5a21d00957eec9a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-33.jpg",
+      "size": [1280, 720],
+      "sha256": "46362c42cae9d9e92470fc1caf572fee0378c06a1e3a6cc42443cac6a5e54f29",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-33.webp",
+      "size": [1200, 675],
+      "sha256": "43b7d5225f27fc1267a991a46fcbde6795812b00ab480b0a1eb868208709ae95",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-34.jpg",
+      "size": [1280, 720],
+      "sha256": "7f0e3774e39c4978f0d1faecd276d574885da1fc2d4d752837e597c6917fd7be",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-34.webp",
+      "size": [1200, 675],
+      "sha256": "91f08f9077966b5a967965e150a398e5c40da14f44b1a0fda1c374b7aff39206",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-35.jpg",
+      "size": [1280, 720],
+      "sha256": "7b84ae86de7faff83c48811496a6b24c189b746e3a51e1085df5191c2d71218c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-35.webp",
+      "size": [1200, 675],
+      "sha256": "7b92ba4271e3e114daf004b689bb3ae1d4522da9e90184d9654f6a0c7bb02d1c",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-36.jpg",
+      "size": [1280, 720],
+      "sha256": "121ca6df6942028f5d708b4c6bdc20cbfbb9f4b7c58a67c0266c5fe46a0844a9",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-36.webp",
+      "size": [1200, 675],
+      "sha256": "29f8c38d709d9911c31815f317c6a5ca5f0b21d965fdf857288a6fddefe41b9a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-37.jpg",
+      "size": [1280, 720],
+      "sha256": "253bd17e19c4b9e3d638b362de353850e1cbb689e3c3b3dc77fec778680911a6",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-37.webp",
+      "size": [1200, 675],
+      "sha256": "22aa2ad193b67c1697f9f5ab2cb4b05c7e7683be80260ffcf5c81c0c5c9a2c1a",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-38.jpg",
+      "size": [1280, 720],
+      "sha256": "14f36b93b50474c1794ee65fae7716370d2f80fb36a31eb1ea30aaba9b76a82f",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-38.webp",
+      "size": [1200, 675],
+      "sha256": "0e7dad17331d7774ef72a87ff5b72ed7eefb2cc90b61f947e294f831c0aa1156",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-39.jpg",
+      "size": [1280, 720],
+      "sha256": "1105d398629581bfb780c2c589c65ead7c82e31ec8d8441b8282639024ea0922",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-39.webp",
+      "size": [1200, 675],
+      "sha256": "3555ce9d927a27a9cacd138d0b77c6ea2516eb3346adec085eff6c9d21b4ecf2",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-40.jpg",
+      "size": [1280, 720],
+      "sha256": "60c1210f7bd2a20f31698a2815cff2ce029a5be420711494d6c8d19fb372f429",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-40.webp",
+      "size": [1200, 675],
+      "sha256": "26d6a3d5890265008c4a197aec82e46e918ddcb8bea18464bd9a28d32d319ca5",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-41.jpg",
+      "size": [1280, 720],
+      "sha256": "5e9c5267a0286c384aa552550a40ed6cda4259efae5985d94f94db780a298306",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/echo-view/frame-41.webp",
+      "size": [1200, 675],
+      "sha256": "9baf70bb218f1981f8609695dbb746f5094cebdd2e06699738e3394d1337d0cc",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/animation.jpg",
+      "size": [1080, 1512],
+      "sha256": "e735f1dc5c45a683e8357216b505c78a488ae9db8722bb02daf1664909a7b16a",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/render.jpg",
+      "size": [1080, 1512],
+      "sha256": "181eea4a459f4ab4104e69ccd0d202efbb6cd943b1b7ca43c4e4f7d146a59129",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/visualization/vertical-slider/virtual-tour.jpg",
+      "size": [1080, 1512],
+      "sha256": "d8d78647ad9c73927ecd70a7881cb93360b13c98d49c6eb091c5053a12960d20",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/landing-page/vr/vr-mobile.jpg",
+      "size": [800, 583],
+      "sha256": "7fdfa56240456f4af8d81867da77b07bbc9940175b8ebec9930492b1c6fbbfef",
+      "action": "unbranded 3D scene placeholder"
+    },
+    {
+      "path": "public/assets/projects/0.webp",
+      "size": [1080, 1350],
+      "sha256": "6239634c8d9c3c945cca659da2dde452bd276c59d5a124038480cfeaf63bc631",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/1.webp",
+      "size": [1080, 1350],
+      "sha256": "b8c0925057ba81b443479049eaf11a05a611cb84660b38bc7b0248123c19974f",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/2.webp",
+      "size": [1080, 1350],
+      "sha256": "52fefb0fb1d704769f81802d6dd68e2a9a164cec71716639b5dbba24258e533e",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/3.webp",
+      "size": [1080, 1350],
+      "sha256": "d5e7d20baae67a83bd475f3cb686af0f15449fdd54167c55e31604431d91e1ee",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/017.jpg",
+      "size": [1080, 1080],
+      "sha256": "5837e76b0bf79e68c88da2a39cf423087c35f48da63fcd434e80afa4bb327772",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/018.jpg",
+      "size": [1080, 1080],
+      "sha256": "28d953b0ceec0a118a6b9552ddbaeaaa2e0223ed9a81d8ecd68f51c208a097de",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/019.jpg",
+      "size": [1080, 1080],
+      "sha256": "6a08654780e57654ae044f19085ab567eaac60e9552d40d11596612a51e82861",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/020.jpg",
+      "size": [1080, 1080],
+      "sha256": "3dc714d53c388a628efdfc48e808fd9fdc14960ff2cff343375be0c3e0784238",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p1-1.jpg",
+      "size": [900, 900],
+      "sha256": "a0161b6ef0c59b00d9f5fc7abb848c046cb6a8417022dddc53321f62f1c8dd05",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p1-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "79ac9651f2224a8f4261dd0ca92c5c1d6ed7eab7f6e00f267a101ade9da2baa8",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-1.jpg",
+      "size": [900, 900],
+      "sha256": "5cf81ce9ce12d823a260616efe49cc31fcb5575f2fa03666d2abe0618f8d8b7b",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "b14d5a2820780c60ad9a604504f388628df1d1c3936f07afe41fccca4126addd",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "ea87f860bbe6d2099e428fd434261e495561126b2649ea818cbf7395a593519d",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "e8c6e85847922d823edfcc55be3eeb3fd1aa38b44a21905537af7fb5d9cceea1",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "dad26b0b27cbe5f74dbd928c4364c03466350172f68ec91fe355eb6a55b42255",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "9e672ae8284648503c5583301c86e516d71c194af49da02f849fd62d6f9621d2",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "43a4dc40ddb8520eaf5d65de3340b18ac0938ac9e6e0c870bed600386ef11d47",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-8.jpg",
+      "size": [1080, 1080],
+      "sha256": "1df08b0f233d6194196ae794cfae260bcaf195afd0e9d65926235744a0546650",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p10-9.jpg",
+      "size": [1080, 1080],
+      "sha256": "15aefd20ded60acbc07218d58ae3b57b1ecd6757bcc3e77b16bf464bc6746d65",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-1.jpg",
+      "size": [900, 900],
+      "sha256": "cfd2d8cb4ad81d304bdf2344731817657fc63d4ccbb2f75c00ed620e5f23b48d",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "d59933a0b33aa8f0502c161072dd91ef5efc21767654bb4a56ac5eb4fd4752bf",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "a58d4cd1c7528a0ce56f01fff5999af2c396b84ee3f214ba7394c5fb5fcaae5b",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "7f45015dab044988d8069e4434b7b9989c144eca88e366d51f9929b957eecac6",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "637c2b3ce2b45966381aef14978739b6ca45ad9f69ec0620d64fd48ab98ee1e3",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "02cbb697d6a537d11d73481d0f358c1fa97a22062c1d6c8150b84e3b9e36bf57",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "6130f443bf49fc081cb9233de594124ed3851e4e4839f7e903edba8a62595758",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-8.jpg",
+      "size": [1080, 1080],
+      "sha256": "cae7f739ecfddd72ddc208275541f2caaab841fa023d850c1e35efcbb8eefd26",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p11-9.jpg",
+      "size": [1080, 1080],
+      "sha256": "41ccc51d19c3617f18b57eb4520d5b4a84a7e876036d37a1655f0ad321bcf826",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-1.jpg",
+      "size": [900, 900],
+      "sha256": "820e1ba916049d2cef3ceb5a06464bf9a00728f611e02db3b988611ad67bf4ae",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "528218e0139c5b8c0ac11a16c9ccaa9128949c63610366b8491304440f951315",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "9e810f3c98c725e49b43dfbb45a3a4bc7df261482880ce1f48c313d96c1c8af9",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "171467ec55b4ac6f1a120923904c606cad6bc895cd9f578dbf1a638a9077c853",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "a45ccde81c0286e861a25efb71a70c9ac96519e9a9d9d0d3bfe2ace26dc20128",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "881ee8a806432c9ccdc48df2ea643e6bc616bf1f9a21476ccd3e38cd946aee0c",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "6a2ecfb3218fec66ee4d400207b3d99738ab5e694af4c7761ee4e67dff0b3dc5",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-8.jpg",
+      "size": [1080, 1080],
+      "sha256": "dbce869623a97f4a29a7dd0d9c6b4f594f9abf5494ae3b4ba975cd38bf94e97c",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p12-9.jpg",
+      "size": [1080, 1080],
+      "sha256": "4b12535027f8234a5c8da935745679da7fd71850a3f520e08c17f4a2d59f9f38",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p13-1.jpg",
+      "size": [900, 900],
+      "sha256": "6cc687ceaa434482653130f01645e571ff01fc9fe619562f2b95a0eea27d5da4",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p13-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "84848e19f88357f4e1e218a05a12344d8178d4fbc3777a223efba315820f171c",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p14-1.jpg",
+      "size": [900, 900],
+      "sha256": "c946779af78dbbe0f9b0f3517b6e8038fdb2a4147500915d11d0378bec41e47f",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-1.jpg",
+      "size": [900, 900],
+      "sha256": "15cb269df08793415232be9b16b976ee511cd1c237bd8c3a420235ae564b2651",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "20b41f9ab39fcd85d1b920a8cd36a81d523ee09a11bd7bdc8d6e28b57f436155",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "b66c93a557cd5ab225cd8c94133dd8c001987c674493fcbf8d285578053d95d8",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "58d69366a91db7fa4d9d17370875d659712772f38edad7e229ed82f3f288b1fc",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "92941e14228509d8473afb6b48de67655faa60cf5f969abc051ea4a6d4713fbb",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "ac12660375f652d178f986ad209cd47dbf4e8244112025f7b4385a520f3064da",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "3dd6417510518f8bc3053b07f526c42ddc6cf8ddbd25c699a4f0e9e0d5967947",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p15-8.jpg",
+      "size": [1080, 1080],
+      "sha256": "0dccc57b8cd3186703f9e57e25c4e4dd6a1d285a0150a84479c35c8828849935",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p16-1.jpg",
+      "size": [900, 900],
+      "sha256": "0e3ee407dd8ab5217705f0c12b27c173ab94be964980e1bc5edad5c8eebdc20d",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p16-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "a56b4557134d75ed1f859e9157cfdb9f16f54b06e1df1a85660bffd5c5ec6161",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p2-1.jpg",
+      "size": [900, 900],
+      "sha256": "c340d8d05838d7495597cd258d7fd483688b9691efe7523e271abf8a03679be7",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p2-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "746dab65a27cec2a75607576ca006b97192b5ab6e646c9e2f638ed2b22ff41b9",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-1.jpg",
+      "size": [900, 900],
+      "sha256": "0f2a800dc7c0f28a0cfca590fc2c1208195d4883551cad08301ec11991fb1c30",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "9800c69bd1b229f4c7fd891aeeefebae5e7af87c37498b6bf99808ae031848f7",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "cdc76db855704ea590e6b534285449a28c7afc0fb4d80f9fea9d0439ae4766a3",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "20655d4d0485c851963e8eee7e7dd6f9f6b8fe6b03126caa290a70f10c5c5465",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "52602278b63fa9f1245136c161a64bd184868f7dc5d33110d6ffd6f25765fa0a",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "41b10ca38617427a7624efe97659e9fc777820999d7f9bd60d202831619cc213",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p3-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "96cca4abfe31ff52e82491376855304b58ba49eabd00e67b60e852e72cd52de6",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-1.jpg",
+      "size": [900, 900],
+      "sha256": "2af9be59a2d2461015dd3a9d978ae8b9cd6e459e5835e4426557b9743e05f358",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "321ae462d48b9471347035ae8d3441219aef5565fdca895588f49e6ec9e2f6ec",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "6e67e704d9ecde674a671ed1fc8ab9873728db258c51d90d6a79e1117e2e9c89",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "88dcab6206a830ca5f97bc636d7a63713e294954ed85ae47d873511476ce37fe",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "da59b983d6361998e5ba35ebf780418f14f0855a66b0c7b23cae00727b278b53",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "35c32b6de89030196af4d681d651dc11a8e8b0325c19e3939c18929128a185bf",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p4-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "7c41abb9cbed83722d69dff5d1e9b51c378ecadb8b084d24d01c65df50292c5d",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-1.jpg",
+      "size": [900, 900],
+      "sha256": "8a5480b98268188623476660686520b96541d7153199ef5cd7554c891f7c8971",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "48579dc0b180ee63987d2b3b11fbac8cf14544e228b459cfef98b045b316b827",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "bc560a89d3a095aac767a9d380ff8c0d9c84f1ee88d624778038333310c6633c",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "c929661cb1c546a4e25d0174746c298927746830c7af2afbef3590ba00692b95",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "592dbb21868b6264389e53f37f6f61103e34ad888bf53b092bca5cb45c7f4cba",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "c9e37b8d4af2df7a620f1c77baba8f0ae97dad54cda0d8a4d00f73edd297b059",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p5-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "c7a00c07a66885d036d7e1ed1d45c782396286fad3914f175bfd96259c929413",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-1.jpg",
+      "size": [900, 900],
+      "sha256": "4c406515434520fe1cacb3b35a3a7b6045ca98bfd9da2698e24aefc4fee896ac",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "334568bd5e9ae6eaf119b5fe95d75bba073cb3d17c606798730e5012998d8efa",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "aba4f1e386bcf1dfaa99e358b683076025700f123a98a8456cbb8661f97808ec",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p6-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "b78533fb6c688ff0675df9c58f8835b17d6b68cfd22ba8526f615399869f1d03",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-1.jpg",
+      "size": [900, 900],
+      "sha256": "e36259afc895217a090b4062a42e083f196e38a9108513cfd1552562fb0f08eb",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "e4f09476c7b892fdb72bf2077f9cea82fc7d7c38c2ae6f128d60c6b15df2d046",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "599b491a4b6eac0230fa3395e25015dc9ee2a3e8a0146a1a7dd0383f4619a493",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "de5b6e3ba79423b91f3c5a4bccfc03533b4583a01e7e53f15433f8753dcc9de4",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p7-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "5fb79abc94d680e395de0f3113b282a285a2ea3dc66c12c38fa6a1ecda103a75",
+      "action": "add branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-1.jpg",
+      "size": [900, 900],
+      "sha256": "906cc73ea727ba4da26793c35e7a187b75126587da136d62ff2dd77c7483e9ec",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-10.jpg",
+      "size": [1080, 1080],
+      "sha256": "270bbaf0e4ca1c62a42feda7765e875b3be29fae528203f86df92efe698e5dfc",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "e41904eb868dc021bb15e2b17219e5e8f04d3d5e6e9954d822243296b2bb95d4",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "79f7cd9564e71bbb815212d068efac719ad70f9f7104535f2c167ca699779d69",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "ccae92ced7eb5e2232bebebaddf3270a7a4e2bd4a4815f292de08fbd7fcd8cd1",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "81ad16b91fae8a4e21273f697e7235c874732e594aa171787940098b97261b7a",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-6.jpg",
+      "size": [1080, 1080],
+      "sha256": "afcc1420f445be9e44635116389774f452dd72e8c6b1c486859665756fef395e",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-7.jpg",
+      "size": [1080, 1080],
+      "sha256": "614068f7b4ce34baa28591a50175b130d479084f0f5630bf91be8a36240ea6dc",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-8.jpg",
+      "size": [1080, 1080],
+      "sha256": "d47c7500a19f2f942ad309e4e81b7e32b409ff66fd5416813a42a7890458cee4",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p8-9.jpg",
+      "size": [1080, 1080],
+      "sha256": "600963b3e0c8bc94b3847de82f4e0ab118c45003013c269d3256e7298f975429",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-1.jpg",
+      "size": [900, 900],
+      "sha256": "ba5c97ccc9149e1cf978ddd6621edf786996fcb499ef088ff80acf92ed3b00eb",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-2.jpg",
+      "size": [1080, 1080],
+      "sha256": "41be24089cc002e7da0268a98104f32fda61dd4e0b841698cbf2456693d7dc35",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-3.jpg",
+      "size": [1080, 1080],
+      "sha256": "b9598112b332c0f7810de8abc6a09155d3b34c10e92780b9e8bcea490e09bfa7",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-4.jpg",
+      "size": [1080, 1080],
+      "sha256": "18fdb471e31245414833d96523480bcfabb62af7518053abaecbb458918dbec9",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/projects/gallery/p9-5.jpg",
+      "size": [1080, 1080],
+      "sha256": "e2ce476306ab161f15bad5d635d2ec0e078e71dc1e136fa767d7b9a5fa07e61d",
+      "action": "replace old branding"
+    },
+    {
+      "path": "public/assets/video/hero-poster-desktop.webp",
+      "size": [1920, 1080],
+      "sha256": "e6d151bd7c33bb4b416c19479ebd2636365c005014250cdbf104d3502fe68693",
+      "action": "original hero poster with shared viewport branding"
+    },
+    {
+      "path": "public/assets/video/hero-poster-mobile.webp",
+      "size": [1214, 1080],
+      "sha256": "a8ce81351e3adbdbd5633375f2ea257b37c89e09fb6135b117cff3b2b1973e40",
+      "action": "original hero poster with shared viewport branding"
+    },
+    {
+      "path": "public/vr/projects/villa/images/ht_preview_nodeimage_node4.jpg",
+      "size": [280, 180],
+      "sha256": "72bd65162ee112d24c00f10cf2fecc8456b68ad4a10a4e6220d8c5182d2d3186",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/villa/images/ht_preview_nodeimage_node1.jpg",
+      "size": [280, 180],
+      "sha256": "8456349133b36e886e48490f5f8b20fd429e8e6412c3bd07a7f21c54e6b06607",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/villa/images/ht_preview_nodeimage_node2.jpg",
+      "size": [280, 180],
+      "sha256": "cd1a5c3201492216dfb05344b2fe26a98ee9605714e0bf6047e997ba2e60f156",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/villa/images/ht_preview_nodeimage_node3.jpg",
+      "size": [280, 180],
+      "sha256": "aa2ea39293b02ae0a8b04a3ca3a266a71689444145792a3262866371b5e956a5",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/cafe/images/ht_preview_nodeimage_node1.jpg",
+      "size": [280, 180],
+      "sha256": "a976e38e50629f9e1bb3e5720131811e59d45a802cddf68f77a95c45cf8c5bf4",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/cafe/images/ht_preview_nodeimage_node2.jpg",
+      "size": [280, 180],
+      "sha256": "048eed43b6e35b842b0f6542da24d2866dc775acc48cdf9ad63c42de1aa3443f",
+      "action": "add tour preview branding"
+    },
+    {
+      "path": "public/vr/projects/cafe/images/ht_preview_nodeimage_node3.jpg",
+      "size": [280, 180],
+      "sha256": "e27c52973131d91dca2cc0d8f595b9b2e2e131a128ac445385f3b9e160c97583",
+      "action": "add tour preview branding"
+    }
+  ],
+  "portfolioVideos": [
+    {
+      "sourceId": "34hD4u8WFuI",
+      "path": "public/assets/video/portfolio/cozy-cafe.mp4",
+      "frames": 1863,
+      "fps": 29.97002997002997,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": null,
+      "sha256": "b76d6472a7f2a8cc9a3fc6f0ffa7581419603cecf08c347cf63967668fb7cada"
+    },
+    {
+      "sourceId": "xgWT3ZnPa40",
+      "path": "public/assets/video/portfolio/villa-pano.mp4",
+      "frames": 1471,
+      "fps": 29.970253860885865,
+      "size": [1920, 1080],
+      "outroFrames": 97,
+      "removedWatermark": null,
+      "sha256": "b22d6cb81781c558aeaa40dba447ef7140d6142b2522493028bb5ba4dd7d3515"
+    },
+    {
+      "sourceId": "NN_bmDgHre8",
+      "path": "public/assets/video/portfolio/pastel-pink.mp4",
+      "frames": 243,
+      "fps": 29.970399605328073,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": null,
+      "sha256": "6162a636fe87e58406e942f7250bcf1fcaddbd1abf20ed6ed8d69c104a3f4eff"
+    },
+    {
+      "sourceId": "xtcLIzJMSrc",
+      "path": "public/assets/video/portfolio/light-warm.mp4",
+      "frames": 274,
+      "fps": 30.001094930471915,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": null,
+      "sha256": "0dd52f1bd69ada05c799fc3fcf452e65a7144504b4ab803596e0446e21316d23"
+    },
+    {
+      "sourceId": "3BM6ZFk1JPU",
+      "path": "public/assets/video/portfolio/beach-villa.mp4",
+      "frames": 422,
+      "fps": 30.0,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": [868, 48, 183, 96],
+      "sha256": "942d4ac9dc79300c5b8c807166506663942ab2c73afc8942c18bb4927ec7e596"
+    },
+    {
+      "sourceId": "17hmW5GG7P8",
+      "path": "public/assets/video/portfolio/nb-villa.mp4",
+      "frames": 903,
+      "fps": 30.0,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": [868, 48, 183, 96],
+      "sha256": "25762baca2b31ffe6427700294367d772809bf374fecab3a14fed5fc518ba7b7"
+    },
+    {
+      "sourceId": "BcsbQNBj1kM",
+      "path": "public/assets/video/portfolio/la-hospital.mp4",
+      "frames": 301,
+      "fps": 30.0,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": null,
+      "sha256": "08a09c6f8d8e78264663775fe11bfe07ea4cbb63ca119d9a667477a1ec455eec"
+    },
+    {
+      "sourceId": "FiRRKVRyY2Q",
+      "path": "public/assets/video/portfolio/khalili-unit.mp4",
+      "frames": 782,
+      "fps": 30.000767283050717,
+      "size": [1920, 1080],
+      "outroFrames": 0,
+      "removedWatermark": [870, 915, 180, 120],
+      "sha256": "0f411b81870d764a24d1e446a27e6570d55efce6adda78cbc09f9cf6cd61b16f"
+    }
+  ],
+  "heroVideos": [
+    "public/assets/video/allLow1.m4v",
+    "public/assets/video/all-mobile1.m4v"
+  ],
+  "panoramaViewers": [
+    "public/vr/03-Home/Output/index.html",
+    "public/vr/projects/cafe/index.html",
+    "public/vr/projects/villa/index.html"
+  ],
+  "instagram": "artefact_studio_design",
+  "developerCredit": {
+    "brand": "Vawzen",
+    "footerLogo": "public/assets/brand/vawzen-wordmark-stacked.svg",
+    "introLogo": "public/assets/brand/vawzen-wordmark-horizontal.svg",
+    "source": "ARTIFACT MEDIA/vawzen-logo/svg",
+    "externalUrl": "https://vawzen.org/"
+  },
+  "preservedByUserRequest": [
+    "Live 3D illustrations and all eight static/mobile scene placeholders remain unbranded"
+  ],
+  "technicalAssets": [
+    "Panorama cube tiles are branded once in the assembled viewer",
+    "Noise textures, navigation icons, fonts and empty scene placeholders are not photographs"
+  ],
+  "validation": {
+    "productionBuild": "passed",
+    "lint": "passed",
+    "productionAudit": {
+      "routes": 101,
+      "internalLinks": 23,
+      "assets": 295,
+      "failures": 0
+    },
+    "portfolioVideoHttpRanges": "8 of 8 returned 206 video/mp4",
+    "optimizedBrandingRevision": "200",
+    "browser": "Vawzen / Firefox, 390px viewport, project image/native video/three panorama viewers",
+    "originalWatermarkMatchesInReviewedRegions": 0,
+    "sceneBrandingRemoval": {
+      "originalPlaceholderHashes": "8 of 8 match original source bytes",
+      "placeholderRebuild": "8 of 8 copied byte-for-byte",
+      "browser": "Vawzen / Firefox: no desktop scene overlays; all five mobile illustrations loaded at 390px",
+      "typecheck": "passed",
+      "targetedLint": "passed"
+    },
+    "cornerBranding": {
+      "browser": "Vaelix / Chromium: all three tours at 390px, desktop tour and desktop/mobile hero video and poster",
+      "mobile": "48px wide, 12px from left",
+      "desktop": "72px wide, 24px from left",
+      "heroOriginalAssets": "4 of 4 original hashes verified",
+      "posterRebuild": "2 of 2 copied byte-for-byte"
+    }
+  },
+  "heroBranding": {
+    "implementation": "one lower-left viewport overlay shared by video and poster",
+    "width": "clamp(48px, 5vw, 72px)",
+    "assets": [
+      {
+        "path": "public/assets/video/allLow1.m4v",
+        "sha256": "de04bd9f1c37c6aa2f00ba5e946cd044556a9100ffaabb3889f0acf6ce8a5948"
+      },
+      {
+        "path": "public/assets/video/all-mobile1.m4v",
+        "sha256": "e6f6df65dd9df182f6b320668e6efdc7be69c78d46cd03997b6b14343bc81a43"
+      },
+      {
+        "path": "public/assets/video/hero-poster-desktop.webp",
+        "sha256": "e6d151bd7c33bb4b416c19479ebd2636365c005014250cdbf104d3502fe68693"
+      },
+      {
+        "path": "public/assets/video/hero-poster-mobile.webp",
+        "sha256": "a8ce81351e3adbdbd5633375f2ea257b37c89e09fb6135b117cff3b2b1973e40"
+      }
+    ]
+  },
+  "panoramaBranding": {
+    "position": "lower-left",
+    "width": "clamp(48px, 5vw, 72px)",
+    "inset": "clamp(12px, 2vw, 24px) from left; 14px from bottom"
+  }
+}

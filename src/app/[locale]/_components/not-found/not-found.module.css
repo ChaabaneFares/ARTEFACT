@@ -1,0 +1,10 @@
+.page { --page-unit: calc(15.2px + 1vw); margin: 3.646vw; color: var(--text-primary); font-size: var(--page-unit); line-height: normal; text-align: center }
+.page h1 { font-size: 2em; font-weight: 700; line-height: normal }
+.page h2 { font-size: 1.17em; font-weight: 700; line-height: normal }
+.page a { padding: 8px 17px 10px; border-radius: 360px; color: var(--text-primary); font-size: 11.2px; font-weight: 600; text-decoration: none }
+.page a:hover, .page a:focus-visible { background: var(--bg-surface-soft); color: var(--text-inverse) }
+.copy { display: contents }
+html:not([lang="en"]) .copy[lang="en"], html:not([lang="fr"]) .copy[lang="fr"], html:not([lang="es"]) .copy[lang="es"], html:not([lang="ar"]) .copy[lang="ar"] { display: none }
+@media (min-width: 1600px) { .page { --page-unit: calc(8px + 1.5vw) } }
+@media (max-width: 450px) { .page { --page-unit: calc(4px + 3.6vw) } }
+@media (max-width: 390px) { .page { --page-unit: calc(2.48px + 4vw) } }

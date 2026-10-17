@@ -1,0 +1,30 @@
+.instruction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.05vw;
+  pointer-events: none;
+}
+.label {
+  color: rgb(var(--color-paper-0));
+  font-size: 1.86vw;
+  font-weight: 600;
+  line-height: 1;
+  white-space: nowrap;
+}
+@media (max-width: 1024px) {
+  .instruction {
+    gap: 1.75vw;
+  }
+  .label {
+    font-size: 3.1vw;
+  }
+}
+@media (max-width: 600px) {
+  .instruction {
+    gap: 2.68vw;
+  }
+  .label {
+    font-size: 4.75vw;
+  }
+}

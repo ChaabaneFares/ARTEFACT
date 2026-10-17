@@ -1,0 +1,165 @@
+.wrapper {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  --scrollable-container-thumb-idle-width: clamp(7px, 0.365vw, 999px);
+  --scrollable-container-thumb-width: clamp(7px, 0.365vw, 999px);
+  --scrollable-container-thumb-drag-width: clamp(8px, 0.417vw, 999px);
+  --scrollable-container-handle-width: clamp(8px, 0.417vw, 999px);
+  --scrollable-container-track-width: var(--scrollable-container-thumb-width);
+  --scrollable-container-track: var(--color-scrollbar-track);
+  --scrollable-container-thumb: var(--color-scrollbar-thumb);
+  --scrollable-container-thumb-dragging: var(--color-scrollbar-thumb-active);
+}
+
+.container {
+  overflow-x: hidden;
+  overflow-y: auto;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.container::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbarTrack {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: var(--z-scrollbar-overlay-track);
+  width: var(--scrollable-container-track-width);
+  height: 100%;
+  background-color: var(--scrollable-container-track);
+  border-radius: var(--scrollable-container-radius, 999px);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s ease;
+}
+
+.scrollbarThumb {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: var(--z-scrollbar-overlay-thumb);
+  width: var(--scrollable-container-thumb-idle-width);
+  background-color: var(--scrollable-container-thumb);
+  border-radius: var(--scrollable-container-radius, 999px);
+  cursor: pointer;
+  opacity: 0;
+  transition:
+    opacity 0.3s ease,
+    width 0.2s ease,
+    right 0.2s ease,
+    background-color 0.2s ease;
+  transform: translateZ(0);
+}
+
+.scrollbarHandle {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: var(--z-scrollbar-overlay-handle);
+  width: var(--scrollable-container-handle-width);
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+}
+
+.disabled {
+  cursor: default;
+  pointer-events: none;
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 0.15s ease;
+}
+
+.expanded {
+  width: var(--scrollable-container-thumb-width);
+}
+
+.dragging {
+  width: var(--scrollable-container-thumb-drag-width);
+  background-color: var(
+    --scrollable-container-thumb-dragging,
+    var(--scrollable-container-thumb)
+  );
+}
+
+.scrollbarHandle:hover ~ .scrollbarThumb:not(.disabled),
+.scrollbarThumb.visible:hover:not(.disabled) {
+  width: var(--scrollable-container-thumb-width);
+  background-color: var(--color-scrollbar-thumb-active);
+}
+
+.windowScroll > .scrollbarTrack,
+.windowScroll > .scrollbarThumb,
+.windowScroll > .scrollbarHandle {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+}
+
+.scrollToBottomButton {
+  position: absolute;
+  bottom: 0.83vw;
+  left: 50%;
+  z-index: 12;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2rem;
+  height: 2rem;
+  color: var(--text-secondary);
+  background: var(--bg-canvas);
+  border: 1px solid var(--border-default);
+  border-radius: 999px;
+  box-shadow: 0 0.45rem 1rem rgb(var(--color-ink-950), 0.24);
+  cursor: pointer;
+  animation: fadeInUp 0.2s ease;
+  transition:
+    color 0.2s ease,
+    background-color 0.2s ease,
+    transform 0.2s ease;
+  transform: translateX(-50%);
+}
+
+.scrollToBottomButton:hover {
+  color: var(--text-primary);
+  background: var(--bg-surface-strong);
+  transform: translateX(-50%) scale(1.05);
+}
+
+.scrollToBottomButton:active {
+  transform: translateX(-50%) scale(0.95);
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateX(-50%) translateY(0.5rem);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
+  }
+}
+
+@media (hover: none) {
+  .scrollToBottomButton {
+    bottom: 1rem;
+    width: 2.5rem;
+    height: 2.5rem;
+  }
+}
+
+html[data-menu-open="true"]
+  .windowScroll
+  > :is(.scrollbarTrack, .scrollbarThumb, .scrollbarHandle) {
+  visibility: hidden;
+  pointer-events: none;
+}
