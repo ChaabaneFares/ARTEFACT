@@ -55,7 +55,7 @@ honeypot. It accepts only one of these studio-owned delivery configurations:
   setting this variable.
 - `RESEND_API_KEY` and `CONTACT_FROM_EMAIL`: the latter must be a verified
   sender accepted by Resend. `CONTACT_TO_EMAIL` optionally changes the recipient;
-  the default is `chaabane@artefactstudio.org`. REST payload uses `reply_to`,
+  the default is `contact@artefactstudio.org`. REST payload uses `reply_to`,
   Base64 attachment content and `Idempotency-Key`. Success requires a nonempty
   provider email ID.
 

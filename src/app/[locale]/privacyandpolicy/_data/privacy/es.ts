@@ -120,7 +120,7 @@ const es: typeof en = {
     "Te recomendamos revisar periódicamente esta Política de privacidad para conocer los cambios. Estos entran en vigor al publicarse en esta página.",
   "policy-55": "Contacto",
   "policy-56":
-    "Si tienes preguntas sobre esta Política de privacidad, contáctanos por correo electrónico: chaabane@artefactstudio.org",
+    "Si tienes preguntas sobre esta Política de privacidad, contáctanos por correo electrónico: contact@artefactstudio.org",
 };
 
 export default es;

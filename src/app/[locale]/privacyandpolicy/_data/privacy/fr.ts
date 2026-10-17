@@ -120,7 +120,7 @@ const fr: typeof en = {
     "Nous vous conseillons de consulter régulièrement cette Politique de confidentialité pour prendre connaissance des changements. Ceux-ci prennent effet dès leur publication sur cette page.",
   "policy-55": "Contact",
   "policy-56":
-    "Pour toute question sur cette Politique de confidentialité, contactez-nous par email : chaabane@artefactstudio.org",
+    "Pour toute question sur cette Politique de confidentialité, contactez-nous par email : contact@artefactstudio.org",
 };
 
 export default fr;

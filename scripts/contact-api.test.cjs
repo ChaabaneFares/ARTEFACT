@@ -183,7 +183,7 @@ test("Resend payload preserves reply-to, attachments, budget and idempotency", a
   assert.equal(calls[0].options.headers["Idempotency-Key"], id);
   const payload = JSON.parse(calls[0].options.body);
   assert.equal(payload.reply_to, defaults.email);
-  assert.deepEqual(payload.to, ["chaabane@artefactstudio.org"]);
+  assert.deepEqual(payload.to, ["contact@artefactstudio.org"]);
   assert.equal(
     payload.attachments[0].content,
     Buffer.from("drawing-data").toString("base64"),

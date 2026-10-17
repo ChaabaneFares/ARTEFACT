@@ -1,4 +1,4 @@
-export const studioEmail = "chaabane@artefactstudio.org";
+export const studioEmail = "contact@artefactstudio.org";
 export const attachmentLimits = { count: 10, bytes: 3 * 1024 * 1024 } as const;
 
 export type ContactFields = { name: string; email: string; message: string };

@@ -117,7 +117,7 @@ const en = {
     "You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.",
   "policy-55": "Contact Us",
   "policy-56":
-    "If you have any questions about this Privacy Policy, please contact us by email: chaabane@artefactstudio.org",
+    "If you have any questions about this Privacy Policy, please contact us by email: contact@artefactstudio.org",
 };
 
 export default en;

@@ -73,11 +73,11 @@ export default async function PrivacyPage({ params }: LocaleParams) {
                   block.id === "policy-26" ? "-0.3" : undefined
                 }
               >
-                {block.text?.includes("chaabane@artefactstudio.org") ? (
+                {block.text?.includes("contact@artefactstudio.org") ? (
                   <>
-                    {block.text.replace("chaabane@artefactstudio.org", "")}
-                    <a href="mailto:chaabane@artefactstudio.org">
-                      chaabane@artefactstudio.org
+                    {block.text.replace("contact@artefactstudio.org", "")}
+                    <a href="mailto:contact@artefactstudio.org">
+                      contact@artefactstudio.org
                     </a>
                   </>
                 ) : (

@@ -9,7 +9,7 @@ Follow [the page cloning manual](page-cloning-manual.doc.md) when changing this 
 - `footerAnimateLoader` schedules the separate animation island. `footer.animate.logic.ts` caches the root, targets and geometry, subscribes to the shared scroll manager, batches style changes and cleans up its listeners, observers, animation frames and inline styles on route changes.
 - `footerButton.logic.ts` owns pointer-driven button movement. Shared cursor effects own the copy label and link hover feedback.
 
-Artefact Studio's configured email remains `chaabane@artefactstudio.org`; studio address and social destinations remain owned by the application. An unconfigured address reserves the metadata row with an aria-hidden nonbreaking space, and unconfigured social destinations use disabled spans with the same icon geometry. Reference business details are not published as Artefact's contact information. The longer email changes its text width without changing the footer's container or alignment.
+Artefact Studio's configured email remains `contact@artefactstudio.org`; studio address and social destinations remain owned by the application. An unconfigured address reserves the metadata row with an aria-hidden nonbreaking space, and unconfigured social destinations use disabled spans with the same icon geometry. Reference business details are not published as Artefact's contact information. The longer email changes its text width without changing the footer's container or alignment.
 
 ## Reference geometry
 

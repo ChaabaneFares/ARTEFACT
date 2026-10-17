@@ -11,7 +11,7 @@ const publicProfile = (value: string | undefined) => {
 };
 
 export const studioContact = {
-  email: "chaabane@artefactstudio.org",
+  email: "contact@artefactstudio.org",
   address: process.env.NEXT_PUBLIC_STUDIO_ADDRESS?.trim() || "",
   socials: [
     {
